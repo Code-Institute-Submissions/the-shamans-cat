@@ -103,7 +103,16 @@ i.e. “Energy-healing” and “The Four Winds” so search engines will pick u
 
 
 ___
-### Client Stories
+### User stories
+1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging and can book a session or return at a future date.
+2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy-healing and decide if I want to contact this practitioner.
+3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or more information.
+4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.
+5.	As a potential client looking for a shamanic energy-healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
+6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
+7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
+8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
+
 
 ### Wireframes
 - [Home](/assets/wireframes/home.pdf)
