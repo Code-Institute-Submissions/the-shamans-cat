@@ -3,6 +3,8 @@
 [Text that will link to the website on GitHub pages]
 ![Silhouette picture of a jaguar cat](/assets/images/panther.jpg)
 
+___
+
 ## Brief
 To Build a static (front-end only) website, using the technologies learned throughout User Centric Frontend Development module. 
 As a starting point, you may want to use wireframes, as we did in the UX lesson (you can use Balsamiq or any other tool, including just pen and paper).
@@ -18,6 +20,8 @@ As a starting point, you may want to use wireframes, as we did in the UX lesson 
 8. Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
 9. Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
 10. Deploy the final version of your code to a hosting platform such as GitHub Pages.
+
+___
 
 ### Business Objectives
 The main aim of the website is to generate paying clients for the shamanic energy-healing practitioner, who is starting a new business. 
@@ -51,6 +55,7 @@ The users of this site:
 2. are checking the credentials of the shamanic energy-healer.
 3. came across the site via an internet search and want to learn more.
 
+___
 
 ## UX
  
@@ -74,7 +79,7 @@ Some of these websites were very old, missing favicons, non-responsive, poorly d
 terrible choices of colour schemes, that would give you a headache, and poorly cropped/focused pictures which did not relate to the text. 
 
 
-Potential Client Scenarios:
+#### Potential Client Scenarios:
 
 - Recommended, potential client looking to make contact to book a shamanic energy-healing session
 
@@ -89,7 +94,7 @@ The website is informative to any user coming to the site wanting to know more a
 ‘Shaman’ is in the name of the website and along with other keywords in the site 
 i.e. “Energy-healing” and “The Four Winds” so search engines will pick up on these too. These types of visitors could also become clients.
 
-The design goals of the website are:
+#### The design goals of the website are:
 - that it is both engaging and inspiring keeping potential clients on the site. 
 - The site has good quality images and a simplistic uncluttered feel to it. The client is not overwhelmed with information, yet can find what they need easily from the navigation bar.
 - In addition, the site is intuitive and user friendly (as many of the users will not be that technically competent.)
@@ -98,6 +103,16 @@ The design goals of the website are:
 
 
 ___
+### Client Stories
+
+### Wireframes
+- [Home](/assets/wireframes/home.pdf)
+- [Shamanic Energy-Healing](/assets/wireframes/shamanic-energy-healing.pdf)
+- [About me](/assets/wireframes/about-me.pdf)
+- [Rates](/assets/wireframes/rates.pdf)
+- [Contact](/assets/wireframes/contact.pdf)
+
+- [JQuery](https://jquery.com)
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
