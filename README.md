@@ -1,6 +1,7 @@
 # The Shaman's Cat - Shamanic Energy-Healing
 
 [Text that will link to the website on GitHub pages]
+![Silhouette picture of a jaguar cat](/assets/images/panther.jpg)
 
 ## Brief
 To Build a static (front-end only) website, using the technologies learned throughout User Centric Frontend Development module. 
@@ -18,12 +19,11 @@ As a starting point, you may want to use wireframes, as we did in the UX lesson 
 9. Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
 10. Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
-## Business Objectives
+### Business Objectives
 The main aim of the website is to generate paying clients for the shamanic energy-healing practitioner, who is starting a new business. 
 The website acts as a portal, introducing the potential client to this mode of energy-healing, explaining the principles and benefits with text, pictures, diagrams and videos. 
 It describes the practitioner’s background and training, as well as giving client testimonials, to demonstrate the practitioner’s credibility in doing this work. 
 Potential clients can contact the shamanic energy-healing for more information and to book a session, by using the contact details either in the footer or on the contact page. 
-
 
 1.	Generate paying clients for the shamanic energy-healing practitioner.
 
@@ -45,8 +45,8 @@ Potential clients can contact the shamanic energy-healing for more information a
     * Contact button in footer
     * Skype, Facebook, LinkedIn
 
-## What the users of the site want
-The users' of this site:
+### What the users of the site want
+The users of this site:
 1. are looking for a Shamanic energy-healer.
 2. are checking the credentials of the shamanic energy-healer.
 3. came across the site via an internet search and want to learn more.
@@ -55,6 +55,49 @@ The users' of this site:
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+### Audience
+The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy-healer via the internet. 
+In this area of energy-healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
+
+The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy-healing than men. 
+Also, on the whole, they are not that technically minded. 
+
+This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
+The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone or skype as well as by face to face sessions.
+
+### Research
+
+Talked to fellow shamanic practitioners. 
+Looked at competitors’ websites to see how they were marketing themselves and the quality of their websites. 
+Some of these websites were very old, missing favicons, non-responsive, poorly designed, too much text or text unreadable over background pictures,
+terrible choices of colour schemes, that would give you a headache, and poorly cropped/focused pictures which did not relate to the text. 
+
+
+Potential Client Scenarios:
+
+- Recommended, potential client looking to make contact to book a shamanic energy-healing session
+
+- Potential client searching for a shamanic energy-healer via the internet and wanting to check the credentials of the shamanic practitioner i.e. be inspired with confidence to use this person’s services over another practitioners.
+
+- Someone searching on the internet about shamanism and related information, who lands on this site and then decides to book a shamanic energy-healing session.
+
+- Returning client looking for contact details or other information.
+
+
+The website is informative to any user coming to the site wanting to know more about shamanic energy-healing. 
+‘Shaman’ is in the name of the website and along with other keywords in the site 
+i.e. “Energy-healing” and “The Four Winds” so search engines will pick up on these too. These types of visitors could also become clients.
+
+The design goals of the website are:
+- that it is both engaging and inspiring keeping potential clients on the site. 
+- The site has good quality images and a simplistic uncluttered feel to it. The client is not overwhelmed with information, yet can find what they need easily from the navigation bar.
+- In addition, the site is intuitive and user friendly (as many of the users will not be that technically competent.)
+- The use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+- The images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
+
+
+___
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
