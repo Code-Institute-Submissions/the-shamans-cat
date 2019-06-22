@@ -136,11 +136,11 @@ ___
 ## UX Skeleton
 
 ### Wireframes
-- [Home](/assets/wireframes/home.pdf)
-- [Shamanic Energy-Healing](/assets/wireframes/shamanic-energy-healing.pdf)
-- [About me](/assets/wireframes/about-me.pdf)
-- [Rates](/assets/wireframes/rates.pdf)
-- [Contact](/assets/wireframes/contact.pdf)
+- [Home](assets/wireframes/home.pdf)
+- [Shamanic Energy-Healing](assets/wireframes/shamanic-energy-healing.pdf)
+- [About me](assets/wireframes/about-me.pdf)
+- [Rates](assets/wireframes/rates.pdf)
+- [Contact](assets/wireframes/contact.pdf)
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -171,10 +171,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- Cloud9
-- AWS Cloud 9
-- HTML
-- CSS
+- Cloud9 IDE (https://c9.io/login)
+- AWS Cloud 9 IDE (https://www.awseducate.com/signin/SiteLogin)
+- HTML5 programming language
+- CSS3
 - BOOTSTRAP 4 Framework
 - Fancybox 
 - FontAwsome
