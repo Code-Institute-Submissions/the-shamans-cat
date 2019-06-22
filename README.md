@@ -22,6 +22,10 @@ As a starting point, you may want to use wireframes, as we did in the UX lesson 
 10. Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
 ___
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+
+## UX Stratergy - Why does this site exist?
 
 ### Business Objectives
 The main aim of the website is to generate paying clients for the shamanic energy-healing practitioner, who is starting a new business. 
@@ -31,7 +35,9 @@ Potential clients can contact the shamanic energy-healing for more information a
 
 1.	Generate paying clients for the shamanic energy-healing practitioner.
 
-2.	Establish credibility of shamanic energy-healing practitioner:
+2.	Create a brand
+
+3.	Establish credibility of shamanic energy-healing practitioner:
     * Describes practitioner’s background
     * Describes practitioner’s training
     * Client testimonials
@@ -51,15 +57,10 @@ Potential clients can contact the shamanic energy-healing for more information a
 
 ### What the users of the site want
 The users of this site:
-1. are looking for a Shamanic energy-healer.
-2. are checking the credentials of the shamanic energy-healer.
+1. are looking for a Shamanic energy-healer to book a session.
+2. are checking the credentials of the shamanic energy-healer with a view to booking a session.
+3. are looking for the price of a session.
 3. came across the site via an internet search and want to learn more.
-
-___
-
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Audience
 The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy-healer via the internet. 
@@ -72,14 +73,13 @@ This information is based on the shamanic energy healer’s own experience and t
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone or skype as well as by face to face sessions.
 
 ### Research
-
 Talked to fellow shamanic practitioners. 
 Looked at competitors’ websites to see how they were marketing themselves and the quality of their websites. 
 Some of these websites were very old, missing favicons, non-responsive, poorly designed, too much text or text unreadable over background pictures,
 terrible choices of colour schemes, that would give you a headache, and poorly cropped/focused pictures which did not relate to the text. 
 
 
-#### Potential Client Scenarios:
+### Potential Client Scenarios:
 
 - Recommended, potential client looking to make contact to book a shamanic energy-healing session
 
@@ -92,15 +92,35 @@ terrible choices of colour schemes, that would give you a headache, and poorly c
 
 The website is informative to any user coming to the site wanting to know more about shamanic energy-healing. 
 ‘Shaman’ is in the name of the website and along with other keywords in the site 
-i.e. “Energy-healing” and “The Four Winds” so search engines will pick up on these too. These types of visitors could also become clients.
+i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”  so search engines will pick up on these too. 
+These types of visitors could also become clients.
 
-#### The design goals of the website are:
+### The design goals of the website are:
 - that it is both engaging and inspiring keeping potential clients on the site. 
-- The site has good quality images and a simplistic uncluttered feel to it. The client is not overwhelmed with information, yet can find what they need easily from the navigation bar.
+- The site has good quality images and a simplistic uncluttered feel to it. The client is not overwhelmed with information, yet can find what they need easily from the navigation bar and accordian sections.
 - In addition, the site is intuitive and user friendly (as many of the users will not be that technically competent.)
 - The use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 - The images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
+- The site is developed using the mobile-first approach to ensure users on all devices have a good user-exerpience when visiting the site. The site will be tested as new elements and formating are added to ensure this is acheived.
 
+## UX Scope - What are we doing to achieve the goals set in strategy plane?
+
+To support the business objective the following elements, need to be included in the website:
+- Online presence 
+    * Establish a brand so easily distinguishable from competition
+        * Use a Jaguar image – The shaman’s cat….. is a jaguar (need an explanation somewhere for title)
+        * Logo of Jaguar silhouette
+        * Favicon of same Jaguar silhouette
+
+- Create trust by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
+    * Why someone might benefit from a shamanic-healing session?
+    * Explanation of shamanic energy-healing, including video
+    * What the client might expect from a shamanic energy-healing session
+    * About the shamanic energy-healing practitioner, including their training and experience
+    * Testimonials
+    * Gallery of photos showing the practitioner in training and other shamanic related photos.
+- Rates – pricing and FAQs
+- Contact - Contact Form with privacy statement.
 
 ___
 ### User stories
@@ -113,6 +133,7 @@ ___
 7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
+## UX Skeleton
 
 ### Wireframes
 - [Home](/assets/wireframes/home.pdf)
@@ -120,8 +141,6 @@ ___
 - [About me](/assets/wireframes/about-me.pdf)
 - [Rates](/assets/wireframes/rates.pdf)
 - [Contact](/assets/wireframes/contact.pdf)
-
-- [JQuery](https://jquery.com)
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -141,14 +160,27 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Terms and conditions + Privacy Policy
+- Blog/newsletter with sign-up
+- Membership with login for existing clients
+- Online-booking of sessions for members
+- Online Payment for sessions at point of booking
+
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Cloud9
+- AWS Cloud 9
+- HTML
+- CSS
+- BOOTSTRAP 4 Framework
+- Fancybox 
+- FontAwsome
+- Google Fonts
+- AutoPrefixer
+
 
 
 ## Testing
