@@ -123,6 +123,8 @@ To support the business objective the following elements, need to be included in
 - Contact - Contact Form with privacy statement.
 
 ___
+## UX Structure and Skeleton
+
 ### User stories
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging and can book a session or return at a future date.
 2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy-healing and decide if I want to contact this practitioner.
@@ -133,7 +135,7 @@ ___
 7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
-## UX Skeleton
+
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
@@ -142,13 +144,95 @@ ___
 - [Rates](assets/wireframes/rates.pdf)
 - [Contact](assets/wireframes/contact.pdf)
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
+### Common Features
+The site has the following common features on each page:
+
+- Logo – Silhouette of Jaguar - on every page top-right-hand side of screen, acts as a link to the home page from any other page on the website.
+
+- Navigation bar – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked. Was wondering if should have nested menus to link to key points in webpages?
+
+- Footer – This is at the bottom of every page and contains links to the contact from and social media icons, as well as copyright symbol. Thinking of adding disclaimer and terms & conditions as a modal?
+
+### Features individual to each page:
+
+- #### Home page 
+
+    * Attract attention of user with Carousel (Bootstrap 4) half page with three hero images each with call to action (CTA) text link or button. 
+
+        * First picture with Jumbatron text and CTA that links to an overview of what shamanism is.
+
+        * Second picture with Jumbatron text and CTA that links to Benefits of shamanic energy-healing.
+
+        * Third picture with Jumbatron text and CTA that links to about the practitioner with a contact button?
+
+    * Mission statement
+        * Centred on a full-width section of page to draw attention to it.
+        * Inspire potential clients.
+
+    * What is Shamanic Energy-Healing? 
+
+        * Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature.
+
+        * A video by Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
+
+    * Benefits of Shamanic Energy-Healing
+
+        *Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature. A ‘contact me’ button at end of text linking to contact form so people can book straight away if they want to.
+
+
+- #### Shamanic Energy-Healing page
+
+    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+
+    * Shamanic Energy-Healing - a more detailed look at shamanic healing,  with another video embedded from YouTube, with sound off default.
+
+    * The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
+
+    * The Chakra System - image and text to give client a better understanding of terms and concepts used.
+
+    * Processes used in a healing session - My Shamanic-toolkit (possible icon, symbol or small picture) and intro paragraph, then a click to drop down rest of text using Bootstrap 4, collapse feature.
+        The various processes:
+
+        * Illumination
+        * Extraction
+        * Soul Retrieval
+        * Cord Cutting
+        * Working with the Ancestors
+        * Death Rites
+        * Despachos
+
+
+- #### Rates page 
+
+    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+
+    * contains a clear pricing structure
+
+    *FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
+
+- #### About Me 
+
+    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+    
+    * section My personal journey – how I got here. Background to capture interest and build credibility.
+
+    * section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January, 2011) to demonstrates my credibility.
+
+    * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
+
+    * Gallery of 9 photos – Array of photos using Fancybox – Responsive across all devices. To attract interest showing pictures of Peru, my training etc. also gives credibility.
+
+
+- #### Contact page 
+
+    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+
+    * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
+
+___
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
@@ -171,16 +255,18 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- Cloud9 an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019.
-- AWS Cloud 9 IDE (https://www.awseducate.com/signin/SiteLogin)
-- HTML5 Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/)
-- CSS3 a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html)
-- BOOTSTRAP 4 Framework
-- Fancybox 
-- FontAwsome
-- Google Fonts
-- AutoPrefixer
-
+- Cloud9 an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
+- AWS Cloud 9 IDE (https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
+- HTML5 Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/) Used to provide structural elements to web pages.
+- CSS3 a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html) Used to provide styling to html elements on a webpage.
+- BOOTSTRAP 4 Framework is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. (https://getbootstrap.com/) Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
+- CDN - a Content Delivery Network is used to access code to speed up the loading of Bootstrap, FontAwsome and JavaScript files used in the project. (https://cdnjs.com/)
+- Fancybox JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable.(https://fancyapps.com/fancybox/3/) Used to produce a picture gallery.
+- FontAwsome is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
+- Google Fonts is a library of free licensed fonts (https://fonts.google.com/) Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
+- AutoPrefixer is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.(https://autoprefixer.github.io/)
+- Popper.js is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus (https://popper.js.org/)
+- jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.(https://jquery.com/)
 
 
 ## Testing
