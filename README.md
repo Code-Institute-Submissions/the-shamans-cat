@@ -255,19 +255,31 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- Cloud9 an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
-- AWS Cloud 9 IDE (https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
-- HTML5 Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/) Used to provide structural elements to web pages.
-- CSS3 a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html) Used to provide styling to html elements on a webpage.
-- BOOTSTRAP 4 Framework is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. (https://getbootstrap.com/) Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
-- CDN - a Content Delivery Network is used to access code to speed up the loading of Bootstrap, FontAwsome and JavaScript files used in the project. (https://cdnjs.com/)
-- Fancybox JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable.(https://fancyapps.com/fancybox/3/) Used to produce a picture gallery.
-- FontAwsome is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
-- Google Fonts is a library of free licensed fonts (https://fonts.google.com/) Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
-- AutoPrefixer is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.(https://autoprefixer.github.io/)
-- Popper.js is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus (https://popper.js.org/)
-- jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.(https://jquery.com/)
+- **Cloud9** an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
 
+- **AWS Cloud 9 IDE** (https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
+
+- **HTML5** Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/) Used to provide structural elements to web pages.
+
+- **CSS3** a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html) Used to provide styling to html elements on a webpage.
+
+- **BOOTSTRAP 4 Framework** is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. (https://getbootstrap.com/) Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
+
+- **CDN** a Content Delivery Network is used to access code to speed up the loading of Bootstrap, FontAwsome and JavaScript files used in the project. (https://cdnjs.com/)
+
+- **Fancybox** is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable.(https://fancyapps.com/fancybox/3/) Used to produce a picture gallery.
+
+- **FontAwsome** is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
+
+- **Google Fonts** is a library of free licensed fonts (https://fonts.google.com/) Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
+
+- **AutoPrefixer** is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.(https://autoprefixer.github.io/)
+
+- **Popper.js** is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus (https://popper.js.org/)
+
+- **jQuery** is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.(https://jquery.com/)
+
+- **GitHub** GitHub, a subsidiary of Microsoft, is an American web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features. (https://github.com/) Used for hosting finished website (GitHub Pages) and for storing the repository of the webiste during development and managing it with version control. 
 
 ## Testing
 
