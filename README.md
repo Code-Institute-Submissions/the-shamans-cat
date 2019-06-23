@@ -171,10 +171,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- Cloud9 IDE (https://c9.io/login)
+- Cloud9 an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019.
 - AWS Cloud 9 IDE (https://www.awseducate.com/signin/SiteLogin)
-- HTML5 programming language
-- CSS3
+- HTML5 Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/)
+- CSS3 a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html)
 - BOOTSTRAP 4 Framework
 - Fancybox 
 - FontAwsome
