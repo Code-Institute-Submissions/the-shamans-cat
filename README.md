@@ -274,7 +274,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**Fancybox**](https://fancyapps.com/fancybox/3/) is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable. Used to produce a picture gallery.
 
-- [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
+- [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit Adds extra icons to enhance the appearance of the website.
 
 - [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
 
@@ -331,7 +331,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
--
 
 #### Disclaimer
 This website is being used for educational purposes only.

@@ -16,7 +16,7 @@
 
 <body>
     <!--Nav & Logo-->
-    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-dark bg-secondary text-white navbar-expand-lg">
 
         <a class="navbar-brand" href="index.html">
                 <img src="/assets/images/panther.svg" width="100" height="50" class="img-responsive" alt="Silhouette of black jaguar pouncing" title="Click to go home">
@@ -31,7 +31,6 @@
             <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
             <ul class="navbar-nav ml-auto text-uppercase">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuHomeLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -92,50 +91,65 @@
         </a>
         </div>
         <!--/Nav & Logo-->
+        
+<!--using bootstrap background-color for divs to check appearance whilst developing-->
 
         <!--Carousel or single image with with jumbatron-->
         <div>
             Carousel or single image with with jumbatron
         </div>
         <!--/Carousel or single image with with jumbatron-->
+
         
-        <div class="container-fluid">
-            <div class="row p-0 my-2 bg-primary text-white text-center">
-                <div class="col-xs-12">
+        <div class="container-fluid mission">
+            <div class="row bg-primary text-white">
+                <div class="col-sm-12 text-center">
                     <h4>Mission Statement</h4>
                     <p>I am passionate about shamanic energy-healing and my mission is to facilitate each client on their healing journey to wholeness.</p>
                 </div>
             </div>
+        </div>
+        
+        <div class="container-fluid bg-warning text-dark">
+            <div class="row no-gutters text-center">
+                <div class="col-sm-4">Benefits of Shamanic Healing Picture
+                </div>
+                <div class="col-sm-8">Benefits of shamanic Healing text
+                    
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer class="container-fluid p-0 my-2 bg-secondary text-white">
-        <div class="row p-0 m-0">
-            <div class="col-sm-4">
-                <p class="text-center">
+    <!--Footer-->
+    <footer class="container-fluid bg-secondary text-white">
+        <div class="row no-gutters align-items-center">
+            <div class="col-sm-4 text-center">
+                <p>
                     Copyright © 2019 The Shaman's Cat
                 </p>
             </div>
             <div class="col-sm-4 text-center">
                 <a class="btn btn-dark" href="/contact" role="button">Contact me</a>
             </div>
-            <div class="col-sm-4">
-                <ul class="list-inline social-links text-center">
+            <div class="col-sm-4 text-center">
+                <ul class="list-inline social-links">
 
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com" rel="noopener">
-                           <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+                           <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#" rel="noopener">
-                            <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+                            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
                             <span class="sr-only">Linkedin</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#" rel="noopener">
-                            <i class="fab fa-skype fa-3x" aria-hidden="true"></i>
+                            <i class="fab fa-skype fa-2x" aria-hidden="true"></i>
                             <span class="sr-only">Skype</span>
                         </a>
                     </li>
@@ -143,7 +157,8 @@
             </div>
         </div>
     </footer>
-
+    <!--/Footer-->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
