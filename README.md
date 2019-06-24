@@ -317,9 +317,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Some of the text in the Technology Used section was taken from the wikipedia references to that technology or from the technology's own website.
 
 ### Media
 - The photos used in this site were obtained from ...
+- The image of Jaguar (is actually a panther) and was obtained from (https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/) It is used in the logo and on the Favicon.
 
 ### Acknowledgements
 
