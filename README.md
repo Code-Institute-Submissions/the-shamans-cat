@@ -104,7 +104,7 @@ These types of visitors could also become clients.
 - The site is developed using the mobile-first approach to ensure users on all devices have a good user-exerpience when visiting the site. The site will be tested as new elements and formating are added to ensure this is acheived.
 
 
-### **Stratergy Trade-off , B2C **
+### **Stratergy Trade-off , B2C**
 **table and graph**
 
 ## UX Scope - What are we doing to achieve the goals set in strategy plane?
@@ -126,9 +126,6 @@ To support the business objective the following elements, need to be included in
 - Rates – pricing and FAQs
 - Contact - Contact Form with privacy statement.
 
-___
-## UX Structure and Skeleton
-
 ### User stories
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging and can book a session or return at a future date.
 2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy-healing and decide if I want to contact this practitioner.
@@ -139,7 +136,11 @@ ___
 7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
-### **Navigational Design, Hierarchy Iteraction Design,**
+___
+## UX Structure and Skeleton
+
+
+### **Navigational Design, Hierarchy Iteraction Design**
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
@@ -160,7 +161,7 @@ The site has the following common features on each page:
 
 - Footer – This is at the bottom of every page and contains links to the contact from and social media icons, as well as copyright symbol. 
 
-- Favicon
+- **Favicon**
 
 ### Features individual to each page:
 
@@ -261,31 +262,30 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- **Cloud9** an online Itegrated Development Environment IDE (https://c9.io/login) to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
+- [**Cloud9**](https://c9.io/login) an online Itegrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
 
-- **AWS Cloud 9 IDE** (https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
+- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
 
-- **HTML5** Hypertext Markup Language is a declarative programming language (https://www.w3.org/html/) Used to provide structural elements to web pages.
+- [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language  Used to provide structural elements to web pages.
 
-- **CSS3** a declarative cascading style sheet programming language.(https://www.w3.org/Style/CSS/Overview.en.html) Used to provide styling to html elements on a webpage.
+- [**CSS**](https://www.w3.org/Style/CSS/Overview.en.html) a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
 
-- **BOOTSTRAP 4 Framework** is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. (https://getbootstrap.com/) Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
+- [**BOOTSTRAP 4 Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
-- **CDN** a Content Delivery Network is used to access code to speed up the loading of Bootstrap, FontAwsome and JavaScript files used in the project. (https://cdnjs.com/)
+- [**Fancybox**](https://fancyapps.com/fancybox/3/) is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable. Used to produce a picture gallery.
 
-- **Fancybox** is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable.(https://fancyapps.com/fancybox/3/) Used to produce a picture gallery.
+- [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
 
-- **FontAwsome** is a font and icon toolkit (https://fontawesome.com/start) Adds extra icons to enhance the appearance of the website.
+- [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
 
-- **Google Fonts** is a library of free licensed fonts (https://fonts.google.com/) Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
+- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.
 
-- **AutoPrefixer** is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.(https://autoprefixer.github.io/)
+- [**Popper.js**](https://popper.js.org/) is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus 
 
-- **Popper.js** is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus (https://popper.js.org/)
+- [**jQuery**](https://jquery.com/) is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.
 
-- **jQuery** is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.(https://jquery.com/)
+- [**Git**](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development.
 
-- **GitHub** GitHub, a subsidiary of Microsoft, is an American web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features. (https://github.com/) Used for hosting finished website (GitHub Pages) and for storing the repository of the webiste during development and managing it with version control. 
 
 ## Testing
 
@@ -323,7 +323,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-- Some of the text in the Technology Used section was taken from the wikipedia references to that technology or from the technology's own website.
 
 ### Media
 - The photos used in this site were obtained from ...
@@ -332,3 +331,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+-
+
+#### Disclaimer
+This website is being used for educational purposes only.
