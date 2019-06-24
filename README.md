@@ -103,6 +103,10 @@ These types of visitors could also become clients.
 - The images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 - The site is developed using the mobile-first approach to ensure users on all devices have a good user-exerpience when visiting the site. The site will be tested as new elements and formating are added to ensure this is acheived.
 
+
+### **Stratergy Trade-off , B2C **
+**table and graph**
+
 ## UX Scope - What are we doing to achieve the goals set in strategy plane?
 
 To support the business objective the following elements, need to be included in the website:
@@ -135,7 +139,7 @@ ___
 7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
-
+### **Navigational Design, Hierarchy Iteraction Design,**
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
@@ -154,7 +158,9 @@ The site has the following common features on each page:
 
 - Navigation bar – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked. Was wondering if should have nested menus to link to key points in webpages?
 
-- Footer – This is at the bottom of every page and contains links to the contact from and social media icons, as well as copyright symbol. Thinking of adding disclaimer and terms & conditions as a modal?
+- Footer – This is at the bottom of every page and contains links to the contact from and social media icons, as well as copyright symbol. 
+
+- Favicon
 
 ### Features individual to each page:
 
