@@ -4,6 +4,7 @@
 ![Silhouette picture of a jaguar cat](assets/images/logo-white.gif)
 
 ___
+TOC to be added before project submitted
 
 ## Brief
 To Build a static (front-end only) website, using the technologies learned throughout User Centric Frontend Development module. 
@@ -145,8 +146,8 @@ ___
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
 - [Shamanic Energy-Healing](assets/wireframes/shamanic-energy-healing.pdf)
-- [About me](assets/wireframes/about-me.pdf)
 - [Rates](assets/wireframes/rates.pdf)
+- [About me](assets/wireframes/about-me.pdf)
 - [Contact](assets/wireframes/contact.pdf)
 
 
