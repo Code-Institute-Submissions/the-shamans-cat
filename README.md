@@ -1,7 +1,7 @@
 # The Shaman's Cat - Shamanic Energy-Healing
 
 [Text that will link to the website on GitHub pages]
-![Silhouette picture of a jaguar cat](/assets/images/panther.jpg)
+![Silhouette picture of a jaguar cat](assets/images/logo-white.gif)
 
 ___
 
