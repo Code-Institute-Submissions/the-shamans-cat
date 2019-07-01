@@ -1,8 +1,15 @@
-# The Shaman's Cat - Shamanic Energy-Healing
 
-[Text that will link to the website on GitHub pages]
+
+<center>
 ![Silhouette picture of a jaguar cat](assets/images/logo-white.gif)
 
+ 
+# The Shaman's Cat
+## *- Shamanic Energy Healing*
+
+
+##### [Click here for link to GitHub Pages](https://helensayer.github.io/the-shamans-cat/)
+</center>
 ___
 TOC to be added before project submitted
 
@@ -29,23 +36,23 @@ Use this section to provide insight into your UX process, focusing on who this w
 ## UX Stratergy - Why does this site exist?
 
 ### Business Objectives
-The main aim of the website is to generate paying clients for the shamanic energy-healing practitioner, who is starting a new business. 
-The website acts as a portal, introducing the potential client to this mode of energy-healing, explaining the principles and benefits with text, pictures, diagrams and videos. 
+The main aim of the website is to generate paying clients for the shamanic energy healing practitioner, who is starting a new business. 
+The website acts as a portal, introducing the potential client to this mode of energy healing, explaining the principles and benefits with text, pictures, diagrams and videos. 
 It describes the practitioner’s background and training, as well as giving client testimonials, to demonstrate the practitioner’s credibility in doing this work. 
-Potential clients can contact the shamanic energy-healing for more information and to book a session, by using the contact details either in the footer or on the contact page. 
+Potential clients can contact the shamanic energy healing for more information and to book a session, by using the contact details either in the footer or on the contact page. 
 
-1.	Generate paying clients for the shamanic energy-healing practitioner.
+1.	Generate paying clients for the shamanic energy healing practitioner.
 
 2.	Create a brand
 
-3.	Establish credibility of shamanic energy-healing practitioner:
+3.	Establish credibility of shamanic energy healing practitioner:
     * Describes practitioner’s background
     * Describes practitioner’s training
     * Client testimonials
     * Photos relating to training and experience.
     * Links to Facebook page and LinkedIn.
 
-3.	Educate and inform potential clients about shamanic energy-healing.
+3.	Educate and inform potential clients about shamanic energy healing.
     * Explanations in text
     * Diagrams/Pictures
     * Videos
@@ -58,16 +65,16 @@ Potential clients can contact the shamanic energy-healing for more information a
 
 ### What the users of the site want
 The users of this site:
-1. are looking for a Shamanic energy-healer to book a session.
-2. are checking the credentials of the shamanic energy-healer with a view to booking a session.
+1. are looking for a Shamanic energy healer to book a session.
+2. are checking the credentials of the shamanic energy healer with a view to booking a session.
 3. are looking for the price of a session.
 3. came across the site via an internet search and want to learn more.
 
 ### Audience
-The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy-healer via the internet. 
-In this area of energy-healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
+The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy healer via the internet. 
+In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
 
-The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy-healing than men. 
+The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. 
 Also, on the whole, they are not that technically minded. 
 
 This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
@@ -82,16 +89,16 @@ terrible choices of colour schemes, that would give you a headache, and poorly c
 
 ### Potential Client Scenarios:
 
-- Recommended, potential client looking to make contact to book a shamanic energy-healing session
+- Recommended, potential client looking to make contact to book a shamanic energy healing session
 
-- Potential client searching for a shamanic energy-healer via the internet and wanting to check the credentials of the shamanic practitioner i.e. be inspired with confidence to use this person’s services over another practitioners.
+- Potential client searching for a shamanic energy healer via the internet and wanting to check the credentials of the shamanic practitioner i.e. be inspired with confidence to use this person’s services over another practitioners.
 
-- Someone searching on the internet about shamanism and related information, who lands on this site and then decides to book a shamanic energy-healing session.
+- Someone searching on the internet about shamanism and related information, who lands on this site and then decides to book a shamanic energy healing session.
 
 - Returning client looking for contact details or other information.
 
 
-The website is informative to any user coming to the site wanting to know more about shamanic energy-healing. 
+The website is informative to any user coming to the site wanting to know more about shamanic energy healing. 
 ‘Shaman’ is in the name of the website and along with other keywords in the site 
 i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”  so search engines will pick up on these too. 
 These types of visitors could also become clients.
@@ -119,9 +126,9 @@ To support the business objective the following elements, need to be included in
 
 - Create trust by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
     * Why someone might benefit from a shamanic-healing session?
-    * Explanation of shamanic energy-healing, including video
-    * What the client might expect from a shamanic energy-healing session
-    * About the shamanic energy-healing practitioner, including their training and experience
+    * Explanation of shamanic energy healing, including video
+    * What the client might expect from a shamanic energy healing session
+    * About the shamanic energy healing practitioner, including their training and experience
     * Testimonials
     * Gallery of photos showing the practitioner in training and other shamanic related photos.
 - Rates – pricing and FAQs
@@ -129,10 +136,10 @@ To support the business objective the following elements, need to be included in
 
 ### User stories
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging and can book a session or return at a future date.
-2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy-healing and decide if I want to contact this practitioner.
+2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy healing and decide if I want to contact this practitioner.
 3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or more information.
 4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.
-5.	As a potential client looking for a shamanic energy-healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
+5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
 6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
 7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
@@ -145,7 +152,7 @@ ___
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
-- [Shamanic Energy-Healing](assets/wireframes/shamanic-energy-healing.pdf)
+- [Shamanic energy healing](assets/wireframes/shamanic-energy healing.pdf)
 - [Rates](assets/wireframes/rates.pdf)
 - [About me](assets/wireframes/about-me.pdf)
 - [Contact](assets/wireframes/contact.pdf)
@@ -172,7 +179,7 @@ The site has the following common features on each page:
 
         * First picture with Jumbatron text and CTA that links to an overview of what shamanism is.
 
-        * Second picture with Jumbatron text and CTA that links to Benefits of shamanic energy-healing.
+        * Second picture with Jumbatron text and CTA that links to Benefits of shamanic energy healing.
 
         * Third picture with Jumbatron text and CTA that links to about the practitioner with a contact button?
 
@@ -180,22 +187,22 @@ The site has the following common features on each page:
         * Centred on a full-width section of page to draw attention to it.
         * Inspire potential clients.
 
-    * What is Shamanic Energy-Healing? 
+    * What is Shamanic energy healing? 
 
         * Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature.
 
         * A video by Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
 
-    * Benefits of Shamanic Energy-Healing
+    * Benefits of Shamanic energy healing
 
         *Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature. A ‘contact me’ button at end of text linking to contact form so people can book straight away if they want to.
 
 
-- #### Shamanic Energy-Healing page
+- #### Shamanic energy healing page
 
     * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
-    * Shamanic Energy-Healing - a more detailed look at shamanic healing,  with another video embedded from YouTube, with sound off default.
+    * Shamanic energy healing - a more detailed look at shamanic healing,  with another video embedded from YouTube, with sound off default.
 
     * The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
 
@@ -310,14 +317,34 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed using the IDE AWS Cloud9, and the versioning was controlled using git and GitHub. The project was deployed from its master branch on GitHub using the following procedure:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1.	Log into GitHub.
+2.	Open project from list of repositories by selecting **the-shamans-cat**.
+3.	Click on the **Settings** option in the menu, which is just below the title at the top of the page.
+4.	Scroll down the page and find the **GitHub Pages** section.
+5.	In the **Source** section of **GitHub Pages**, click on the dropdown menu box currently set to **None** and select the **Master Branch** option.
+6.	By selecting this, the website is deployed. A message ***GitHub Pages source saved*** appears in a banner at the top of the page in GitHub, confirming this.
+7.	Scroll back down the page to the **GitHub** Pages section and you will see a message saying, ***Your site is ready to be published at https://<span></span>helensayer.git.io/the-shamans-cat/.*** Select this link by right clicking on it. Then choose **Copy link address**.
+8.	You can now paste this link into a browser search bar and go and view the site.
+9.	While the GitHub published page is active it will be automatically updated when new commits are made to the master branch of the GitHub repository.
+10.	The development version on the IDE and the GitHub master branch will be in sync at time of project submission.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+#### How to run the project code locally
+
+To run this project locally, clone it from GitHub into your local IDE using the following steps:
+1.	Open GitHub.
+2.	Click on this [link](https://github.com/HelenSayer/the-shamans-cat) to the GitHub repository for this project.
+3.	Towards the top-right-hand-side of the page is a green button labelled **Clone or Download**. Click on this.
+4.	Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
+5.	Open a terminal (bash) window in the local IDE.
+6.	Change the current working directory to the location where you want the cloned directory to be made.
+7.	Type git clone, and then paste the URL you copied in Step 4.
+8.  <pre>git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git</pre>
+9.	Press Enter. Your local clone will be created.
+
+Click on the links for general help with [GitHub](https://help.github.com/en), or for specific help with [Cloning a repository.](https://help.github.com/en/articles/cloning-a-repository-from-github) 
+
 
 
 ## Credits
