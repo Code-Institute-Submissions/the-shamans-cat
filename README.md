@@ -1,6 +1,6 @@
 
 
-<center>
+<div align="center">
 ![Silhouette picture of a jaguar cat](assets/images/logo-white.gif)
 
  
@@ -9,7 +9,9 @@
 
 
 ##### [Click here for link to GitHub Pages](https://helensayer.github.io/the-shamans-cat/)
-</center>
+</div>
+
+
 ___
 TOC to be added before project submitted
 
@@ -325,7 +327,7 @@ This project was developed using the IDE AWS Cloud9, and the versioning was cont
 4.	Scroll down the page and find the **GitHub Pages** section.
 5.	In the **Source** section of **GitHub Pages**, click on the dropdown menu box currently set to **None** and select the **Master Branch** option.
 6.	By selecting this, the website is deployed. A message ***GitHub Pages source saved*** appears in a banner at the top of the page in GitHub, confirming this.
-7.	Scroll back down the page to the **GitHub** Pages section and you will see a message saying, ***Your site is ready to be published at https://<span></span>helensayer.git.io/the-shamans-cat/.*** Select this link by right clicking on it. Then choose **Copy link address**.
+7.	Scroll back down the page to the **GitHub** Pages section and you will see a message saying, ***Your site is ready to be published at https://<span></span>helensayer.git.io/the-shamans-cat/.*** Select this link by right clicking on it. Then choose **Copy Link Address**.
 8.	You can now paste this link into a browser search bar and go and view the site.
 9.	While the GitHub published page is active it will be automatically updated when new commits are made to the master branch of the GitHub repository.
 10.	The development version on the IDE and the GitHub master branch will be in sync at time of project submission.
