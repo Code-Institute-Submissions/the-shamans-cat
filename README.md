@@ -3,11 +3,12 @@
 
 # THE SHAMAN'S CAT <br> - Shamanic Energy Healing
 
+[![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
 
-
-<img src="https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif" alt="The Shaman's cat logo"/>
+*Click [*here*](https://helensayer.github.io/the-shamans-cat) to view website on GitHub Pages or on the jaguar.* 
 
 </div>  
+
 
 
 TOC to be added before project submitted
