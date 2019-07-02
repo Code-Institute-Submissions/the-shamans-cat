@@ -1,18 +1,15 @@
 
-
 <div align="center">
-![Silhouette picture of a jaguar cat](assets/images/logo-white.gif)
 
- 
-# The Shaman's Cat
-## *- Shamanic Energy Healing*
+# THE SHAMAN'S CAT <br> - Shamanic Energy Healing
 
 
-##### [Click here for link to GitHub Pages](https://helensayer.github.io/the-shamans-cat/)
-</div>
+
+<img src="https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif" alt="The Shaman's cat logo"/>
+
+</div>  
 
 
-___
 TOC to be added before project submitted
 
 ## Brief
@@ -154,7 +151,7 @@ ___
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
-- [Shamanic energy healing](assets/wireframes/shamanic-energy healing.pdf)
+- [Shamanic Energy Healing](assets/wireframes/shamanic-energy-healing.pdf)
 - [Rates](assets/wireframes/rates.pdf)
 - [About me](assets/wireframes/about-me.pdf)
 - [Contact](assets/wireframes/contact.pdf)
