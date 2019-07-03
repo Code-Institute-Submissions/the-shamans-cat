@@ -5,7 +5,7 @@
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
 
-*Click [*here*](https://helensayer.github.io/the-shamans-cat) to view website on GitHub Pages or on the jaguar.* 
+*Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
 </div>  
 
@@ -135,9 +135,9 @@ To support the business objective the following elements, need to be included in
 - Contact - Contact Form with privacy statement.
 
 ### User stories
-1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging and can book a session or return at a future date.
+1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.
 2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy healing and decide if I want to contact this practitioner.
-3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or more information.
+3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or for more information.
 4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.
 5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
 6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
@@ -270,23 +270,23 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [**Cloud9**](https://c9.io/login) an online Itegrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. Standardised environment for development.
+- [**Cloud9**](https://c9.io/login) is an online Itegrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. It provides a standardised environment for development.
 
-- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.
+- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.It provides a standardised environment for development.
 
-- [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language  Used to provide structural elements to web pages.
+- [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
-- [**CSS**](https://www.w3.org/Style/CSS/Overview.en.html) a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
+- [**CSS**](https://www.w3.org/Style/CSS/Overview.en.html) is a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
 
-- [**BOOTSTRAP 4 Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
+- [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
 - [**Fancybox**](https://fancyapps.com/fancybox/3/) is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable. Used to produce a picture gallery.
 
-- [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit Adds extra icons to enhance the appearance of the website.
+- [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit which adds extra icons to enhance the appearance of the website.
 
 - [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
 
-- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parse your CSS and add vendor prefixes to ensure css code works in different broswers.
+- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different broswers.
 
 - [**Popper.js**](https://popper.js.org/) is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus 
 
@@ -294,6 +294,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**Git**](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development.
 
+### Tools used
+- [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
+- [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughtout development and to do final checks before project submission.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughtout development and to do final checks before project submission.
+- 
 
 ## Testing
 
@@ -354,11 +359,17 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 ### Media
 - The photos used in this site were obtained from ...
-- The image of Jaguar (is actually a panther) and was obtained from (https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/) It is used in the logo and on the Favicon.
+- The image of Jaguar (is actually a panther) and was obtained from (https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/) It is used in the Favicon.
+- The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki)
+
+### Code
+- I have used ideas for coding from the previous mini-projects completed with the Code Institute.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
+- I would give particular acknowledgement to Anna Greaves, whos talks handouts and her own 1st milestone project have been a huge help and inspiration.
+- mentors
 
 #### Disclaimer
 This website is being used for educational purposes only.
