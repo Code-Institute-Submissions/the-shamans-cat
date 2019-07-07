@@ -359,17 +359,21 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 ### Media
 - The photos used in this site were obtained from ...
-- The image of Jaguar (is actually a panther) and was obtained from (https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/) It is used in the Favicon.
-- The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki)
+- The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
+- The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
+- [Lumious energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
 
 ### Code
 - I have used ideas for coding from the previous mini-projects completed with the Code Institute.
+- [Bootstrap css hides portion of container below navbar navbar-fixed-top](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
+- 
 
 ### Acknowledgements
 
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
 - I would give particular acknowledgement to Anna Greaves, whos talks handouts and her own 1st milestone project have been a huge help and inspiration.
 - mentors
+- [Bootstrap 4.0 Tutorial: Adding a Jumbotron & Carousel Slideshow](https://www.youtube.com/watch?v=6dG-2-Dyy9E) For help with ideas about sizing of photos for carousel.
 
 #### Disclaimer
 This website is being used for educational purposes only.
