@@ -379,5 +379,3 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 #### Disclaimer
 This website is being used for educational purposes only.
-
-Nothing contained within this website is to be construed as a vehicle to provide medical advice, diagnosis, opinion, or treatment, nor as a substitute for medical or professional care.
