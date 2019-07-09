@@ -356,12 +356,14 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for What is Shamanic Energy Healing is by Alberto Villodo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 
 ### Media
 - The photos used in this site were obtained from ...
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
 - [Lumious energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
+- The Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests [video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
 
 ### Code
 - I have used ideas for coding from the previous mini-projects completed with the Code Institute.
@@ -377,3 +379,5 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 #### Disclaimer
 This website is being used for educational purposes only.
+
+Nothing contained within this website is to be construed as a vehicle to provide medical advice, diagnosis, opinion, or treatment, nor as a substitute for medical or professional care.
