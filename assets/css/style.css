@@ -1,13 +1,8 @@
 /*----------------------------------------------- Fonts */
 
-
-
 /*----------------------------------------------- Colors */
 
-
-
 /*----------------------------------------------- paddings/margins/borders */
-
 
 /* - Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
 
@@ -17,7 +12,6 @@ body {
 
 
 /*----------------------------------------------- buttons */
-
 
 /*----------------------------------------------- Navbar */
 
@@ -34,24 +28,20 @@ body {
 
 /*----------------------------------------------- Jumbotron */
 
-
 /*----------------------------------------------- Mission Statement */
-
 
 /*----------------------------------------------- articles */
 
-
 /*----------------------------------------------- videos */
 
-
 /*----------------------------------------------- footer */
-
 
 /*social links + hover*/
 
 /* ---------------------------------------------- Media Qeries */
 
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
+
 /* (img-fluid on navbar-brand image did not fix this) */
 
 @media screen and (max-width: 414px) {
@@ -59,7 +49,7 @@ body {
         width: 201px;
         height: 33px;
     }
-body {
-    padding-top: 43px;
-}
+    body {
+        padding-top: 43px;
+    }
 }
