@@ -21,7 +21,7 @@ body {
 
 /*----------------------------------------------- Navbar */
 
-/*----------------------------------------------- Containers */
+/*----------------------------------------------- Carousel */
 
 /* - Make the image in the carousel fully responsive */
 
@@ -30,6 +30,7 @@ body {
     height: 100%;
 }
 
+/* - Adds opaque background colour to caption so text visible and image also How??*/
 
 /*----------------------------------------------- Jumbotron */
 
@@ -44,6 +45,8 @@ body {
 
 
 /*----------------------------------------------- footer */
+
+
 /*social links + hover*/
 
 /* ---------------------------------------------- Media Qeries */
@@ -51,12 +54,12 @@ body {
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
 /* (img-fluid on navbar-brand image did not fix this) */
 
-@media screen and (max-width: 373px) {
+@media screen and (max-width: 414px) {
     #logo {
         width: 201px;
         height: 33px;
     }
 body {
-    padding-top: 45px;
+    padding-top: 43px;
 }
 }
