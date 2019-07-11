@@ -15,7 +15,7 @@ body {
 
 /*----------------------------------------------- Navbar */
 
-/*----------------------------------------------- Carousel */
+/*----------------------------------------------- Slideshow */
 
 /* - Make the image in the carousel fully responsive */
 
@@ -38,6 +38,10 @@ body {
 
 /*social links + hover*/
 
+.social-links {
+    
+}
+
 /* ---------------------------------------------- Media Qeries */
 
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
@@ -51,5 +55,13 @@ body {
     }
     body {
         padding-top: 43px;
+    }
+}
+
+/* Slideshow - carousel not visible below 768px to reduce data used on phones and reduce load time?*/
+
+@media screen and (max-width: 768px) {
+    .slideshow {
+        display: none;
     }
 }
