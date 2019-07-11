@@ -107,7 +107,7 @@ These types of visitors could also become clients.
 
 - the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site will be tested as new elements and formatting are added to ensure this is achieved.
 - the site is both engaging and inspiring keeping potential clients on the site. 
-- that the site has good quality images and a simplistic uncluttered feel to it.
+- that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
 - it informs and educates the site visitor, so they gain a better understanding of shamanism and are more likely to book a session.
 - the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
 - the site is intuitive and user friendly (as some of the users may not be that technically competent.)
