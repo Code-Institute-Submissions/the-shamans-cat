@@ -33,7 +33,7 @@ ___
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 
-## UX Stratergy - Why does this site exist?
+## UX Strategy - Why does this site exist?
 
 ### Business Objectives
 The main aim of the website is to generate paying clients for the shamanic energy healing practitioner, who is starting a new business. 
@@ -100,19 +100,21 @@ terrible choices of colour schemes, that would give you a headache, and poorly c
 
 The website is informative to any user coming to the site wanting to know more about shamanic energy healing. 
 ‘Shaman’ is in the name of the website and along with other keywords in the site 
-i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”  so search engines will pick up on these too. 
+i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”, so search engines will pick up on these too. 
 These types of visitors could also become clients.
 
-### The design goals of the website are:
-- that it is both engaging and inspiring keeping potential clients on the site. 
-- The site has good quality images and a simplistic uncluttered feel to it. The client is not overwhelmed with information, yet can find what they need easily from the navigation bar and accordian sections.
-- In addition, the site is intuitive and user friendly (as many of the users will not be that technically competent.)
-- The use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
-- The images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
-- The site is developed using the mobile-first approach to ensure users on all devices have a good user-exerpience when visiting the site. The site will be tested as new elements and formating are added to ensure this is acheived.
+### The design goals of the website are that:
 
+- the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site will be tested as new elements and formatting are added to ensure this is achieved.
+- the site is both engaging and inspiring keeping potential clients on the site. 
+- that the site has good quality images and a simplistic uncluttered feel to it.
+- it informs and educates the site visitor, so they gain a better understanding of shamanism and are more likely to book a session.
+- the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
+- the site is intuitive and user friendly (as some of the users may not be that technically competent.)
+- the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+- the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
-### **Stratergy Trade-off , B2C**
+### **Strategy Trade-off, B2C**
 **table and graph**
 
 ## UX Scope - What are we doing to achieve the goals set in strategy plane?
@@ -163,11 +165,11 @@ ___
 ### Common Features
 The site has the following common features on each page:
 
-- Logo – Silhouette of Jaguar - on every page top-right-hand side of screen, acts as a link to the home page from any other page on the website.
+- Logo – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side of screen, acts as a link to the home page from any other page on the website.
 
-- Navigation bar – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked. Was wondering if should have nested menus to link to key points in webpages?
+- Navigation bar – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. Some menu items have a further dropdown menu which take users to specific parts of pages within the site. There is a menu icon for mobile devices, which drops down over content when clicked.
 
-- Footer – This is at the bottom of every page and contains links to the contact from and social media icons, as well as copyright symbol. 
+- Footer – This is at the bottom of every page and contains; a copyright symbol, a Terms & Condtion's modal, contact button and social media icons. 
 
 - **Favicon**
 
@@ -177,11 +179,11 @@ The site has the following common features on each page:
 
     * Attract attention of user with Carousel (Bootstrap 4) half page with three hero images each with call to action (CTA) text link or button. 
 
-        * First picture with Jumbatron text and CTA that links to an overview of what shamanism is.
+        * First picture with Jumbotron text and CTA that links to an overview of what shamanism is.
 
-        * Second picture with Jumbatron text and CTA that links to Benefits of shamanic energy healing.
+        * Second picture with Jumbotron text and CTA that links to Benefits of shamanic energy healing.
 
-        * Third picture with Jumbatron text and CTA that links to about the practitioner with a contact button?
+        * Third picture with Jumbotron text and CTA that links to about the practitioner with a contact button?
 
     * Mission statement
         * Centred on a full-width section of page to draw attention to it.
@@ -200,9 +202,9 @@ The site has the following common features on each page:
 
 - #### Shamanic energy healing page
 
-    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
-    * Shamanic energy healing - a more detailed look at shamanic healing,  with another video embedded from YouTube, with sound off default.
+    * Shamanic energy healing - a more detailed look at shamanic healing, with another video embedded from YouTube, with sound off default.
 
     * The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
 
@@ -222,7 +224,7 @@ The site has the following common features on each page:
 
 - #### Rates page 
 
-    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
     * contains a clear pricing structure
 
@@ -230,11 +232,11 @@ The site has the following common features on each page:
 
 - #### About Me 
 
-    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
     
     * section My personal journey – how I got here. Background to capture interest and build credibility.
 
-    * section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January, 2011) to demonstrates my credibility.
+    * section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January 2011) to demonstrates my credibility.
 
     * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
 
@@ -243,12 +245,12 @@ The site has the following common features on each page:
 
 - #### Contact page 
 
-    * Hero Image with Jumbatron text and CTA – To get attention and keep a consistent feel across all the website pages.
+    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
     * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
 
 ___
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In this section, you should go over the different parts of your project and describe each in a sentence or so.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -259,18 +261,19 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Terms and conditions + Privacy Policy
+- Privacy Policy
 - Blog/newsletter with sign-up
 - Membership with login for existing clients
 - Online-booking of sessions for members
 - Online Payment for sessions at point of booking
+- Shop selling related books via links to Amazon
 
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [**Cloud9**](https://c9.io/login) is an online Itegrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. It provides a standardised environment for development.
+- [**Cloud9**](https://c9.io/login) is an online Integrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. It provides a standardised environment for development.
 
 - [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.It provides a standardised environment for development.
 
@@ -296,8 +299,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ### Tools used
 - [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
-- [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughtout development and to do final checks before project submission.
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughtout development and to do final checks before project submission.
+- [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughout development and to do final checks before project submission.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughout development and to do final checks before project submission.
 - 
 
 ## Testing
@@ -362,7 +365,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The photos used in this site were obtained from ...
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
-- [Lumious energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
+- [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
 - The Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests [video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
 
 ### Code
@@ -373,7 +376,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 ### Acknowledgements
 
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
-- I would give particular acknowledgement to Anna Greaves, whos talks handouts and her own 1st milestone project have been a huge help and inspiration.
+- I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
 - mentors
 - [Bootstrap 4.0 Tutorial: Adding a Jumbotron & Carousel Slideshow](https://www.youtube.com/watch?v=6dG-2-Dyy9E) For help with ideas about sizing of photos for carousel.
 
