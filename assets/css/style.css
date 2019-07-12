@@ -27,6 +27,9 @@ body {
 /* - Adds opaque background colour to caption so text visible and image also How??*/
 
 /*----------------------------------------------- Jumbotron */
+/*.jumbotron p {
+    font-size: 1em;*/
+}
 
 /*----------------------------------------------- Mission Statement */
 
@@ -58,10 +61,10 @@ body {
     }
 }
 
-/* Slideshow - carousel not visible below 768px to reduce data used on phones and reduce load time?*/
+/* Slideshow - carousel not visible below 768px - Good or bad ideagit
 
 @media screen and (max-width: 768px) {
     .slideshow {
         display: none;
     }
-}
+}*/
