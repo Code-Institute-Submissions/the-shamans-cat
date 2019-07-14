@@ -1,8 +1,8 @@
-/*----------------------------------------------- Fonts */
+/* Fonts */
 
-/*----------------------------------------------- Colors */
+/* Colors */
 
-/*----------------------------------------------- paddings/margins/borders */
+/* paddings/margins/borders */
 
 /* - Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
 
@@ -11,7 +11,7 @@ body {
 }
 
 
-/*----------------------------------------------- Containers */
+/* Containers */
 
 .callout-container {
     height: 100vh;
@@ -39,7 +39,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-/*----------------------------------------------- buttons */
+/* buttons */
 
 
 
@@ -61,11 +61,11 @@ body {
 
 
 
-/*----------------------------------------------- Navbar */
+/* Navbar */
 
 
 
-/*----------------------------------------------- Jumbotron */
+/* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -90,19 +90,19 @@ body {
     font-weight: bold;
 }
 
-/*----------------------------------------------- Mission Statement */
+/* Mission Statement */
 
-/*----------------------------------------------- articles */
+/* articles */
 
-/*----------------------------------------------- videos */
+/* videos */
 
-/*----------------------------------------------- footer */
+/* footer */
 
-/*social links + hover*/
+/* social links + hover*/
 
 .social-links {}
 
-/* ---------------------------------------------- Media Qeries */
+/* Media Qeries */
 
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
 
