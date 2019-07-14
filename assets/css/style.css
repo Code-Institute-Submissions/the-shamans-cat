@@ -41,9 +41,16 @@ body {
 
 /*----------------------------------------------- buttons */
 
+
+
+.btn--contact {
+    font-weight: bold;
+    width: 160px;
+}
+
+
 .btn--terms-conditions {
     border: none;
-
 }
 
 .btn--terms-conditions:focus {
@@ -52,23 +59,35 @@ body {
 }
 
 
+
+
 /*----------------------------------------------- Navbar */
 
-/*----------------------------------------------- Slideshow */
 
-/* - Make the image in the carousel fully responsive */
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-
-/* - Adds opaque background colour to caption so text visible and image also How??*/
 
 /*----------------------------------------------- Jumbotron */
 
 .jumbotron {
     background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.jumbotron-sub-heading {
+    color: white;
+    font-weight: bold;
+}
+
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: white;
+    font-weight: bold;
 }
 
 /*----------------------------------------------- Mission Statement */
@@ -100,12 +119,3 @@ body {
 }
 
 
-
-
-/* Slideshow - carousel not visible below 768px - Good or bad idea?
-
-@media screen and (max-width: 768px) {
-    .slideshow {
-        display: none;
-    }
-}*/
