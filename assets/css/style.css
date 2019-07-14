@@ -11,12 +11,39 @@ body {
 }
 
 
-/*----------------------------------------------- buttons */
+/*----------------------------------------------- Containers */
 
+.callout-container {
+    height: 100vh;
+
+    background: lightblue url("../images/salkantay.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*----------------------------------------------- buttons */
 
 .btn--terms-conditions {
     border: none;
-    
+
 }
 
 .btn--terms-conditions:focus {
@@ -39,8 +66,9 @@ body {
 /* - Adds opaque background colour to caption so text visible and image also How??*/
 
 /*----------------------------------------------- Jumbotron */
-/*.jumbotron p {
-    font-size: 1em;*/
+
+.jumbotron {
+    background-color: transparent;
 }
 
 /*----------------------------------------------- Mission Statement */
@@ -51,13 +79,9 @@ body {
 
 /*----------------------------------------------- footer */
 
-
-
 /*social links + hover*/
 
-.social-links {
-    
-}
+.social-links {}
 
 /* ---------------------------------------------- Media Qeries */
 
@@ -74,6 +98,9 @@ body {
         padding-top: 43px;
     }
 }
+
+
+
 
 /* Slideshow - carousel not visible below 768px - Good or bad idea?
 
