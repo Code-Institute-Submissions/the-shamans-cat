@@ -100,7 +100,6 @@ body {
 
 /* social links + hover*/
 
-.social-links {}
 
 /* Media Qeries */
 
@@ -108,8 +107,8 @@ body {
 
 /* (img-fluid on navbar-brand image did not fix this) */
 
-@media screen and (max-width: 414px) {
-    #logo {
+@media screen and (max-width: 992px) {
+    .logo {
         width: 201px;
         height: 33px;
     }
