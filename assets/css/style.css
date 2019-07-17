@@ -107,12 +107,7 @@ body {
 
 /* Navbar */
 
-.dropdown-item:hover {
-        background-color: darkgrey;
-    }
-.dropdown-item:active {
-        background-color: violet;
-    }
+
 
 /* Jumbotron */
 
