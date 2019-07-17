@@ -3,8 +3,9 @@
 /* Colors */
 
 /*smooth scroll*/
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* paddings/margins/borders */
@@ -13,6 +14,7 @@ html {
 
 body {
     padding-top: 54px;
+    position: relative; /*needed for scrollspy*/
 }
 
 
@@ -20,19 +22,51 @@ body {
 
 .callout-container {
     height: 100vh;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.cc-home {
     background: lightblue url("../images/salkantay.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: top;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cc-seh {
+    background: lightblue url("") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-    position: relative;
+.cc-about {
+    background: lightblue url("") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cc-rates {
+    background: lightblue url("") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cc-contact {
+    background: lightblue url("") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .opaque-overlay {
@@ -44,9 +78,14 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+
+
+
+
+
+
+
 /* buttons */
-
-
 
 .btn--contact {
     font-weight: bold;
@@ -68,7 +107,12 @@ body {
 
 /* Navbar */
 
-
+.dropdown-item:hover {
+        background-color: darkgrey;
+    }
+.dropdown-item:active {
+        background-color: violet;
+    }
 
 /* Jumbotron */
 
@@ -105,7 +149,6 @@ body {
 
 /* social links + hover*/
 
-
 /* Media Qeries */
 
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
@@ -121,5 +164,3 @@ body {
         padding-top: 58px;
     }
 }
-
-
