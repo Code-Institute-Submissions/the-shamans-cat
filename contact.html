@@ -119,34 +119,61 @@
                         <fieldset>
 
                             <div class="row mt-3">
-                                <div class="col">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="firstname">First Name * </label>
-                                        <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" placeholder="Enter first name" required>
+                                        <input type="text" class="form-control" id="firstname" placeholder="Enter first name" required>
                                     </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="lastname">Last Name * </label>
-                                        <input type="text" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Enter last name" required>
+                                        <input type="text" class="form-control" id="lastname" placeholder="Enter last name" required>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="email">Email address * </label>
-                                <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="name@example.com" required>
                                 <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
                             </div>
 
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="tel-no">Telephone number * </label>
+                                        <input type="tel" class="form-control" id="tel-no" placeholder="Enter your telephone number" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="skype-id">Skype ID</label>
+                                        <input type="text" class="form-control" id="skype-id" placeholder="Enter your Skype-id">
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="form-group">
-	                            <label for="textarea">Message * </label>
-	                            <textarea class="form-control" id="textarea" rows="8" placeholder="Your message here" required></textarea>
-	                        </div>
-                            
+                                <label for="select">Please select a topic for your message * </label>
+                                <select class="form-control" id="select" aria-describedby="selectHelp" required>
+                                    <option value=""></option>
+                                    <option>I would like to Book a session</option>
+                                    <option>I would like more information about ...</option>
+                                    <option>I would like to request a call with you</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
                             <div class="form-group">
-                                <small class="form-text text-muted"> * indicates a required field</small>
+                                <label for="textarea">Message * </label>
+                                <textarea class="form-control" id="textarea" rows="8" placeholder="Your message here" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <small class="form-text text-muted"> * Indicates a required field</small>
                             </div>
                             <div class="container-fluid">
                                 <div class="row form-group">
