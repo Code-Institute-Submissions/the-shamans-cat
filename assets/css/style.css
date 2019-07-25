@@ -21,8 +21,8 @@ body {
 /* Containers */
 
 .callout-container {
-    height: 100vh;
-    background-position: top;
+    height: 90vh;
+    /*background-position: top;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,43 +30,48 @@ body {
 }
 
 .cc-home {
-    background: lightblue url("../images/salkantay.jpg") no-repeat bottom right fixed;
+    background: lightblue url("../images/salkantay-50.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center top;
 }
 
 .cc-seh {
-    background: lightblue url("") no-repeat bottom right fixed;
+    background: lightblue url("../images/alex-grey-theologue-hd.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
 
 .cc-about {
-    background: lightblue url("") no-repeat bottom right fixed;
+    background: lightblue url("../images/augustin-family.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center 45px;
 }
 
 .cc-rates {
-    background: lightblue url("") no-repeat bottom right fixed;
+    background: lightblue url("../images/mesas.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
 
 .cc-contact {
-    background: lightblue url("") no-repeat bottom right fixed;
+    background: lightblue url("../images/despacho-augustin-luis-50.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: right bottom;
 }
 
 .opaque-overlay {
@@ -138,11 +143,24 @@ body {
 
 /* articles */
 
+/* Images */
+
+.article-images {
+    
+}
+
+
+
+/*Home page images*/
+
+
 
 
 /*forms*/
 
 /* videos */
+
+
 
 /* footer */
 

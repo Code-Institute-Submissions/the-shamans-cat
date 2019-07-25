@@ -370,7 +370,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
 - [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
 - The Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests [video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
-- Butterfly image from Facebook page of Alberto Villoldo (https://www.facebook.com/AlbertoVilloldo/photos/a.10150534040749466/10157952983459466/?type=3&theater)
+- Butterfly image from Facebook page of Alberto Villoldo (https://www.facebook.com/AlbertoVilloldo/photos/a.10150534040749466/10157952983459466/?type=3&theater) or (https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
 
 ### Code
 - I have used ideas for coding from the previous mini-projects completed with the Code Institute.
