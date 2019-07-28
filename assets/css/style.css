@@ -1,5 +1,20 @@
 /* Fonts */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
+
+body {
+    padding-top: 54px;  /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
+    position: relative; /*needed for scrollspy*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, jumbotron-header{
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /* Colors */
 
 /*smooth scroll*/
@@ -10,10 +25,7 @@ html {
 
 /* paddings/margins/borders */
 
-body {
-    padding-top: 54px;  /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
-    position: relative; /*needed for scrollspy*/
-}
+
 
 
 /* Containers */
@@ -109,9 +121,7 @@ body {
 
 /* Navbar */
 
-.navbar {
 
-}
 
 
 /*.site-directory {
