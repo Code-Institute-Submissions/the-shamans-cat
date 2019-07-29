@@ -3,17 +3,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
 
-body {
-    padding-top: 54px;  /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
-    position: relative; /*needed for scrollspy*/
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
 
-h1, jumbotron-header{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 
 /* Colors */
 
@@ -25,13 +31,19 @@ html {
 
 /* paddings/margins/borders */
 
-
+body {
+    padding-top: 54px;
+    /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
+    position: relative;
+    /*needed for scrollspy*/
+}
 
 
 /* Containers */
 
 .callout-container {
-    height: 90vh; /* allows info below the fold to show on most screens to encourage users to scroll down. */
+    height: 90vh;
+    /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,8 +133,11 @@ html {
 
 /* Navbar */
 
-
-
+/* dropdown list hover color grey/blue to move towards blue of item when selected */
+.navbar a:hover{
+    color: #66b5ff;
+    font-weight: 700;
+} 
 
 /*.site-directory {
     
@@ -133,6 +148,7 @@ html {
 
 .jumbotron {
     background-color: transparent;
+    
 }
 
 .jumbotron-header {
@@ -160,22 +176,11 @@ html {
 
 /* Images */
 
-.article-images {
-    
-}
-
-
-
 /*Home page images*/
-
-
-
 
 /*forms*/
 
 /* videos */
-
-
 
 /* footer */
 
@@ -196,4 +201,3 @@ html {
         padding-top: 58px;
     }
 }
-
