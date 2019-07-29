@@ -368,9 +368,10 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The photos used in this site were obtained from ...
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
-- [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg)
+- [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg) Is by the artist Alex Grey.
 - The Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests [video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
 - Butterfly image from Facebook page of Alberto Villoldo (https://www.facebook.com/AlbertoVilloldo/photos/a.10150534040749466/10157952983459466/?type=3&theater) or (https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
+- Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
 
 ### Code
 - I have used ideas for coding from the previous mini-projects completed with the Code Institute.
