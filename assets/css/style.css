@@ -133,6 +133,11 @@ body {
 
 /* Navbar */
 
+.navbar a{
+    color: #666666;
+    font-weight: 500;
+} 
+
 /* dropdown list hover color grey/blue to move towards blue of item when selected */
 .navbar a:hover{
     color: #66b5ff;
