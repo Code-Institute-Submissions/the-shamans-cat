@@ -44,8 +44,14 @@ body {
 .callout-container {
     height: 90vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
 }
@@ -124,6 +130,7 @@ body {
 }
 
 .btn-terms-conditions:focus {
+    -webkit-box-shadow: none;
     box-shadow: none;
 
 }
@@ -133,16 +140,17 @@ body {
 
 /* Navbar */
 
-.navbar a{
+.navbar a {
     color: #666666;
     font-weight: 500;
-} 
+}
 
 /* dropdown list hover color grey/blue to move towards blue of item when selected */
-.navbar a:hover{
+
+.navbar a:hover {
     color: #66b5ff;
     font-weight: 700;
-} 
+}
 
 /*.site-directory {
     
@@ -153,7 +161,7 @@ body {
 
 .jumbotron {
     background-color: transparent;
-    
+
 }
 
 .jumbotron-header {
@@ -176,6 +184,10 @@ body {
 }
 
 /* Mission Statement */
+
+.mission-statement {
+    display: block;
+}
 
 /* articles */
 
