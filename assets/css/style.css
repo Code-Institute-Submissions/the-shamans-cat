@@ -113,17 +113,17 @@ body {
 
 /* buttons */
 
-.btn--contact {
+.btn-contact {
     font-weight: bold;
     width: 160px;
 }
 
 
-.btn--terms-conditions {
+.btn-terms-conditions {
     border: none;
 }
 
-.btn--terms-conditions:focus {
+.btn-terms-conditions:focus {
     box-shadow: none;
 
 }
