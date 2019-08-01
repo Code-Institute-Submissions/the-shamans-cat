@@ -363,9 +363,11 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villodo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
-- Th text for Benefits .....
+- The text for Benefits .....
+- Shamanic Energy Healing text from The Four Winds website (http://albertovilloldophd.com/light-body-self-healing/)
 - The text for The Luminous Energy Field came from (http://munay-ki.org/luminous-body/)
 - The text for the Chakra section comes from (http://munay-ki.org/chakras-anatomy-of-the-soul/)
+- Text for Illumination (http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
 
 ### Media
 - The photos used in this site were obtained from ...
@@ -373,14 +375,18 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
 - Black cat at top of readme
 - [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg) Is by the artist Alex Grey.
-- The Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests [video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
+- Video the Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests (https://www.youtube.com/watch?v=PF_9iWnLnDA)
+- Video The Critical Role and Task of Modern Shamans (https://www.youtube.com/watch?v=FIb4KzSFbgI)
+- Video Modern Shamans and Their Clients  with Dr. Alberto Villoldo, Jon Rasmussen (https://www.youtube.com/watch?v=mo-kx4YFNAs)
+- Video Dr. Alberto Villoldo talks about "Light Body School" (https://www.youtube.com/watch?v=01_wHY0zMDk)
 - Butterfly image from Facebook page of Alberto Villoldo (https://www.facebook.com/AlbertoVilloldo/photos/a.10150534040749466/10157952983459466/?type=3&theater) or (https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
 - Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
 
 ### Code
-- I have used ideas for coding from the previous mini-projects completed with the Code Institute.
+- I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
+- I have used code snippets from Bootstrap
 - [Bootstrap css hides portion of container below navbar navbar-fixed-top](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
-- 
+- I have used code from slack by Simen Daehlin to style videos in my style.css
 
 ### Acknowledgements
 
