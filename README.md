@@ -364,6 +364,8 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villodo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 - Th text for Benefits .....
+- The text for The Luminous Energy Field came from (http://munay-ki.org/luminous-body/)
+- The text for the Chakra section comes from (http://munay-ki.org/chakras-anatomy-of-the-soul/)
 
 ### Media
 - The photos used in this site were obtained from ...
