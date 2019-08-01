@@ -21,6 +21,9 @@ p {
     font-weight: 400;
 }
 
+
+.rates-text
+
 /* Colors */
 
 /*smooth scroll*/
@@ -119,10 +122,12 @@ body {
 
 /* buttons */
 
+
 .btn-contact {
     font-weight: bold;
     width: 160px;
 }
+
 
 
 .btn-terms-conditions {
@@ -139,13 +144,13 @@ body {
 
 
 /* Navbar */
-
+/* Improves look of dropdown on Site Directory so looks more like rest of navbar, for continuity to users */
 .navbar a {
     color: #666666;
     font-weight: 500;
 }
 
-/* dropdown list hover color grey/blue to move towards blue of item when selected */
+/* dropdown list hover color grey/blue to blend towards Bootstrap blue of item when selected */
 
 .navbar a:hover {
     color: #66b5ff;
