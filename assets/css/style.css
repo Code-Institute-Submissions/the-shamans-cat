@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
 
-
-
 h1,
 h2,
 h3,
@@ -15,15 +13,11 @@ h6 {
     font-weight: 700;
 }
 
-
-
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-
-/* Colors */
 
 /*smooth scroll*/
 
@@ -34,10 +28,8 @@ html {
 /* paddings/margins/borders */
 
 body {
-    padding-top: 54px;
-    /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
-    position: relative;
-    /*needed for scrollspy*/
+    padding-top: 54px; /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
+    position: relative; /*needed for scrollspy*/
 }
 
 
@@ -114,11 +106,6 @@ body {
 
 
 
-
-
-
-
-
 /* buttons */
 
 
@@ -126,7 +113,6 @@ body {
     font-weight: bold;
     width: 160px;
 }
-
 
 
 .btn-terms-conditions {
@@ -140,10 +126,9 @@ body {
 }
 
 
-
-
 /* Navbar */
-/* Improves look of dropdown on Site Directory so looks more like rest of navbar, for continuity to users */
+/* Improves dropdown menu on Site Directory so it looks more like rest of navbar, for improved user experience */
+
 .navbar a {
     color: #666666;
     font-weight: 500;
@@ -156,11 +141,6 @@ body {
     font-weight: 700;
 }
 
-
-/*.site-directory {
-    
-}
-*/
 
 /* Jumbotron */
 
@@ -198,9 +178,6 @@ body {
 
 /* Images */
 
-/*Home page images*/
-
-/*forms*/
 
 /* videos */
 /*code from Slack by Simen Daehlin */
@@ -227,9 +204,7 @@ body {
 
 /* Media Qeries */
 
-/* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px */
-
-/* (img-fluid on navbar-brand image did not fix this) */
+/* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px (img-fluid on navbar-brand image did not fix this) */
 
 @media screen and (max-width: 992px) {
     .logo {
