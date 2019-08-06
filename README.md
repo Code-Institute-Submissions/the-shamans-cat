@@ -373,7 +373,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The photos used in this site were obtained from ...
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
-- Black cat at top of readme
+- Black cat "Cheetah Running Silhouette" at top of readme (http://getdrawings.com/cheetah-running-silhouette")
 - [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg) Is by the artist Alex Grey.
 - Video the Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests (https://www.youtube.com/watch?v=PF_9iWnLnDA)
 - Video The Critical Role and Task of Modern Shamans (https://www.youtube.com/watch?v=FIb4KzSFbgI)
