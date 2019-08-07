@@ -28,12 +28,11 @@ html {
 /* paddings/margins/borders */
 
 body {
-    padding-top: 54px; /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
+    padding-top: 54px;
+    /*Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar */
 }
 
 /* Navbar */
-
-
 
 /* Improves dropdown menu on Site Directory so it looks more like rest of navbar, for improved user experience */
 
@@ -124,7 +123,6 @@ body {
 
 /* buttons */
 
-
 .btn-contact {
     font-weight: bold;
     width: 160px;
@@ -181,22 +179,24 @@ body {
 
 /* Images */
 
-
 /* videos */
+
 /*code from Slack by Simen Daehlin */
 
 .video-container {
-    position:relative;
+    position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-    position:absolute;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
     top: 0;
-    left :0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
@@ -218,3 +218,51 @@ body {
         padding-top: 58px;
     }
 }
+
+/* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 slightly adjusted*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+/* No media query since this is the default in Bootstrap */
+
+p,
+li,
+.form-group,
+.form-control {
+    font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    p,
+    li,
+    .form-group,
+    .form-control {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    p,
+    li,
+    .form-group,
+    .form-control {
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    p,
+    li,
+    .form-group,
+    .form-control {
+        font-size: 1.6rem;
+    }
+}
+
+/* End of copied code snippet*/

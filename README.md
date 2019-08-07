@@ -386,7 +386,8 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
 - I have used code snippets from Bootstrap
 - [Bootstrap css hides portion of container below navbar navbar-fixed-top](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
-- I have used code from slack by Simen Daehlin to style videos in my style.css
+- I have used a code snippet from slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
+- I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive the snippet is from (https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
 
 ### Acknowledgements
 
