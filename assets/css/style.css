@@ -156,13 +156,6 @@ body {
     margin-bottom: 30px;
 }
 
-
-.jumbotron-sub-heading {
-    color: white;
-    font-weight: bold;
-}
-
-
 .jumbotron .lead {
     margin: 25px 0;
     color: white;
@@ -175,11 +168,6 @@ body {
     display: block;
 }
 
-/* articles */
-
-/* Images */
-
-/* videos */
 
 /*code from Slack by Simen Daehlin */
 
@@ -219,14 +207,14 @@ body {
     }
 }
 
-/* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 slightly adjusted*/
+/* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 (slightly adjusted) */
 
 /* Extra small devices (portrait phones, less than 576px) */
 
 /* No media query since this is the default in Bootstrap */
 
 p,
-li,
+.benefits li,
 .form-group,
 .form-control {
     font-size: 1rem;
@@ -236,10 +224,10 @@ li,
 
 @media (min-width: 576px) {
     p,
-    li,
+    .benefits li,
     .form-group,
     .form-control {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -247,22 +235,22 @@ li,
 
 @media (min-width: 768px) {
     p,
-    li,
+    .benefits li,
     .form-group,
     .form-control {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     p,
-    li,
+    .benefits li,
     .form-group,
     .form-control {
         font-size: 1.6rem;
     }
-}
+}*/
 
 /* End of copied code snippet*/
