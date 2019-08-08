@@ -6,11 +6,24 @@
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
+___
+
+## Table of Contents
+
+* [Brief](#brief)
+* [Guidelines](#guidelines)
+* [UX Strategy - Why does this site exist?](#ux-strategy---Why-does-this-site-exist?)
+    * [Business Objectives](#business-objectives)
+        * [What the Users of the site want](#what-the-users-of-the-site-want)
+        * [Audience](#audience)
+        * [Research](#research)
+        * [Potential Client Scenarios](#potential-client-scenarios)
+        * [The design goals of the website](#the-design-goals-of-the-website)
+* [UX Scope - What are we doing to achieve the goals set in strategy plane?](#ux-scope---what-are-we-doing-to-achieve-the-goals-set-in-strategy-plane?)
+* [User stories](#user-stories)
 
 
-
-
-TOC to be added before project submitted
+___
 
 ## Brief
 To Build a static (front-end only) website, using the technologies learned throughout User Centric Frontend Development module. 
@@ -152,10 +165,13 @@ ___
 ### **Navigational Design, Hierarchy Interaction Design**
 
 ### Wireframes
+
+The wireframes were made using Balsamiq and exported as pdf files and can ve viewed following the links below.
+
 - [Home](https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf)
 - [Shamanic Energy Healing](https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf)
+- [About](https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf)
 - [Rates](https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf)
-- [About me](https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf)
 - [Contact](https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf)
 
 
@@ -277,6 +293,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+- Search bar for site
+- Gallery
 - Privacy Policy
 - Blog/newsletter with sign-up
 - Membership with login for existing clients
@@ -317,7 +335,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
 - [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughout development and to do final checks before project submission.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughout development and to do final checks before project submission.
-- 
 
 ## Testing
 
@@ -386,7 +403,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - Text for Illumination (http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site unless specifically noted here are all my own photos and copyright to me.
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
 - Black cat "Cheetah Running Silhouette" at top of readme (http://getdrawings.com/cheetah-running-silhouette")
@@ -400,7 +417,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 ### Code
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
-- I have used code snippets from Bootstrap
+- I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
 - [Bootstrap css hides portion of container below navbar navbar-fixed-top](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
 - I have used a code snippet from slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
 - I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive the snippet is from (https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
