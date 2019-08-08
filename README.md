@@ -19,9 +19,34 @@ ___
         * [Research](#research)
         * [Potential Client Scenarios](#potential-client-scenarios)
         * [The design goals of the website](#the-design-goals-of-the-website)
+    * [Strategy Trade-offs](#strategy---trade-off)
 * [UX Scope - What are we doing to achieve the goals set in strategy plane?](#ux-scope---what-are-we-doing-to-achieve-the-goals-set-in-strategy-plane?)
-* [User stories](#user-stories)
-
+   * [Supporting the Business Objectives](###supporting-the-business-objectives)
+        * [User stories](#user-stories)
+* [UX Structure and Skeleton](#ux-structure-and-skeleton)
+* [Navigational Design, Hierarchy Interaction Design](###-**navigational-design,-hierarchy-interaction-design**)
+    * [Wireframes](#wireframes)
+* [Existing Features](##features)
+    * [Common Features](#common-features)
+    * [Features individual to each page](#features-individual-to-each-page:)
+        * [Home page](#home-page)
+        * [Shamanic-Energy-Healing page](#shamanic-energy-healing-page)
+        * [About page](#about)
+        * [Rates page](#rates)
+        * [Contact page](#contact)
+    * [Features tried and taken off site because did not look good and/or work with the design concepts](#features-tried-and-taken-off-site-because-did-not-look-good-and/or-work-with-the-design-concepts)
+    * [Features Left to Implement](#features-left-to-implement)
+* [Technologies Used](#technologies-used)
+* [Tools used](#tools-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+    * [How to run the project code locally](#how-to-run-the-project-code-locally)
+* [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Code](#code)
+    * [Acknowledgements](#acknowledgements)
+* [Disclaimer](#disclaimer)
 
 ___
 
@@ -126,11 +151,13 @@ These types of visitors could also become clients.
 - the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 - the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
-### **Strategy Trade-off, B2C**
+### Strategy Trade-off
+Needs writing up with **B2C**
 **table and graph**
 
 ## UX Scope - What are we doing to achieve the goals set in strategy plane?
 
+### Supporting the Business Objectives
 To support the business objective the following elements, need to be included in the website:
 - Online presence 
     * Establish a brand so easily distinguishable from competition
@@ -175,7 +202,18 @@ The wireframes were made using Balsamiq and exported as pdf files and can ve vie
 - [Contact](https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf)
 
 
-## Features
+---
+
+In this section, you should go over the different parts of your project and describe each in a sentence or so.
+ 
+### Existing Features
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
 
 ### Common Features
 The site has the following common features on each page:
@@ -186,24 +224,11 @@ The site has the following common features on each page:
 
 - Footer – This is at the bottom of every page and contains; a copyright symbol, a Terms & Condtion's modal, contact button and social media icons. 
 
-
-### Features tried and taken off site because did not look good and/or work with the design concepts.
-
-- I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
-- I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
-    This left me wondering the best way to get users stay on website and find/look for more information. 
-- I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
-
-[[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)]
-
-- I then thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. 
-    I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on.
-    So, I removed it and went back to a simple nav-item with no dropdowns.
-
-[[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)]
-    
-    
 - **Favicon**
+
+
+
+
 
 ### Features individual to each page:
 
@@ -248,21 +273,16 @@ The site has the following common features on each page:
         * Illumination
         * Extraction
         * Soul Retrieval
+        * Ancestral Healing
         * Cord Cutting
-        * Working with the Ancestors
+        * Transition Rites
         * Death Rites
-        * Despachos
+        * Despacho
+        * Destiny Retrieval
+        * Fire Ceremony
 
 
-- #### Rates page 
-
-    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
-
-    * contains a clear pricing structure
-
-    *FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
-
-- #### About Me 
+- #### About 
 
     * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
     
@@ -274,6 +294,14 @@ The site has the following common features on each page:
 
     * Gallery of 9 photos – Array of photos using Fancybox – Responsive across all devices. To attract interest showing pictures of Peru, my training etc. also gives credibility.
 
+- #### Rates page 
+
+    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
+
+    * contains a clear pricing structure
+
+    *FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
+
 
 - #### Contact page 
 
@@ -281,17 +309,21 @@ The site has the following common features on each page:
 
     * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
 
-___
-In this section, you should go over the different parts of your project and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Features tried and taken off site because did not look good and/or work with the design concepts.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
+- I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
+    This left me wondering the best way to get users stay on website and find/look for more information. 
+- I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+[[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)]
 
+- I then thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. 
+    I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on.
+    So, I removed it and went back to a simple nav-item with no dropdowns.
+
+[[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)]
+    
 ### Features Left to Implement
 - Search bar for site
 - Gallery
@@ -429,5 +461,5 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - mentors
 - [Bootstrap 4.0 Tutorial: Adding a Jumbotron & Carousel Slideshow](https://www.youtube.com/watch?v=6dG-2-Dyy9E) For help with ideas about sizing of photos for carousel.
 
-#### Disclaimer
+## Disclaimer
 This website is being used for educational purposes only.
