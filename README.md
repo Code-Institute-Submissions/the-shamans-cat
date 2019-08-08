@@ -1,13 +1,12 @@
 
-<div align="center">
 
-# THE SHAMAN'S CAT <br> - Shamanic Energy Healing
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
+# THE SHAMAN'S CAT - Shamanic Energy Healing
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-</div>  
+
 
 
 
@@ -25,7 +24,7 @@ As a starting point, you may want to use wireframes, as we did in the UX lesson 
 5. We advise that you write down user stories and create wireframes/mockups before embarking on full-blown development.
 6. The site can also make use of CSS frameworks such as Bootstrap, just make sure you maintain a clear separation between the library code and your code.
 7. You should conduct and document tests to ensure that all of your website’s functionality works well.
-8. Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
+8. Write a README.md file for your project that explains what the project does and the need that it fulfils. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
 9. Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
 10. Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
@@ -75,7 +74,7 @@ The site is targeted at English speaking clients who are open to this type of he
 In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
 
 The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. 
-Also, on the whole, they are not that technically minded. 
+They may not be that technically minded. 
 
 This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone or skype as well as by face to face sessions.
@@ -105,12 +104,12 @@ These types of visitors could also become clients.
 
 ### The design goals of the website are that:
 
-- the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site will be tested as new elements and formatting are added to ensure this is achieved.
+- the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
 - the site is both engaging and inspiring keeping potential clients on the site. 
 - that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
 - it informs and educates the site visitor, so they gain a better understanding of shamanism and are more likely to book a session.
 - the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
-- the site is intuitive and user friendly (as some of the users may not be that technically competent.)
+- the site is intuitive and user friendly.
 - the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 - the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
@@ -124,7 +123,7 @@ To support the business objective the following elements, need to be included in
     * Establish a brand so easily distinguishable from competition
         * Use a Jaguar image – The shaman’s cat….. is a jaguar (need an explanation somewhere for title)
         * Logo of Jaguar silhouette
-        * Favicon of same Jaguar silhouette
+        * Favicon of Jaguar silhouette
 
 - Create trust by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
     * Why someone might benefit from a shamanic-healing session?
@@ -150,7 +149,7 @@ ___
 ## UX Structure and Skeleton
 
 
-### **Navigational Design, Hierarchy Iteraction Design**
+### **Navigational Design, Hierarchy Interaction Design**
 
 ### Wireframes
 - [Home](assets/wireframes/home.pdf)
@@ -171,6 +170,23 @@ The site has the following common features on each page:
 
 - Footer – This is at the bottom of every page and contains; a copyright symbol, a Terms & Condtion's modal, contact button and social media icons. 
 
+
+### Features tried and taken off site because did not look good and/or work with the design concepts.
+
+- I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
+- I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
+    This left me wondering the best way to get users stay on website and find/look for more information. 
+- I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
+
+[[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)]
+
+- I then thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. 
+    I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on.
+    So, I removed it and went back to a simple nav-item with no dropdowns.
+
+[[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)]
+    
+    
 - **Favicon**
 
 ### Features individual to each page:
@@ -275,7 +291,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**Cloud9**](https://c9.io/login) is an online Integrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. It provides a standardised environment for development.
 
-- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute.It provides a standardised environment for development.
+- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute. It provides a standardised environment for development.
 
 - [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
@@ -289,7 +305,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
 
-- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different broswers.
+- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
 
 - [**Popper.js**](https://popper.js.org/) is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus 
 
@@ -362,7 +378,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-- The text for What is Shamanic Energy Healing is by Alberto Villodo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
+- The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The text for Benefits .....
 - Shamanic Energy Healing text from The Four Winds website (http://albertovilloldophd.com/light-body-self-healing/)
 - The text for The Luminous Energy Field came from (http://munay-ki.org/luminous-body/)

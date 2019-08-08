@@ -51,7 +51,7 @@ body {
 /* Containers */
 
 .callout-container {
-    height: 90vh;
+    height: 75vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
     display: -ms-flexbox;
