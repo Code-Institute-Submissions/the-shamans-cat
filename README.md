@@ -74,7 +74,7 @@ The site is targeted at English speaking clients who are open to this type of he
 In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
 
 The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. 
-They may not be that technically minded. 
+They may be a computer novice. 
 
 This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone or skype as well as by face to face sessions.
@@ -152,11 +152,11 @@ ___
 ### **Navigational Design, Hierarchy Interaction Design**
 
 ### Wireframes
-- [Home](assets/wireframes/home.pdf)
-- [Shamanic Energy Healing](assets/wireframes/shamanic-energy-healing.pdf)
-- [Rates](assets/wireframes/rates.pdf)
-- [About me](assets/wireframes/about-me.pdf)
-- [Contact](assets/wireframes/contact.pdf)
+- [Home](https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf)
+- [Shamanic Energy Healing](https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf)
+- [Rates](https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf)
+- [About me](https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf)
+- [Contact](https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf)
 
 
 ## Features
