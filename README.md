@@ -1,12 +1,17 @@
 
 
+<div align="center">
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
-# THE SHAMAN'S CAT - Shamanic Energy Healing
+# THE SHAMAN'S CAT
+## *Shamanic Energy Healing*
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-___
+*For reference the file path is https://helensayer.github.io/the-shamans-cat*  </div>  
+  
+***
+
 
 ## Table of Contents
 
@@ -48,7 +53,7 @@ ___
     * [Acknowledgements](#acknowledgements)
 * [Disclaimer](#disclaimer)
 
-___
+***
 
 ## Brief
 To Build a static (front-end only) website, using the technologies learned throughout User Centric Frontend Development module. 
@@ -112,7 +117,7 @@ The site is targeted at English speaking clients who are open to this type of he
 In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact. 
 
 The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. 
-They may be a computer novice. 
+The user may be a computer novice. 
 
 This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone or skype as well as by face to face sessions.
@@ -159,21 +164,21 @@ Needs writing up with **B2C**
 
 ### Supporting the Business Objectives
 To support the business objective the following elements, need to be included in the website:
-- Online presence 
+- **Online presence**
     * Establish a brand so easily distinguishable from competition
         * Use a Jaguar image – The shaman’s cat….. is a jaguar (need an explanation somewhere for title)
         * Logo of Jaguar silhouette
         * Favicon of Jaguar silhouette
 
-- Create trust by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
+- **Create trust** by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
     * Why someone might benefit from a shamanic-healing session?
     * Explanation of shamanic energy healing, including video
     * What the client might expect from a shamanic energy healing session
     * About the shamanic energy healing practitioner, including their training and experience
     * Testimonials
     * Gallery of photos showing the practitioner in training and other shamanic related photos.
-- Rates – pricing and FAQs
-- Contact - Contact Form with privacy statement.
+- **Rates** – pricing and FAQs
+- **Contact** - Contact Form with privacy statement.
 
 ### User stories
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.
@@ -195,14 +200,16 @@ ___
 
 The wireframes were made using Balsamiq and exported as pdf files and can ve viewed following the links below.
 
-- [Home](https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf)
-- [Shamanic Energy Healing](https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf)
-- [About](https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf)
-- [Rates](https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf)
-- [Contact](https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf)
+
+- <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf" target="_blank" rel="noopener">Home</a>
+- <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf" target="_blank" rel="noopener">Shamanic Energy Healing</a>
+- <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf" target="_blank" rel="noopener">About</a>
+- <a href="(https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf" target="_blank" rel="noopener">Rates</a>
+- <a href="https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf" target="_blank" rel="noopener">Contact</a>  
+ 
 
 
----
+***
 
 In this section, you should go over the different parts of your project and describe each in a sentence or so.
  
@@ -218,83 +225,75 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Common Features
 The site has the following common features on each page:
 
-- Logo – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side of screen, acts as a link to the home page from any other page on the website.
+- **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side of screen, acts as a link to the home page from any other page on the website.
 
-- Navigation bar – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. Some menu items have a further dropdown menu which take users to specific parts of pages within the site. There is a menu icon for mobile devices, which drops down over content when clicked.
+- **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked.
 
-- Footer – This is at the bottom of every page and contains; a copyright symbol, a Terms & Condtion's modal, contact button and social media icons. 
+- **Hero Image with Jumbotron** – Hero image with call to action (CTA) button, to get attention of user. Different hero image on each page, but with same format, which keeps a consistent feel across all the website pages.
 
-- **Favicon**
+- **Footer** – This is at the bottom of every page and contains:
+    *   Copyright for protection of business data. 
+    *   A Terms & Condtion's modal to clarify matter legally. 
+    *   Contact button which leads to the contact form.
+    *   Social media icons providing links to other social platforms used by the shaman.
 
-
-
+- **Favicon** - Provides continuation of cat branding to identify webpage in browser tabs.
 
 
 ### Features individual to each page:
 
-- #### Home page 
+#### Home page 
 
-    * Attract attention of user with Carousel (Bootstrap 4) half page with three hero images each with call to action (CTA) text link or button. 
+- **Call To Action** - Attract attention of user with hero image with call to action (CTA) button. 
+    
+- **Mission statement**
+    * Centred on a full-width section of page to draw attention to it.
+    * Inspire potential clients.
 
-        * First picture with Jumbotron text and CTA that links to an overview of what shamanism is.
-
-        * Second picture with Jumbotron text and CTA that links to Benefits of shamanic energy healing.
-
-        * Third picture with Jumbotron text and CTA that links to about the practitioner with a contact button?
-
-    * Mission statement
-        * Centred on a full-width section of page to draw attention to it.
-        * Inspire potential clients.
-
-    * What is Shamanic energy healing? 
-
-        * Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature.
-
-        * A video by Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
-
-    * Benefits of Shamanic energy healing
-
-        *Informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap collapse feature. A ‘contact me’ button at end of text linking to contact form so people can book straight away if they want to.
+- **What is Shamanic energy healing?** 
+    * Article with informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap accordion feature.
+    * A series of three short videos featuring Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
+- **Benefits of Shamanic energy healing**
+    * Article outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users. A ‘read more’ button is being used. This uses Bootstrap accordion feature.
 
 
-- #### Shamanic energy healing page
+#### Shamanic-Energy-Healing page
 
-    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
-    * Shamanic energy healing - a more detailed look at shamanic healing, with another video embedded from YouTube, with sound off default.
+- Shamanic energy healing - a more detailed look at shamanic healing, with another video embedded from YouTube, with sound off default.
 
-    * The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
+- The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
 
-    * The Chakra System - image and text to give client a better understanding of terms and concepts used.
+- The Chakra System - image and text to give client a better understanding of terms and concepts used.
 
-    * Processes used in a healing session - My Shamanic-toolkit (possible icon, symbol or small picture) and intro paragraph, then a click to drop down rest of text using Bootstrap 4, collapse feature.
+- Healing Processes used in a healing session - (possible icon, symbol or small picture) and intro paragraph, then a click to drop down rest of text using Bootstrap 4, collapse feature.
         The various processes:
 
-        * Illumination
-        * Extraction
-        * Soul Retrieval
-        * Ancestral Healing
-        * Cord Cutting
-        * Transition Rites
-        * Death Rites
-        * Despacho
-        * Destiny Retrieval
-        * Fire Ceremony
+    * Illumination
+    * Extraction
+    * Soul Retrieval
+    * Ancestral Healing
+    * Cord Cutting
+    * Transition Rites
+    * Death Rites
+    * Despacho
+    * Destiny Retrieval
+    * Fire Ceremony
 
 
-- #### About 
+#### About 
 
-    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
+- Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
     
-    * section My personal journey – how I got here. Background to capture interest and build credibility.
+- section My personal journey – how I got here. Background to capture interest and build credibility.
 
-    * section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January 2011) to demonstrates my credibility.
+- section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January 2011) to demonstrates my credibility.
 
-    * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
+- Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
 
-    * Gallery of 9 photos – Array of photos using Fancybox – Responsive across all devices. To attract interest showing pictures of Peru, my training etc. also gives credibility.
+- Gallery of 9 photos – Array of photos using Fancybox – Responsive across all devices. To attract interest showing pictures of Peru, my training etc. also gives credibility.
 
-- #### Rates page 
+#### Rates page 
 
     * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
@@ -303,7 +302,7 @@ The site has the following common features on each page:
     *FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
 
 
-- #### Contact page 
+#### Contact page 
 
     * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
@@ -410,16 +409,16 @@ This project was developed using the IDE AWS Cloud9, and the versioning was cont
 
 To run this project locally, clone it from GitHub into your local IDE using the following steps:
 1.	Open GitHub.
-2.	Click on this [link](https://github.com/HelenSayer/the-shamans-cat) to the GitHub repository for this project.
+2.	Click on this <a href="https://github.com/HelenSayer/the-shamans-cat" target="_blank" rel="noopener">link</a> to the GitHub repository for this project.
 3.	Towards the top-right-hand-side of the page is a green button labelled **Clone or Download**. Click on this.
 4.	Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
 5.	Open a terminal (bash) window in the local IDE.
 6.	Change the current working directory to the location where you want the cloned directory to be made.
 7.	Type git clone, and then paste the URL you copied in Step 4.
-8.  <pre>git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git</pre>
+8.  `git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git`
 9.	Press Enter. Your local clone will be created.
 
-Click on the links for general help with [GitHub](https://help.github.com/en), or for specific help with [Cloning a repository.](https://help.github.com/en/articles/cloning-a-repository-from-github) 
+Click on the links for general help with <a href="https://help.github.com/en" target="_blank" rel="noopener">GitHub</a>, or for specific help with <a href="https://help.github.com/en/articles/cloning-a-repository-from-github" target="_blank" rel="noopener">Cloning a repository.</a>
 
 
 
@@ -429,37 +428,36 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The text for Benefits .....
-- Shamanic Energy Healing text from The Four Winds website (http://albertovilloldophd.com/light-body-self-healing/)
-- The text for The Luminous Energy Field came from (http://munay-ki.org/luminous-body/)
-- The text for the Chakra section comes from (http://munay-ki.org/chakras-anatomy-of-the-soul/)
-- Text for Illumination (http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
+- Shamanic Energy Healing text from Alberto Villoldo's website [Alberto Villoldo's website](http://albertovilloldophd.com/light-body-self-healing/)
+- The text for The Luminous Energy Field came from [Munay-Ki website](http://munay-ki.org/luminous-body/)
+- The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
+- Text for Illumination was taken from [Alberto Villoldo's website](http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
 
 ### Media
-- The photos used in this site unless specifically noted here are all my own photos and copyright to me.
+- The photos used in this site unless specifically noted here are all copyright to Helen Sayer.
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
-- Black cat "Cheetah Running Silhouette" at top of readme (http://getdrawings.com/cheetah-running-silhouette")
+- Black cat "Cheetah Running Silhouette" at top of readme is from [getdrawings.com](http://getdrawings.com/cheetah-running-silhouette")
 - [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg) Is by the artist Alex Grey.
-- Video the Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests (https://www.youtube.com/watch?v=PF_9iWnLnDA)
-- Video The Critical Role and Task of Modern Shamans (https://www.youtube.com/watch?v=FIb4KzSFbgI)
-- Video Modern Shamans and Their Clients  with Dr. Alberto Villoldo, Jon Rasmussen (https://www.youtube.com/watch?v=mo-kx4YFNAs)
-- Video Dr. Alberto Villoldo talks about "Light Body School" (https://www.youtube.com/watch?v=01_wHY0zMDk)
-- Butterfly image from Facebook page of Alberto Villoldo (https://www.facebook.com/AlbertoVilloldo/photos/a.10150534040749466/10157952983459466/?type=3&theater) or (https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
+- Video the Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests is from a [YouTube video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
+- Video The Critical Role and Task of Modern Shamans is from a [YouTube video](https://www.youtube.com/watch?v=FIb4KzSFbgI)
+- Video Modern Shamans and Their Clients  with Dr. Alberto Villoldo, Jon Rasmussen is from a [YouTube video](https://www.youtube.com/watch?v=mo-kx4YFNAs)
+- Video Dr. Alberto Villoldo talks about "Light Body School" is from a [YouTube video](https://www.youtube.com/watch?v=01_wHY0zMDk)
+- Butterfly image from Alberto Villoldo's Facebook page [link](https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
 - Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
 
 ### Code
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
 - I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
-- [Bootstrap css hides portion of container below navbar navbar-fixed-top](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
+- Bootstrap css hides portion of container below navbar navbar-fixed-top [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
 - I have used a code snippet from slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
-- I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive the snippet is from (https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
+- I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive. The snippet is from [teamtreehouse.com](https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
 
 ### Acknowledgements
 
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
 - I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
 - mentors
-- [Bootstrap 4.0 Tutorial: Adding a Jumbotron & Carousel Slideshow](https://www.youtube.com/watch?v=6dG-2-Dyy9E) For help with ideas about sizing of photos for carousel.
 
 ## Disclaimer
 This website is being used for educational purposes only.
