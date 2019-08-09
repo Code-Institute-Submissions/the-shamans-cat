@@ -295,18 +295,18 @@ The site has the following common features on each page:
 
 #### Rates page 
 
-    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
+- Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
-    * contains a clear pricing structure
+- contains a clear pricing structure
 
-    *FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
+- FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
 
 
 #### Contact page 
 
-    * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
+- Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
-    * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
+- Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
 
 ### Features tried and taken off site because did not look good and/or work with the design concepts.
 
@@ -392,7 +392,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This project was developed using the IDE AWS Cloud9, and the versioning was controlled using git and GitHub. The project was deployed from its master branch on GitHub using the following procedure:
+This project was developed using the IDE AWS Cloud9, and the versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
 
 1.	Log into GitHub.
 2.	Open project from list of repositories by selecting **the-shamans-cat**.
@@ -427,7 +427,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
-- The text for Benefits .....
+- The text for Benefits [Olivia Weil](https://blog.sivanaspirit.com/sp-gn-healing-benefits-of-energy-work/)
 - Shamanic Energy Healing text from Alberto Villoldo's website [Alberto Villoldo's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The text for The Luminous Energy Field came from [Munay-Ki website](http://munay-ki.org/luminous-body/)
 - The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
