@@ -193,6 +193,25 @@ body {
 
 /* social links + hover*/
 
+.fab {
+    color: #263238;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* transforms to real colour of icon, colors from https://www.webnots.com/color-codes-for-social-networking-site-icons/ */
+
+.fa-linkedin:hover {
+    color:  #0077b5;
+}
+
+.fa-facebook-square:hover {
+    color:  #3b5998;
+}
+
+
 /* Media Qeries */
 
 /* Fixes issues with navbar-toggler overflowing on to next line on small devices below 373px (img-fluid on navbar-brand image did not fix this) */
