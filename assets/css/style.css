@@ -245,6 +245,12 @@ p,
 
 /* Large devices (desktops, 992px and up) */
 
+@media (min-width: 992px) {
+    .navbar li{
+        font-size: 1.3rem;
+    }
+}
+
 /*@media (min-width: 992px) {
     p,
     .benefits li,
