@@ -64,7 +64,7 @@ body {
 }
 
 .cc-home {
-    background: lightblue url("../images/salkantay-50-50.jpg") no-repeat bottom right fixed;
+    background: url("../images/salkantay-50-50.jpg") no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,7 @@ body {
 }
 
 .cc-seh {
-    background: lightblue url("../images/alex-grey-theologue-hd.jpg") no-repeat bottom right fixed;
+    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,7 +82,7 @@ body {
 }
 
 .cc-about {
-    background: lightblue url("../images/augustin-family.jpg") no-repeat bottom right fixed;
+    background: url("../images/augustin-family.jpg") no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,7 +91,7 @@ body {
 }
 
 .cc-rates {
-    background: lightblue url("../images/mesas.jpg") no-repeat bottom right fixed;
+    background: url("../images/mesas.jpg") no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,7 +100,7 @@ body {
 }
 
 .cc-contact {
-    background: lightblue url("../images/despacho-augustin-luis-50.jpg") no-repeat bottom right fixed;
+    background: url("../images/despacho-augustin-luis-50.jpg") no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
