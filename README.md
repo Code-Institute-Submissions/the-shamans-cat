@@ -431,6 +431,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Shamanic Energy Healing text from Alberto Villoldo's website [Alberto Villoldo's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The text for The Luminous Energy Field came from [Munay-Ki website](http://munay-ki.org/luminous-body/)
 - The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
+- The Shaman's Mesa text comes from [The Four Winds blog](https://thefourwinds.com/blog/shamanism/what-is-a-shamans-mesa/)
 - Text for Illumination was taken from [Alberto Villoldo's website](http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
 
 ### Media
@@ -445,6 +446,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Video Dr. Alberto Villoldo talks about "Light Body School" is from a [YouTube video](https://www.youtube.com/watch?v=01_wHY0zMDk)
 - Butterfly image from Alberto Villoldo's Facebook page [link](https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
 - Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
+
 
 ### Code
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.

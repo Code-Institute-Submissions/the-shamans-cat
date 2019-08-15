@@ -82,7 +82,7 @@
         <div class="container-fluid mb-3">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 text-center">
-                    <h2>Contact Form</h2>
+                    <h2 id="#contact">Contact Form</h2>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
                             <div class="form-group">
                                 <label for="select">Please select a topic for your message * </label>
                                 <select class="form-control" id="select" required>
-                                    <option></option>
+                                    <option disabled selected value> -- select an option -- </option> <!-- code from https://stackoverflow.com/questions/8605516/default-select-option-as-blank-->
                                     <option>I would like to book a session</option>
                                     <option>I would like more information about ...</option>
                                     <option>I would like to request a call with you</option>
