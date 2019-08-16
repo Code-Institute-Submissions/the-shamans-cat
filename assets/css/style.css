@@ -54,7 +54,7 @@ body {
 /* Containers' code is based on code from the Whiskey Drop lesson*/
 
 .callout-container {
-    height: 75vh;
+    height: 82vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,7 +77,7 @@ body {
 }
 
 .cc-seh {
-    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center 45px fixed;
+    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -85,7 +85,7 @@ body {
 }
 
 .cc-about {
-    background: url("../images/augustin-family.jpg") no-repeat center 45px fixed;
+    background: url("../images/augustin-family.jpg") no-repeat right 55% top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,7 +101,7 @@ body {
 }
 
 .cc-contact {
-    background: url("../images/despacho-augustin-luis-50.jpg") no-repeat right 80% fixed;
+    background: url("../images/despacho-augustin-luis-50.jpg") no-repeat left 90% bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
