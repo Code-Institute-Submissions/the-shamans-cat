@@ -433,6 +433,8 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
 - The Shaman's Mesa text comes from [The Four Winds blog](https://thefourwinds.com/blog/shamanism/what-is-a-shamans-mesa/)
 - Text for Illumination was taken from [Alberto Villoldo's website](http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
+- text for Exraction was taken from [Alberto Villoldo's website](https://thefourwinds.com/blog/shamanism/extraction-part-●-hardened-energies/)
+- Text for Ancestral healing taken from [Shamanic Vision website](https://shamanic-vision.net/2019/07/28/ancestoral-healing/)
 
 ### Media
 - The photos used in this site unless specifically noted here are all copyright to Helen Sayer.

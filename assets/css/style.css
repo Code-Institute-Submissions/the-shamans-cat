@@ -12,9 +12,13 @@ h6 {
     font-weight: 700;
 }
 
-p, .benefits li {
+p, .benefits li, .card-lists li, .card-body p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+.card-title i {
+    font-size: 3rem;
 }
 
 /*smooth scroll*/
@@ -128,14 +132,12 @@ body {
 }
 
 .btn-terms-conditions:focus {
-    -webkit-box-shadow: none;
     box-shadow: none;
-
 }
 
-
-
-
+.btn-read-more {
+    border: none;
+}
 
 /* Jumbotron */
 
@@ -164,7 +166,7 @@ body {
 }
 
 
-/*code from Slack by Simen Daehlin */
+/*Code from Slack by Simen Daehlin */
 
 .video-container {
     position: relative;
@@ -184,9 +186,12 @@ body {
     height: 100%;
 }
 
-/* footer */
+/* Cards */
 
-/* social links + hover*/
+
+/* Footer */
+
+/* Social links + hover*/
 
 .fab {
     color: #263238;
@@ -230,6 +235,7 @@ body {
 
 p,
 .benefits li,
+.card-lists li,
 .form-group,
 .form-control {
     font-size: 1rem;
@@ -240,6 +246,7 @@ p,
 @media (min-width: 576px) {
     p,
     .benefits li,
+    .card-lists li,
     .form-group,
     .form-control {
         font-size: 1.1rem;
@@ -251,6 +258,7 @@ p,
 @media (min-width: 768px) {
     p,
     .benefits li,
+    .card-lists li,
     .form-group,
     .form-control {
         font-size: 1.2rem;
@@ -268,6 +276,7 @@ p,
 /*@media (min-width: 992px) {
     p,
     .benefits li,
+    .card-lists li,
     .form-group,
     .form-control {
         font-size: 1.6rem;
