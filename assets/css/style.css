@@ -93,7 +93,7 @@ body {
 }
 
 .cc-rates {
-    background: url("../images/mesas.jpg") no-repeat center fixed;
+    background: url("../images/mesas.jpg") no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

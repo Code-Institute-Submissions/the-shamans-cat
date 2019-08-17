@@ -435,6 +435,12 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Text for Illumination was taken from [Alberto Villoldo's website](http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
 - text for Exraction was taken from [Alberto Villoldo's website](https://thefourwinds.com/blog/shamanism/extraction-part-●-hardened-energies/)
 - Text for Ancestral healing taken from [Shamanic Vision website](https://shamanic-vision.net/2019/07/28/ancestoral-healing/)
+- Text for Cord Cutting taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
+- Text for the Despacho taken from [The Four Winds](https://thefourwinds.com/blog/shamanism/what-is-a-despacho/)
+- Text for Death Rites taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
+- Text taken for Destiny Retrieval from  [Kitty Norris](https://kittynorris.com/frequently-asked-questions/)
+- Text taken for Fire Ceremony from [The Four Winds](https://thefourwinds.com/blog/the-shaman-and-relationships/fire-ceremony/)
+
 
 ### Media
 - The photos used in this site unless specifically noted here are all copyright to Helen Sayer.
