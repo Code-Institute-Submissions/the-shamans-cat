@@ -23,8 +23,9 @@
     <nav class="navbar fixed-top navbar-dark bg-secondary text-white font-weight-bold navbar-expand-md">
 
         <!-- Navbar-brand - Logo-->
-        <a class="navbar-brand img-responsive" href="index.html">
-                <img class="logo" src="assets/images/logo-white-8-res-50.png" alt="Logo" title="Click to go home"></a>
+        <a class="navbar-brand img-responsive logo" href="index.html">
+                <img src="assets/images/logo-white-8-res-50.png" alt="Logo" title="Click to go home">
+        </a>
 
         <!-- Navbar-toggler - Hamburger icon on smaller devices-->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +64,7 @@
     <main>
 
         <!-- Callout -->
-        <div class="container-fluid callout-container cc-seh mb-5">
+        <div class="container-fluid callout-container cc-seh my-5">
             <div class="opaque-overlay">&nbsp;</div>
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -78,13 +79,13 @@
         <!-- /.callout -->
 
         <!--Shamanic Energy Healing-->
-        <article class="container-fluid">
+        <article class="container-fluid my-5">
             <div class="row justify-content-center pt-3">
                 <div class="col-10">
                     <h2 class="text-center">Shamanic Energy Healing</h2>
                 </div>
             </div>
-            <div class="row justify-content-center py-3">
+            <div class="row justify-content-center pt-5">
                 <div class="col-10 col-lg-6 px-auto">
                     <p>Shamans believe that the world seems real only because we perceive it as such and that everything we perceive is a reflection of an internal, individual “map” or blueprint that each of us has constructed about the nature of reality.</p>
                     <p>These maps are stored in what shamans define as the Light Body or Luminous Energy Field (LEF), and what scientists call neural networks in our brain. Many investigators believe that the Light Body is simply an aura produced by electric
@@ -92,7 +93,7 @@
                         and the nervous system. Shamans know that if they wish to change the outer world, they must begin by changing the inner maps, by healing the imprints of disease and trauma from the Light Body. They believe that the Light Body is
                         the blueprint that creates health or disease and that greater understanding of this Light Body process can induce self-healing. … Alberto Violldo</p>
                 </div>
-                <div class="col-10 col-lg-4 pt-2 pb-5 px-auto">
+                <div class="col-10 col-lg-4 px-auto pt-2">
                     <h5 class="pb-2 text-center">Dr. Alberto Villoldo talks about the Light Body School and various healing techniques used</h5>
                     <!-- 16:9 aspect ratio -->
                     <div class="video-container embed-responsive embed-responsive-16by9 mb-3"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/01_wHY0zMDk" allowfullscreen="true" title="Dr. Alberto Villoldo talks about the Light Body and various healing techniques"></iframe></div>
@@ -102,7 +103,7 @@
         <!--./Shamanic Energy Healing-->
 
         <!--The luminous Energy Field-->
-        <article class="container-fluid">
+        <article class="container-fluid my-5">
             <div class="row justify-content-center pt-3">
                 <div class="col-10">
                     <h2 class="text-center">The Luminous Energy Field</h2>
@@ -127,16 +128,22 @@
 
                     <p>Emotional imprints are stored in the second layer, soul imprints in the third, and spiritual imprints in the fourth and deepest layer. Imprints in the LEF predispose us to follow certain pathways in life; they orchestrate incidents,
                         experiences, and the people we attract to ourselves.</p>
-
-                    <p>The LEF contains a template of how we live, how we age, how we heal, and how we might die. When there is no imprint for disease in the LEF, recovery from an illness happens at tremendous speed. By the same token, imprints can depress
-                        the immune system, and it can take a long time for us to regain our health during illness. When we erase the negative imprint that caused the onset of illness, the immune system can rapidly eradicate the disease.</p>
+                    <!-- Collapse -->
+                    <div class="row justify-content-center">
+                        <p><button class="btn btn-secondary btn-sm btn-read-more" type="button" data-toggle="collapse" data-target="#seh-lef-collapse" aria-expanded="false" aria-controls="seh-lef-collapse">Read more/less</button>
+                        </p>
+                    </div>
+                    <div class="chakra collapse" id="seh-lef-collapse">
+                        <p>The LEF contains a template of how we live, how we age, how we heal, and how we might die. When there is no imprint for disease in the LEF, recovery from an illness happens at tremendous speed. By the same token, imprints can depress
+                            the immune system, and it can take a long time for us to regain our health during illness. When we erase the negative imprint that caused the onset of illness, the immune system can rapidly eradicate the disease.</p>
+                    </div>
                 </div>
             </div>
         </article>
         <!--./The luminous Energy Field-->
 
         <!--The Chakra System-->
-        <article class="container-fluid">
+        <article class="container-fluid my-5">
             <div class="row justify-content-center pt-3">
                 <div class="col-10">
                     <h2 class="text-center">The Chakras:</h2>
@@ -159,7 +166,6 @@
 
                     <!-- Collapse -->
                     <div class="row justify-content-center">
-                        <!-- centres button-->
                         <p><button class="btn btn-secondary btn-sm btn-read-more" type="button" data-toggle="collapse" data-target="#seh-chakra-collapse" aria-expanded="false" aria-controls="seh-chakra-collapse">Read more/less</button>
                         </p>
                     </div>
@@ -216,7 +222,7 @@
         <!--./The Chakra System-->
 
         <!-- The Shaman's Mesa -->
-        <article class="container-fluid mb-5">
+        <article class="container-fluid my-5">
             <div class="row justify-content-center py-3">
                 <div class="col-10">
                     <h2 class="text-center pb-3">The Shaman's Mesa</h2>
@@ -252,13 +258,13 @@
         <!-- ./The Shaman's Mesa -->
 
         <!--Healing Processes-->
-        <div class="container-fluid my-3 mx-auto">
+        <div class="container-fluid my-5 mx-auto">
             <div class="row justify-content-center">
                 <div class="col-10 text-center">
                     <h2>Healing Processes</h2>
                     <p>There are a number of processes that may be used during a healing session:</p>
                 </div>
-
+            </div>
                 <!-- card-deck -->
                 <div class="card-deck container-fluid pb-5">
 
@@ -553,10 +559,10 @@
                             <!--./ Fire Ceremony -->
 
                         </div>
-                        
+
                     </div>
                     <!--./ card-deck -->
-                    
+
                 </div>
             </div>
             <!--./Healing Processes-->
@@ -568,8 +574,8 @@
 
         <div class="row no-gutters text-center pt-2">
             <div class="col-sm-4 mt-3">
-                <a class="footer-brand img-responsive" href="index.html">
-                <img class="logo" src="assets/images/logo-white-8-res-50.png" alt="footer-brand" title="Click to go home">
+                <a class="footer-brand img-responsive logo" href="index.html">
+                <img src="assets/images/logo-white-8-res-50.png" alt="footer-brand" title="Click to go home">
             </a>
             </div>
             <div class="col-sm-4 mt-3">
