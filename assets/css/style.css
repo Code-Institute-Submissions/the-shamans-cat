@@ -28,6 +28,7 @@ html {
 }
 
 /* paddings/margins/borders */
+
 /*
 body {
     padding-top: 54px;
@@ -55,7 +56,7 @@ body {
 /* Containers' code is based on code from the Whiskey Drop lesson*/
 
 .callout-container {
-    height: 82vh;
+    height: 90vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -78,7 +79,7 @@ body {
 }
 
 .cc-seh {
-    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center top fixed;
+    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +87,7 @@ body {
 }
 
 .cc-about {
-    background: url("../images/agustin-family.jpg") no-repeat right 55% top fixed;
+    background: url("../images/agustin-family.jpg") no-repeat right 56% top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +95,7 @@ body {
 }
 
 .cc-rates {
-    background: url("../images/mesas.jpg") no-repeat center bottom fixed;
+    background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,7 +103,7 @@ body {
 }
 
 .cc-contact {
-    background: url("../images/despacho-augustin-luis-50.jpg") no-repeat left 90% bottom fixed;
+    background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -219,12 +220,12 @@ body {
 
 @media screen and (max-width: 576px) {
     .logo img {
-        width: 134px;
-        height: 22px;
+        width: 150px;
+        height: 24px;
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
     .logo img {
         width: 184px;
         height: 30px;
