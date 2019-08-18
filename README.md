@@ -427,7 +427,8 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
-- The text for Benefits [Olivia Weil](https://blog.sivanaspirit.com/sp-gn-healing-benefits-of-energy-work/)
+- The first list of benefits was taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
+- The second list of Benefits was taken from [Olivia Weil](https://blog.sivanaspirit.com/sp-gn-healing-benefits-of-energy-work/)
 - Shamanic Energy Healing text from Alberto Villoldo's website [Alberto Villoldo's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The text for The Luminous Energy Field came from [Munay-Ki website](http://munay-ki.org/luminous-body/)
 - The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
