@@ -57,6 +57,7 @@ body {
 /* Containers' code is based on code from the Whiskey Drop lesson*/
 
 .callout-container {
+    margin-top: 56px;
     height: 90vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
