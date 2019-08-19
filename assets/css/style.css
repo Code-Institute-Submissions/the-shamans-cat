@@ -58,7 +58,7 @@ body {
 
 .callout-container {
     margin-top: 56px;
-    height: 90vh;
+    height: 85vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -127,7 +127,7 @@ body {
 
 .btn-contact {
     font-weight: bold;
-    width: 160px;
+    width: 170px;
 }
 
 
