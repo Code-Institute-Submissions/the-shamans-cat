@@ -37,20 +37,21 @@ body {
 */
 
 /* Navbar */
-
-/* Improves dropdown menu on Site Directory so it looks more like rest of navbar, for improved user experience */
+/*
+/* Improves dropdown menu on Site Directory so it looks more like rest of navbar, for improved user experience ----
 
 .navbar a {
     color: #666666;
     font-weight: 500;
 }
 
-/* dropdown list hover color grey/blue to blend towards Bootstrap blue of item when selected */
+/* dropdown list hover color grey/blue to blend towards Bootstrap blue of item when selected --------
 
 .navbar a:hover {
     color: #66b5ff;
     font-weight: 700;
 }
+*/
 
 /* Containers */
 /* Containers' code is based on code from the Whiskey Drop lesson*/
@@ -302,4 +303,4 @@ p,
     }
 }*/
 
-/* End of copied code snippet*/
+/* End of modified code snippet*/
