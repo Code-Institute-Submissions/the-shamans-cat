@@ -146,9 +146,13 @@ main {
 
 /* Jumbotron */
 
+.jumbo-div {
+    background-color: rgba(84,109,145,0.6);
+}
+
+
 .jumbotron {
     background-color: transparent;
-
 }
 
 .jumbotron-header {
@@ -277,7 +281,7 @@ p,
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     p,
     .benefits li,
     .card-lists li,
@@ -289,7 +293,7 @@ p,
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     p,
     .benefits li,
     .card-lists li,
@@ -301,7 +305,7 @@ p,
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .navbar li {
         font-size: 1.3rem;
     }
@@ -318,3 +322,17 @@ p,
 }*/
 
 /* End of modified code snippet*/
+
+/* Fix for jumbotron text in cc-home being too large for i-phone 5/SE and Galaxy S5 */
+
+@media screen and (max-width: 360px) {
+    .cc-home .lead {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cc-home .jumbotron-header {
+        font-size: 2rem;
+    }
+}
