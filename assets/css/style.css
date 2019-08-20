@@ -147,7 +147,7 @@ main {
 /* Jumbotron */
 
 .jumbo-div {
-    background-color: rgba(84,109,145,0.6);
+    background-color: rgba(84,109,145,0.3);
 }
 
 
@@ -334,5 +334,19 @@ p,
 @media screen and (max-width: 360px) {
     .cc-home .jumbotron-header {
         font-size: 2rem;
+    }
+}
+
+/* Videos on home page have long titles which wrap and change layout media query to fix this */
+
+@media screen and (min-width: 992px) and  (max-width: 1080px){
+    .home-videos-title {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1500px) {
+    .home-videos-title {
+        font-size: 1.0rem;
     }
 }
