@@ -64,7 +64,6 @@ main {
 /* Containers' code is based on code from the Whiskey Drop lesson*/
 
 .callout-container {
-   /* margin-top: 58px;*/
     height: 85vh;
     /* allows info below the fold to show on most screens to encourage users to scroll down. */
     display: -webkit-box;
@@ -215,14 +214,16 @@ main {
 
 /*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
 
-
+/*
 @media screen and (max-width: 768px ) {
 body {
     padding-top: -20px;
     }
 }
+*/
 
 /* Changes size of navbar-brand so is in proportion and does not wrap toggler icon on small devices */
+
 
 @media screen and (max-width: 576px) {
     .logo img {
@@ -231,7 +232,8 @@ body {
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .logo img {
         width: 184px;
         height: 30px;
