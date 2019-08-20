@@ -81,41 +81,26 @@ main {
 
 .cc-home {
     background: url("../images/salkantay-50-50.jpg") center top no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .cc-sh {
     background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .cc-about {
     background: url("../images/agustin-family.jpg") no-repeat right 56% top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .cc-rates {
     background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .cc-contact {
     background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80% fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -143,7 +128,8 @@ main {
 }
 
 .btn-terms-conditions:focus {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .btn-read-more {
@@ -173,6 +159,8 @@ main {
 
 .mission {
     display: block;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(76,101,138,0)), to(rgba(133,172,254,0.6)));
+    background-image: -o-linear-gradient(top, rgba(76,101,138,0), rgba(133,172,254,0.6));
     background-image: linear-gradient(to bottom, rgba(76,101,138,0), rgba(133,172,254,0.6));
 }
 
@@ -227,18 +215,12 @@ main {
 
 /*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
 
-/*@media screen and (min-width: 992px ) {
+
+@media screen and (max-width: 768px ) {
 body {
-    margin-top: 13px;
+    padding-top: -20px;
     }
 }
-
-@media screen and (max-width: 425px ) {
-body {
-    margin-top: 56px;
-
-    }
-}*/
 
 /* Changes size of navbar-brand so is in proportion and does not wrap toggler icon on small devices */
 

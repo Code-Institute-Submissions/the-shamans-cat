@@ -257,10 +257,10 @@ The site has the following common features on each page:
     * Article outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users. A ‘read more’ button is being used. This uses Bootstrap accordion feature.
 
 
-#### Shamanic-Energy-Healing page
+#### Shamanic-Healing page
 
 
-- Shamanic energy healing - a more detailed look at shamanic healing, with another video embedded from YouTube, with sound off default.
+- Shamanic healing - a more detailed look, with another video embedded from YouTube, with sound off default.
 
 - The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
 
@@ -333,8 +333,11 @@ The site has the following common features on each page:
 - Online Payment for sessions at point of booking
 - Shop selling related books via links to Amazon
 
+## Surface Plane
 
 ## Technologies Used
+
+The following languages, frameworks and tools were used in the development of this site. HTML, CSS and Bootstrap provided the basic code for the site. Bootstrap classes were used as much as possible to save on writing new code in CSS.
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -360,7 +363,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**jQuery**](https://jquery.com/) is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is used by Bootstrap to reference JavaScript used by the navbar.
 
-- [**Git**](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development.
+- [**Git**](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development. The history of this website's development can be found in the Git log on my GitHub repository.
 
 ### Tools used
 - [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
