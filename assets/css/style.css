@@ -27,6 +27,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #fefefa;
+}
+
+
 /* paddings/margins/borders */
 
 
