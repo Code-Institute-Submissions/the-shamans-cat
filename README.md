@@ -444,6 +444,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Text for Death Rites taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
 - Text taken for Destiny Retrieval from  [Kitty Norris](https://kittynorris.com/frequently-asked-questions/)
 - Text taken for Fire Ceremony from [The Four Winds](https://thefourwinds.com/blog/the-shaman-and-relationships/fire-ceremony/)
+- Text for FAQs based on websites and information from [Kitty Norris](https://kittynorris.com/frequently-asked-questions/) and Eileen Mullard.
 
 
 ### Media
