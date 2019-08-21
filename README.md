@@ -233,7 +233,7 @@ The site has the following common features on each page:
 
 - **Footer** – This is at the bottom of every page and contains:
     *   Copyright for protection of business data. 
-    *   A Terms & Condtion's modal to clarify matter legally. 
+    *   A Terms & Condition's modal to clarify matter legally. 
     *   Contact button which leads to the contact form.
     *   Social media icons providing links to other social platforms used by the shaman.
 
@@ -351,13 +351,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
-- [**Fancybox**](https://fancyapps.com/fancybox/3/) is a JavaScript lightbox library for presenting various types of media it is responsive, touch-enabled and customizable. Used to produce a picture gallery.
-
 - [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit which adds extra icons to enhance the appearance of the website.
 
 - [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
-
-- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
 
 - [**Popper.js**](https://popper.js.org/) is a positioning engine; its purpose is to calculate the position of an element to make it possible to position it near a given reference element. This is used by Bootstrap to produce Dropdowns for displaying and positioning i.e. navbar dropdown menus 
 
@@ -369,6 +365,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
 - [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughout development and to do final checks before project submission.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughout development and to do final checks before project submission.
+- [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
+
 
 ## Testing
 
@@ -437,7 +435,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - The text for the Chakra section comes from [Munay-Ki website](http://munay-ki.org/chakras-anatomy-of-the-soul/)
 - The Shaman's Mesa text comes from [The Four Winds blog](https://thefourwinds.com/blog/shamanism/what-is-a-shamans-mesa/)
 - Text for Illumination was taken from [Alberto Villoldo's website](http://albertovilloldophd.com/chakra-cleansing-removing-toxic-emotions/) 
-- text for Exraction was taken from [Alberto Villoldo's website](https://thefourwinds.com/blog/shamanism/extraction-part-●-hardened-energies/)
+- text for Extraction was taken from [Alberto Villoldo's website](https://thefourwinds.com/blog/shamanism/extraction-part-●-hardened-energies/)
 - Text for Ancestral healing taken from [Shamanic Vision website](https://shamanic-vision.net/2019/07/28/ancestoral-healing/)
 - Text for Cord Cutting taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
 - Text for the Despacho taken from [The Four Winds](https://thefourwinds.com/blog/shamanism/what-is-a-despacho/)
