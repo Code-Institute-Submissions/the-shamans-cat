@@ -472,7 +472,8 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
 - I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
-- mentors
+- Thanks to anyone on Slack who responded to my questions relating to this site.
+- Mentors
 
 ## Disclaimer
 This website is being used for educational purposes only.
