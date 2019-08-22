@@ -1,6 +1,6 @@
 
 
-<div align="center">
+
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
 # THE SHAMAN'S CAT
@@ -8,8 +8,7 @@
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-*If you wish to cut and paste to browser the file path is https://helensayer.github.io/the-shamans-cat*  
-</div>  
+*If you wish to cut and paste the URL to browser, the file path is https://helensayer.github.io/the-shamans-cat*  
   
 ***
 
@@ -367,6 +366,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughout development and to do final checks before project submission.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughout development and to do final checks before project submission.
 - [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
+- [PhotoShop Elements](https://www.adobe.com/uk/products/photoshop-premiere-elements.html) used to resize, and prepare images for the web.
+- [TinyPNG](https://tinypng.com/) to compress image files to reduce their size which in turn reduces the images load time on the webpage.
 
 
 ## Testing
