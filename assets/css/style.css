@@ -145,10 +145,10 @@ main {
 }
 
 /* Jumbotron */
-
+/*
 .jumbo-div {
     background-color: rgba(84,109,145,0.3);
-}
+}*/
 
 
 .jumbotron {
@@ -235,6 +235,18 @@ main {
 }
 
 .btn-link:hover {
+    color: #633fb5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-link:active {
+    color: #633fb5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-link:visited {
     color: #633fb5;
     font-weight: 700;
     text-decoration: none;
