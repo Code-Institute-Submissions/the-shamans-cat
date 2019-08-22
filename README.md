@@ -8,7 +8,8 @@
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-*For reference the file path is https://helensayer.github.io/the-shamans-cat*  </div>  
+*If you wish to cut and paste to browser the file path is https://helensayer.github.io/the-shamans-cat*  
+</div>  
   
 ***
 
