@@ -428,7 +428,6 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The first list of benefits was taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
 - The second list of Benefits was taken from [Olivia Weil](https://blog.sivanaspirit.com/sp-gn-healing-benefits-of-energy-work/)
@@ -451,7 +450,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - The photos used in this site unless specifically noted here are all copyright to Helen Sayer.
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
 - The logo was taken from an idea in [Wiki Logo Maker](https://www.brandcrowd.com/maker/tag/wiki).
-- Black cat "Cheetah Running Silhouette" at top of readme is from [getdrawings.com](http://getdrawings.com/cheetah-running-silhouette")
+- Black cat "Cheetah Running Silhouette" at top of readme is from [getdrawings.com](http://getdrawings.com/cheetah-running-silhouettehttp://getdrawings.com/cheetah-running-silhouette#cheetah-running-silhouette-23.jpg")
 - [Luminous energy picture](https://cdn.alexgrey.com/wp-content/uploads/2012/06/28211220/Alex_Grey-Theologue.jpg) Is by the artist Alex Grey.
 - Video the Role of Shamanism in Modern Societies with Dr. Alberto Villoldo, Jon Rasmussen and Guests is from a [YouTube video](https://www.youtube.com/watch?v=PF_9iWnLnDA)
 - Video The Critical Role and Task of Modern Shamans is from a [YouTube video](https://www.youtube.com/watch?v=FIb4KzSFbgI)
@@ -467,6 +466,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Bootstrap css hides portion of container below navbar navbar-fixed-top [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
 - I have used a code snippet from slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
 - I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive. The snippet is from [teamtreehouse.com](https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
+- For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions)
 
 ### Acknowledgements
 
