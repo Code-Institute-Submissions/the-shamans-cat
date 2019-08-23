@@ -34,7 +34,6 @@ body {
     background-color: #fefefa;
 }
 
-
 /* paddings/margins/borders */
 
 /*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
@@ -43,30 +42,11 @@ body {
     padding-bottom: 10px;
 }
 
-
-
-
 /* Navbar */
 
 main {
     margin-top: 58px;
 }
-
-/*
-/* Improves dropdown menu on Site Directory so it looks more like rest of navbar, for improved user experience ----
-
-.navbar a {
-    color: #666666;
-    font-weight: 500;
-}
-
-/* dropdown list hover color grey/blue to blend towards Bootstrap blue of item when selected --------
-
-.navbar a:hover {
-    color: #66b5ff;
-    font-weight: 700;
-}
-*/
 
 /* Containers */
 
@@ -121,15 +101,12 @@ main {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-
-
 /* buttons */
 
 .btn-contact {
     font-weight: bold;
     width: 170px;
 }
-
 
 .btn-terms-conditions {
     border: none;
@@ -144,6 +121,7 @@ main {
     border: none;
 }
 
+/* Jumbotron */
 .jumbotron {
     background-color: transparent;
 }
@@ -169,7 +147,6 @@ main {
     background-image: linear-gradient(to bottom, rgba(76, 101, 138, 0), rgba(133, 172, 254, 0.6));
 }
 
-
 /*Code from Slack by Simen Daehlin */
 
 .video-container {
@@ -189,8 +166,6 @@ main {
     width: 100%;
     height: 100%;
 }
-
-/* Cards */
 
 /* Footer */
 
@@ -248,16 +223,6 @@ main {
 
 /* Media Qeries */
 
-/*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
-
-/*
-@media screen and (max-width: 768px ) {
-body {
-    padding-top: -20px;
-    }
-}
-*/
-
 /* Changes size of navbar-brand so is in proportion and does not wrap toggler icon on small devices */
 
 @media screen and (max-width: 576px) {
@@ -266,7 +231,6 @@ body {
         height: 24px;
     }
 }
-
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .logo img {
@@ -334,18 +298,8 @@ p,
         font-size: 1.3rem;
     }
 }
-
-/*@media (min-width: 992px) {
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.6rem;
-    }
-}*/
-
 /* End of modified code snippet*/
+
 
 /* Fix for jumbotron text in cc-home being too large for i-phone 5/SE and Galaxy S5 */
 
@@ -360,6 +314,7 @@ p,
         font-size: 2rem;
     }
 }
+
 
 /* Videos on home page have long titles which wrap and change layout media query to fix this */
 
