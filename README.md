@@ -1,6 +1,4 @@
-
-
-
+<div align="center">
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
 # THE SHAMAN'S CAT
@@ -8,9 +6,16 @@
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-*If you wish to cut and paste the URL to browser, the file path is https://helensayer.github.io/the-shamans-cat*  
-  
+</div> 
+ 
 ***
+This is a website for a shaman who offers energy-healing to clients. 
+The site features:
+* a home page which gives and overview of shamanism, its role in our modern world, and its benefits, using a mixture of pictures, text and videos. 
+* the shamanic-energy page has a more detailed explanation of shamanic energy healing, with a video and a brief description of the processes used. 
+* The about page explains the background and training of the shaman to establish their credibility in doing this work.
+* The rates page outlines the pricing structure for a sesssion and has a FAQs section.
+* The contact page has a contact form.
 
 
 ## Table of Contents
@@ -77,6 +82,7 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 ## UX Strategy - Why does this site exist?
 
+
 ### Business Objectives
 The main aim of the website is to generate paying clients for the shamanic energy healing practitioner, who is starting a new business. 
 The website acts as a portal, introducing the potential client to this mode of energy healing, explaining the principles and benefits with text, pictures, diagrams and videos. 
@@ -107,7 +113,7 @@ Potential clients can contact the shamanic energy healing for more information a
 
 ### What the users of the site want
 The users of this site:
-1. are looking for a Shamanic energy healer to book a session.
+1. are looking for this shamanic energy healer to book a session.
 2. are checking the credentials of the shamanic energy healer with a view to booking a session.
 3. are looking for the price of a session.
 3. came across the site via an internet search and want to learn more.
@@ -125,7 +131,7 @@ The physical location of the practitioner is not an issue, as many types of sess
 ### Research
 Talked to fellow shamanic practitioners. 
 Looked at competitors’ websites to see how they were marketing themselves and the quality of their websites. 
-Some of these websites were very old, missing favicons, non-responsive, poorly designed, too much text or text unreadable over background pictures,
+Some of these websites were very old, missing favicons, non-responsive, poorly designed, too much text or text unreadable over busy background pictures,
 terrible choices of colour schemes, that would give you a headache, and poorly cropped/focused pictures which did not relate to the text. 
 
 

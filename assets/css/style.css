@@ -68,7 +68,7 @@ main {
 }
 
 .cc-home {
-    background: url("../images/salkantay-50-50.jpg") center top no-repeat fixed;
+    background: url("../images/salkantay-50-50-90-comp.jpg") center top no-repeat fixed;
     background-size: cover;
 }
 
@@ -98,7 +98,7 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* buttons */
