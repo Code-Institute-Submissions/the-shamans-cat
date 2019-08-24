@@ -470,9 +470,10 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
 - I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
 - Bootstrap css hides portion of container below navbar navbar-fixed-top [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
-- I have used a code snippet from slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
+- I have used a code snippet from CI Slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
 - I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive. The snippet is from [teamtreehouse.com](https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
 - For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions)
+- For aligning the the 'Read more" buttons at the bottom of the cards in the card-deck Healing Processes I based my code on an answer in [Stackoverflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
 ### Acknowledgements
 

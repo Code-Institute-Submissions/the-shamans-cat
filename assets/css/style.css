@@ -34,6 +34,10 @@ body {
     background-color: #fefefa;
 }
 
+.modal-content {
+    background-color: #fefefa;
+}
+
 /* paddings/margins/borders */
 
 /*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
@@ -121,6 +125,15 @@ main {
     border: none;
 }
 
+/* Buttons on Modals in Healing Processes */
+
+/*.align-self-end {
+    margin-bottom: 2;
+}*/
+
+
+
+
 /* Jumbotron */
 .jumbotron {
     background-color: transparent;
@@ -188,7 +201,6 @@ main {
 .fa-facebook-square:hover {
     color: #3b5998;
 }
-
 
 /* FAQs - Accordion styling to improve UX */
 
