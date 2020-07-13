@@ -87,7 +87,7 @@ Use this section to provide insight into your UX process, focusing on who this w
 The main aim of the website is to generate paying clients for the shamanic energy healing practitioner, who is starting a new business. 
 The website acts as a portal, introducing the potential client to this mode of energy healing, explaining the principles and benefits with text, pictures, diagrams and videos. 
 It describes the practitioner’s background and training, as well as giving client testimonials, to demonstrate the practitioner’s credibility in doing this work. 
-Potential clients can contact the shamanic energy healing for more information and to book a session, by using the contact details either in the footer or on the contact page. 
+Potential clients can contact the shamanic energy healer for more information and to book a session, by using the contact details either in the footer or on the contact page. 
 
 1.	Generate paying clients for the shamanic energy healing practitioner.
 

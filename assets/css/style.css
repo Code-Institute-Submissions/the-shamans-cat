@@ -193,6 +193,11 @@ main {
     color: #3b5998;
 }
 
+.fa-skype:hover {
+    color: #00aff0;
+}
+
+
 /* FAQs - Accordion styling to improve UX */
 
 .card-header {
