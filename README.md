@@ -210,7 +210,7 @@ The wireframes were made using Balsamiq and exported as pdf files and can ve vie
 - <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf" target="_blank" rel="noopener">Home</a>
 - <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf" target="_blank" rel="noopener">Shamanic Energy Healing</a>
 - <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf" target="_blank" rel="noopener">About</a>
-- <a href="(https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf" target="_blank" rel="noopener">Rates</a>
+- <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf" target="_blank" rel="noopener">Rates</a>
 - <a href="https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf" target="_blank" rel="noopener">Contact</a>  
  
 
