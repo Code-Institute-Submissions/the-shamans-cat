@@ -24,11 +24,14 @@ p,
     font-size: 3rem;
 }
 
-/*smooth scroll*/
+/* smooth scroll */
 
 html {
     scroll-behavior: smooth;
 }
+
+
+/* colors */
 
 body {
     background-color: #fefefa;
@@ -36,6 +39,10 @@ body {
 
 .modal-content {
     background-color: #fefefa;
+}
+
+.card-body i {
+    color: #bf00ff;
 }
 
 /* paddings/margins/borders */
@@ -110,6 +117,7 @@ main {
 .btn-contact {
     font-weight: bold;
     width: 170px;
+    color: #bf00ff;
 }
 
 .btn-terms-conditions {
@@ -171,6 +179,8 @@ main {
     height: 100%;
 }
 
+
+
 /* Footer */
 
 /* Social links + hover*/
@@ -195,6 +205,10 @@ main {
 
 .fa-skype:hover {
     color: #00aff0;
+}
+
+.fa-whatsapp-square:hover {
+    color: #25d366
 }
 
 
