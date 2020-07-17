@@ -42,7 +42,7 @@ body {
 }
 
 .card-body i {
-    color: #bf00ff;
+    color: #8A2BE2;
 }
 
 /* paddings/margins/borders */
@@ -58,6 +58,7 @@ body {
 main {
     margin-top: 58px;
 }
+
 
 /* Containers */
 
@@ -78,27 +79,27 @@ main {
     position: relative;
 }
 
-.cc-home {
-    background: url("../images/salkantay-50-50-90-comp.jpg") center top no-repeat fixed;
+.callout-container-home {
+    background: url("../images/salkantay-50-50-90-comp.jpg") no-repeat center top fixed;
     background-size: cover;
 }
 
-.cc-sh {
+.callout-container-sh {
     background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom fixed;
     background-size: cover;
 }
 
-.cc-about {
+.callout-container-about {
     background: url("../images/agustin-family.jpg") no-repeat right 58% top fixed;
     background-size: cover;
 }
 
-.cc-rates {
+.callout-container-rates {
     background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom fixed;
     background-size: cover;
 }
 
-.cc-contact {
+.callout-container-contact {
     background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80% fixed;
     background-size: cover;
 }
@@ -109,7 +110,7 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* buttons */
@@ -117,7 +118,7 @@ main {
 .btn-contact {
     font-weight: bold;
     width: 170px;
-    color: #bf00ff;
+    color: #8A2BE2;
 }
 
 .btn-terms-conditions {
@@ -149,6 +150,10 @@ main {
     color: white;
     font-weight: bold;
 }
+
+ .emphasize-jumbotron-text {
+     background-color: rgba(0, 0, 0, 0.2);
+ }
 
 /* Mission Statement */
 
