@@ -172,7 +172,7 @@ main {
         background-image: linear-gradient(to bottom, rgba(76, 101, 138, 0), rgba(138, 43, 226, 0.5));
     }
 
-    
+
 /* Video-container code from Slack by Simen Daehlin */
 
 .video-container {
@@ -233,25 +233,25 @@ main {
 }
 
 .btn-link {
-    color: #633fb5;
+    color: #8A2BE2;
     font-weight: 400;
     text-decoration: none;
 }
 
 .btn-link:hover {
-    color: #633fb5;
+    color: #8A2BE2;
     font-weight: 700;
     text-decoration: none;
 }
 
 .btn-link:active {
-    color: #633fb5;
+    color: #8A2BE2;
     font-weight: 700;
     text-decoration: none;
 }
 
 .btn-link:visited {
-    color: #633fb5;
+    color: #8A2BE2;
     font-weight: 700;
     text-decoration: none;
 }
