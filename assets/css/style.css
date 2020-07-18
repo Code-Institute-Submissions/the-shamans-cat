@@ -41,6 +41,10 @@ body {
     background-color: #fefefa;
 }
 
+.footer-modals .modal-header {
+    color: #8A2BE2;
+}
+
 .blockquote-footer a {
       color: #8A2BE2;
 }
