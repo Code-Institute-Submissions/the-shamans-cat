@@ -238,6 +238,7 @@ main {
     background-color: #d3d4d599;
 }
 
+
 .btn-link {
     color: #8A2BE2;
     font-weight: 400;
@@ -256,10 +257,10 @@ main {
     text-decoration: none;
 }
 
-.btn-link:visited {
+.btn-link:focus {
     color: #8A2BE2;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
