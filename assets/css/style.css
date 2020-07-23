@@ -26,9 +26,9 @@ p,
 
 /* smooth scroll */
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 
 /* colors */
@@ -43,6 +43,10 @@ body {
 
 .footer-modals .modal-header {
     color: #8A2BE2;
+}
+
+.copyright-text {
+    color: white;
 }
 
 .blockquote-footer a {
@@ -137,11 +141,15 @@ main {
     width: 170px;
 }
 
-.btn-terms-conditions {
+.btn-terms-conditions,
+.btn-privacy {
     border: none;
+    color: white;
 }
 
-.btn-terms-conditions:focus {
+.btn-terms-conditions:focus,
+.btn-privacy:focus {
+    color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
