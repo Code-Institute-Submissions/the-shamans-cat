@@ -9,6 +9,26 @@
 </div> 
  
 ***
+
+## Project Overview
+
+This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the
+[Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidles-ms1.pdf.pdf)
+
+The main aim of the website is to generate clients for the Shamanic Energy Healing practitioner, who is starting a new business in the UK. 
+
+The site is arranged to guide the potential client through the information needed for them to make a decision to contact the practitioner. This information is provided in the form of text, videos and pictures. 
+
+The website has the following pages: 
+
+ * **Homepage** – explains what Shamanic Energy Healing is, its role in our modern world, the principles behind it and its benefits.
+* **Shamanic-Healing** – describes in more detail about Shamanic Energy Healing, the terminology and the processes used. 
+* **About** – explains the background and training of the practitioner, along with client testimonials, to establish the credibility of the practitioner doing this work.
+* **Rates** – how much a session costs and FAQs.
+* **Contact** – contact form.
+
+The pages all share an easy to use navigation system, logo, links to practitioner’s social media sites, medical disclaimer, privacy policy and a contact button.
+
 This is a website for a shaman who offers energy-healing to clients. 
 The site features:
 * a home page which gives and overview of shamanism, its role in our modern world, and its benefits, using a mixture of pictures, text and videos. 
@@ -20,7 +40,7 @@ The site features:
 
 ## Table of Contents
 
-* [Brief](#brief)
+* [Project Overview](#project-overview)
 * [Guidelines](#guidelines)
 * [UX Strategy - Why does this site exist?](#ux-strategy---Why-does-this-site-exist?)
     * [Business Objectives](#business-objectives)
@@ -321,13 +341,13 @@ The site has the following common features on each page:
     This left me wondering the best way to get users stay on website and find/look for more information. 
 - I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
 
-[[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)]
+[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)
 
 - I then thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. 
     I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on.
     So, I removed it and went back to a simple nav-item with no dropdowns.
 
-[[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)]
+[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)
     
 ### Features Left to Implement
 - Search bar for site
@@ -347,9 +367,9 @@ The following languages, frameworks and tools were used in the development of th
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [**Cloud9**](https://c9.io/login) is an online Integrated Development Environment IDE to be replaced by AWS Cloud 9 IDE 30th June 2019. Used as recommended by Code Institute. It provides a standardised environment for development.
+- [**Cloud9 & AWS Cloud 9**](https://www.awseducate.com/signin/SiteLogin) is an online Integrated Development Environment IDE. Used as recommended by Code Institute. It provides a standardised environment for development.
 
-- [**AWS Cloud 9 IDE**](https://www.awseducate.com/signin/SiteLogin) Used as recommended by Code Institute. It provides a standardised environment for development.
+- [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development.
 
 - [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
@@ -374,6 +394,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [**AutoPrefixer**](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
 - [PhotoShop Elements](https://www.adobe.com/uk/products/photoshop-premiere-elements.html) used to resize, and prepare images for the web.
 - [TinyPNG](https://tinypng.com/) to compress image files to reduce their size which in turn reduces the images load time on the webpage.
+
 
 
 ## Testing
@@ -401,15 +422,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This project was developed using the IDE AWS Cloud9, and the versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
+This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
 
 1.	Log into GitHub.
-2.	Open project from list of repositories by selecting **the-shamans-cat**.
-3.	Click on the **Settings** option in the menu, which is just below the title at the top of the page.
+2.	Open project from list of repositories by selecting [**the-shamans-cat**.](https://github.com/HelenSayer?tab=repositories)
+3.	Click on the **Settings** option in the menu, which is at the top of the page below the title.
 4.	Scroll down the page and find the **GitHub Pages** section.
 5.	In the **Source** section of **GitHub Pages**, click on the dropdown menu box currently set to **None** and select the **Master Branch** option.
 6.	By selecting this, the website is deployed. A message ***GitHub Pages source saved*** appears in a banner at the top of the page in GitHub, confirming this.
-7.	Scroll back down the page to the **GitHub** Pages section and you will see a message saying, ***Your site is ready to be published at https://<span></span>helensayer.git.io/the-shamans-cat/.*** Select this link by right clicking on it. Then choose **Copy Link Address**.
+7.	Scroll back down the page to the **GitHub** Pages section and you will see a message saying, ***Your site is ready to be published at https://<span></span>helensayer.github.io/the-shamans-cat/.*** Select this link by right clicking on it. Then choose **Copy Link Address**.
 8.	You can now paste this link into a browser search bar and go and view the site.
 9.	While the GitHub published page is active it will be automatically updated when new commits are made to the master branch of the GitHub repository.
 10.	The development version on the IDE and the GitHub master branch will be in sync at time of project submission.
@@ -419,13 +440,13 @@ This project was developed using the IDE AWS Cloud9, and the versioning was cont
 To run this project locally, clone it from GitHub into your local IDE using the following steps:
 1.	Open GitHub.
 2.	Click on this <a href="https://github.com/HelenSayer/the-shamans-cat" target="_blank" rel="noopener">link</a> to the GitHub repository for this project.
-3.	Towards the top-right-hand-side of the page is a green button labelled **Clone or Download**. Click on this.
-4.	Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
+3.	Towards the top of the page are two green buttons. select the one labelled **Clode**. Click on this.
+4.	The top most option is **Clone with HTTPS**. Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
 5.	Open a terminal (bash) window in the local IDE.
 6.	Change the current working directory to the location where you want the cloned directory to be made.
-7.	Type git clone, and then paste the URL you copied in Step 4.
-8.  `git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git`
-9.	Press Enter. Your local clone will be created.
+7.	Type git clone, and then paste the URL you just copied i.e.<br>
+ `git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git`
+8.	Press Enter. Your local clone will be created.
 
 Click on the links for general help with <a href="https://help.github.com/en" target="_blank" rel="noopener">GitHub</a>, or for specific help with <a href="https://help.github.com/en/articles/cloning-a-repository-from-github" target="_blank" rel="noopener">Cloning a repository.</a>
 
