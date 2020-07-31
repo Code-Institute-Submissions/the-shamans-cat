@@ -215,7 +215,39 @@ main {
     height: 100%;
 }
 
+/* FAQs - Accordion styling to improve UX */
 
+.card-header {
+    background-color: #d3d4d599;
+}
+
+.btn-link {
+    color: #8A2BE2;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #8A2BE2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-link:active {
+    color: #8A2BE2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-link:focus {
+    color: #8A2BE2;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#faq-accordion .btn {
+    text-align: left;
+}
 
 /* Footer */
 
@@ -247,38 +279,6 @@ main {
     color: #25d366;
 }
 
-
-/* FAQs - Accordion styling to improve UX */
-
-.card-header {
-    background-color: #d3d4d599;
-}
-
-
-.btn-link {
-    color: #8A2BE2;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.btn-link:active {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.btn-link:focus {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
 /* Back To Top */
 
 .back-to-top {
@@ -299,8 +299,6 @@ main {
 .back-to-top i:hover {
     color: rgba(75, 0, 130, 0.6);
 }
-
-
 
 /* Media Queries */
 
@@ -428,6 +426,6 @@ p,
 @media screen and (min-width: 1024px) {
     .back-to-top {
     width: 7%;
-    bottom: 15%;
+    bottom: 17%;
     }   
 }
