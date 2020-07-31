@@ -20,6 +20,13 @@ p,
     font-weight: 400;
 }
 
+p,
+.benefits li,
+.card-lists li,
+.form-group,
+.form-control {
+    font-size: 1rem;
+}
 
 .card-title i {
     font-size: 3rem;
@@ -339,13 +346,13 @@ main {
 
 /* No media query since this is the default in Bootstrap */
 
-p,
+/* p,
 .benefits li,
 .card-lists li,
 .form-group,
 .form-control {
     font-size: 1rem;
-}
+} */
 
 /* Small devices (landscape phones, 576px and up) */
 
