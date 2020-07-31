@@ -20,6 +20,7 @@ p,
     font-weight: 400;
 }
 
+
 .card-title i {
     font-size: 3rem;
 }
@@ -98,6 +99,7 @@ main {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
+    z-index: 98;
 }
 
 .callout-container-home {
@@ -132,6 +134,7 @@ main {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    z-index: 99;
 }
 
 /* buttons */
@@ -139,6 +142,13 @@ main {
 .btn-contact {
     font-weight: bold;
     width: 170px;
+    background-color: #8A2BE2;
+    border: none;
+}
+
+.btn-contact:hover {
+    background-color:#4B0082;
+    border: none;
 }
 
 .btn-terms-conditions,
@@ -161,7 +171,8 @@ main {
 /* Jumbotron */
 .jumbotron {
     margin-top: 40%;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
 }
 
 .jumbotron-header {
@@ -175,11 +186,6 @@ main {
     color: white;
     font-weight: bold;
 }
-
- .emphasize-jumbotron-text {
-     background-color: rgba(0, 0, 0, 0.3);
- }
-
 
 /* Mission Statement */
 
@@ -273,8 +279,30 @@ main {
     text-decoration: underline;
 }
 
+/* Back To Top */
 
-/* Media Qeries */
+.back-to-top {
+    background: transparent;
+    width: 15%;
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    text-decoration: none;
+    z-index: 97;
+}
+
+.back-to-top i,
+.back-to-top p {
+    color: rgba(138, 44, 226, 0.4);
+}
+
+.back-to-top i:hover {
+    color: rgba(75, 0, 130, 0.6);
+}
+
+
+
+/* Media Queries */
 
 /* Changes size of navbar-brand so is in proportion and does not wrap toggler icon on small devices */
 
@@ -306,6 +334,7 @@ main {
     }
 }
 
+/* Change text size on breakpoints */
 /* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 (slightly adjusted) */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -351,7 +380,7 @@ p,
         font-size: 1.3rem;
     }
 }
-/* End of modified code snippet*/
+/* End of change text size on break-points*/
 
 
 /* Fix for jumbotron text in callout-container-home being too large for i-phone 5/SE and Galaxy S5 and Surface Duo */
@@ -372,10 +401,10 @@ p,
    and (max-height : 600px) {
        .lead {
             font-size: 1rem;
-       }
+    }
        .jumbotron-header {
            font-size: 1.75rem;
-       }
+    }
 }
 
 /* Videos on home page have long titles which wrap and change layout media query to fix this */
@@ -390,4 +419,15 @@ p,
     .home-videos-title {
         font-size: 1.0rem;
     }
+}
+
+/* Back to Top - adjusts base position on screen smaller than 768px wide */
+
+
+
+@media screen and (min-width: 1024px) {
+    .back-to-top {
+    width: 7%;
+    bottom: 15%;
+    }   
 }
