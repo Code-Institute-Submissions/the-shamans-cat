@@ -300,12 +300,12 @@ main {
 
 .back-to-top {
     background: transparent;
-    width: 15%;
+    width: 12%;
     position: fixed;
     right: 0px;
     bottom: 50%;
     text-decoration: none;
-    z-index: 97;
+    z-index: 95;
 }
 
 .back-to-top i,
@@ -383,6 +383,10 @@ main {
         .jumbotron {
             margin-top: 20%;
         }
+        .back-to-top {
+            bottom: 55%;
+            width: 9%;
+        }   
 }
 
 /* Large devices (desktops, 992px and up) */
