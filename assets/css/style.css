@@ -86,6 +86,8 @@ main {
 .logo img {
     border: 1px solid white;
     border-radius: 3px;
+    width:150px;
+    height: 24px;
 }
 
 
@@ -309,54 +311,14 @@ main {
 
 /* Media Queries */
 
-/* Changes size of navbar-brand so is in proportion and does not wrap toggler icon on small devices */
+/* Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devics */
 
-@media screen and (max-width: 576px) {
-    .logo img {
-        width: 150px;
-        height: 24px;
-    }
-}
-
+/* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .logo img {
         width: 184px;
         height: 30px;
     }
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .logo img {
-        width: 201px;
-        height: 33px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .logo img {
-        width: 267px;
-        height: 44px;
-    }
-}
-
-/* Change text size on breakpoints */
-/* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 (slightly adjusted) */
-
-/* Extra small devices (portrait phones, less than 576px) */
-
-/* No media query since this is the default in Bootstrap */
-
-/* p,
-.benefits li,
-.card-lists li,
-.form-group,
-.form-control {
-    font-size: 1rem;
-} */
-
-/* Small devices (landscape phones, 576px and up) */
-
-@media screen and (min-width: 576px) {
     p,
     .benefits li,
     .card-lists li,
@@ -367,8 +329,11 @@ main {
 }
 
 /* Medium devices (tablets, 768px and up) */
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .logo img {
+        width: 201px;
+        height: 33px;
+    }
     p,
     .benefits li,
     .card-lists li,
@@ -379,12 +344,51 @@ main {
 }
 
 /* Large devices (desktops, 992px and up) */
-
 @media screen and (min-width: 992px) {
+    .logo img {
+        width: 267px;
+        height: 44px;
+    }
     .navbar li {
         font-size: 1.3rem;
     }
 }
+
+/* Change text size on breakpoints */
+/* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 (slightly adjusted) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* @media screen and (min-width: 576px) {
+    p,
+    .benefits li,
+    .card-lists li,
+    .form-group,
+    .form-control {
+        font-size: 1.1rem;
+    }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+
+/* @media screen and (min-width: 768px) {
+    p,
+    .benefits li,
+    .card-lists li,
+    .form-group,
+    .form-control {
+        font-size: 1.2rem;
+    }
+} */
+
+/* Large devices (desktops, 992px and up) */
+
+/* @media screen and (min-width: 992px) {
+    .navbar li {
+        font-size: 1.3rem;
+    }
+} */
 /* End of change text size on break-points*/
 
 
@@ -436,3 +440,7 @@ main {
     bottom: 17%;
     }   
 }
+
+
+
+
