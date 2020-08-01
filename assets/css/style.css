@@ -12,12 +12,8 @@ h6 {
     font-weight: 700;
 }
 
-.h2 {
-    font-size: 1.5rem,
-}
-
-.h3 {
-    font-size: 1.25rem;
+.home-videos-title {
+    font-size: 1.3rem;
 }
 
 p,
@@ -188,20 +184,24 @@ main {
 /* Jumbotron */
 .jumbotron {
     margin-top: 40%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
     z-index: 100;
 }
 
 .jumbotron-header {
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .jumbotron .lead {
-    margin: 25px 0;
+    margin: 5px 0 10px;
     color: white;
     font-weight: bold;
+}
+
+.emphasize-jumbotron-text {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Mission Statement */
@@ -381,6 +381,9 @@ main {
     }
     .navbar li {
         font-size: 1.3rem;
+    }
+    .home-videos-title {
+        font-size: 1.75rem;
     }
 }
 
