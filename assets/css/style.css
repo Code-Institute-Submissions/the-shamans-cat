@@ -12,6 +12,14 @@ h6 {
     font-weight: 700;
 }
 
+.h2 {
+    font-size: 1.5rem,
+}
+
+.h3 {
+    font-size: 1.25rem;
+}
+
 p,
 .benefits li,
 .card-lists li,
@@ -288,7 +296,7 @@ main {
     color: #25d366;
 }
 
-/* Back To Top */
+/* Back To Top  inspired by https://www.youtube.com/watch?v=NyAsjkg3388 */
 
 .back-to-top {
     background: transparent;
@@ -311,7 +319,29 @@ main {
 
 /* Media Queries */
 
+/* Fix for jumbotron text in callout-container-home being too large for i-phone 5/SE and Galaxy S5 and Surface Duo */
+
+/* @media screen and (min-width : 360px) and (max-width : 450px) {
+       .lead {
+            font-size: 1rem;
+    }
+       .jumbotron-header {
+           font-size: 1.75rem;
+    }
+} */
+
+
 /* Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devics */
+
+/* small devices - phones with screens widths larger than 320px up to 576px */
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .logo img {
+        width: 184px;
+        height: 30px;
+    }
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -394,41 +424,39 @@ main {
 
 /* Fix for jumbotron text in callout-container-home being too large for i-phone 5/SE and Galaxy S5 and Surface Duo */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
     .lead {
         font-size: 1rem;
     }
     .jumbotron-header {
         font-size: 1.75rem;
 }
-}
+} */
 
 /* code based on info at https://simplecss.eu/  for Microsofts Surface Duo*/
 
-@media only screen 
-   and (max-width : 450px) 
-   and (max-height : 600px) {
+/* @media screen and (max-width : 450px) and (max-height : 600px) {
        .lead {
             font-size: 1rem;
     }
        .jumbotron-header {
            font-size: 1.75rem;
     }
-}
+} */
 
 /* Videos on home page have long titles which wrap and change layout media query to fix this */
 
-@media screen and (min-width: 992px) and  (max-width: 1080px){
+/* @media screen and (min-width: 992px) and  (max-width: 1080px){
     .home-videos-title {
         font-size: 0.75rem;
     }
-}
+} */
 
-@media screen and (min-width: 1080px) and (max-width: 1500px) {
+/* @media screen and (min-width: 1080px) and (max-width: 1500px) {
     .home-videos-title {
         font-size: 1.0rem;
     }
-}
+} */
 
 /* Back to Top - adjusts base position on screen smaller than 768px wide */
 
