@@ -355,6 +355,10 @@ main {
     .form-control {
         font-size: 1.1rem;
     }
+    .back-to-top {
+            width: 10%;
+            bottom: 50%;
+        }   
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -370,6 +374,10 @@ main {
     .form-control {
         font-size: 1.2rem;
     }
+    .back-to-top {
+            width: 8%;
+            bottom: 20%;
+        }   
 }
 
 /* Small devices (landscape phones, up to 823px wide x 414px high)  */
@@ -384,8 +392,8 @@ main {
             margin-top: 20%;
         }
         .back-to-top {
-            bottom: 55%;
             width: 9%;
+            bottom: 55%;
         }   
 }
 
@@ -401,7 +409,20 @@ main {
     .home-videos-title {
         font-size: 1.75rem;
     }
+    .back-to-top {
+        width: 7%;
+        bottom: 17%;
+    }   
 }
+
+/* Back to Top - adjusts base position on screen smaller than 1024px wide */
+
+/* @media screen and (min-width: 1024px) {
+    .back-to-top {
+    width: 7%;
+    bottom: 17%;
+    }   
+} */
 
 /* Change text size on breakpoints */
 /* Code snippet from https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4 (slightly adjusted) */
@@ -479,14 +500,12 @@ main {
 
 /* Back to Top - adjusts base position on screen smaller than 768px wide */
 
-
-
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .back-to-top {
     width: 7%;
     bottom: 17%;
     }   
-}
+} */
 
 
 
