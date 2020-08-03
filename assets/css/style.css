@@ -38,10 +38,9 @@ p,
 
 /* smooth scroll */
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
-
+}
 
 /* colors */
 
@@ -76,7 +75,6 @@ body {
 /* paddings/margins/borders */
 
 /*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
-
 .fixed-top {
     padding-bottom: 10px;
 }
@@ -94,10 +92,9 @@ main {
     height: 24px;
 }
 
-
 /* Containers */
 
-/* Containers' code is based on code from the Whiskey Drop lesson*/
+/* Containers' code is based on code from the Whiskey Drop lesson */
 
 .callout-container {
     height: 85vh;
@@ -232,7 +229,7 @@ main {
     height: 100%;
 }
 
-/* FAQs - Accordion styling to improve UX */
+/* FAQs - Accordion styling */
 
 .card-header {
     background-color: #d3d4d599;
@@ -319,9 +316,10 @@ main {
 
 /* Media Queries */
 
-/* Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devics */
-/* Change text size on breakpoints - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
-/* Changes "back to top" anchor position above footer so gives better visibility for user. */
+/* media query actions:- */
+/* 1: Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devics */
+/* 2: Change text size on breakpoints - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
+/* 3: Changes "back to top" anchor position above footer so gives better visibility for user. */
 
 /* small devices - (phones with screens widths larger than 320px up to 576px) */
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -393,6 +391,8 @@ main {
         }   
 }
 
+/* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
+
 /* Large devices (desktops, 993px and up) */
 @media screen and (min-width: 993px) {
     .logo img {
@@ -408,33 +408,14 @@ main {
     .back-to-top {
         width: 7%;
         bottom: 25%;
-    }   
-}
-
-
-/* Videos on home page have long titles which wrap and change layout media query to fix this */
-
-/* @media screen and (min-width: 992px) and  (max-width: 1080px){
+    }  
     .home-videos-title {
         font-size: 0.75rem;
     }
-} */
+}
 
-/* @media screen and (min-width: 1080px) and (max-width: 1500px) {
+@media screen and (min-width: 1080px) {
     .home-videos-title {
         font-size: 1.0rem;
     }
-} */
-
-/* Back to Top - adjusts base position on screen smaller than 768px wide */
-
-/* @media screen and (min-width: 1024px) {
-    .back-to-top {
-    width: 7%;
-    bottom: 17%;
-    }   
-} */
-
-
-
-
+}
