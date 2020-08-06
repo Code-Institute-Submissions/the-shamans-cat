@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 
 [![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
 # THE SHAMAN'S CAT
@@ -6,32 +6,29 @@
 
 *Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
 
-</div> 
+</div>  -->
  
-***
-## **Project Overview**
 
-A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. The website has been designed to provide potential clients with the benefits and a basic understanding of the concepts and processes involved with this modality, to encourage them to book a healing session. The information is presented in a varied format; text, videos and pictures in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. The links lead to the contact form located on the Contact page.
+# [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
 
-The website has the following features: 
 
-* **Common Features** The pages all share an easy to use navigation system, Hero Image, Call*to Action (CTA) button, logo, links to practitioner’s social media sites, terms & conditions, privacy policy and contact buttons.
- * **Homepage** – explains what Shamanic Energy Healing is, its role in our modern world, the principles behind it and its benefits.
-* **Shamanic Healing** – describes in more detail about Shamanic Energy Healing, the terminology and the processes used. 
-* **About** – explains the background and training of the practitioner, along with client testimonials, to establish the credibility of the practitioner doing this work.
-* **Rates** – how much a session costs and FAQs.
-* **Contact** – contact form.
 
-### **Background to Project**
-This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
-This is my first milestone project to demonstrate the skills I have learnt so far on the course.
+
+
+
+To view a live demo of the site go to: https://helensayer.github.io/the-shamans-cat
+
+
+ ## **Demo**
+
+![mockup of site on multiple devices](assets/images/site-mockup.png)
 
 ***
 
 ## **Table of Contents**
 
 * [Project Overview](#project-overview)
-* [Background to Project](#background-to-project)
+    * [Background to Project](#background-to-project)
 * [UX Strategy](#ux-strategy)
     * [Business Goals](#business-goals)
     * [User Goals](#user-goals)
@@ -73,12 +70,32 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
     * [Acknowledgements](#acknowledgements)
 * [Disclaimer](#disclaimer)
 
+
 ***
+## **Project Overview**
+
+A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. 
+
+The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos and pictures in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
+
+<!-- The website has the following features: 
+
+* **Common Features** The pages all share an easy to use navigation system, Hero Image, Call*to Action (CTA) button, logo, links to practitioner’s social media sites, terms & conditions, privacy policy and contact buttons.
+ * **Homepage** – explains what Shamanic Energy Healing is, its role in our modern world, the principles behind it and its benefits.
+* **Shamanic Healing** – describes in more detail about Shamanic Energy Healing, the terminology and the processes used. 
+* **About** – explains the background and training of the practitioner, along with client testimonials, to establish the credibility of the practitioner doing this work.
+* **Rates** – how much a session costs and FAQs.
+* **Contact** – contact form. -->
+
+### **Background to Project**
+This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
+This is my first milestone project to demonstrate the skills I have learnt so far on the course.
+
+***
+
 
 ## **UX Strategy** 
-*What are you aiming to achieve in the first place and for whom?**
-***
-
+_**What are you aiming to achieve in the first place and for whom?**_
 
 **UX Strategy** (Focus – what is worth doing?) = **Design Strategy** (Definition – what are we creating?) + **Business Strategy** (Value – what value does it provide?)
 
@@ -354,7 +371,6 @@ The site has the following common features on each page:
 
 * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
 
-* Gallery of 9 photos – Array of photos using Fancybox – Responsive across all devices. To attract interest showing pictures of Peru, my training etc. also gives credibility.
 
 #### Rates page 
 
@@ -414,7 +430,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript*based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
-* [**FontAwsome**](https://fontawesome.com/start) is a font and icon toolkit which adds extra icons to enhance the appearance of the website.
+* [**FontAwesome**](https://fontawesome.com/start) is a font and icon toolkit which adds extra icons to enhance the appearance of the website.
 
 * [**Google Fonts**](https://fonts.google.com/) is a library of free licensed fonts. Adds fonts to enhance the website and customize it from the standard bootstrap fonts.
 
@@ -457,6 +473,13 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+### **Bugs**
+
+Error in console on Chrome Developer Tools.
+
+https://www.chromestatus.com/feature/5088147346030592
+
+
 ## **Deployment**
 
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
@@ -477,7 +500,7 @@ This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning 
 To run this project locally, clone it from GitHub into your local IDE using the following steps:
 1.	Open GitHub.
 2.	Click on this <a href="https://github.com/HelenSayer/the-shamans-cat" target="_blank" rel="noopener">link</a> to the GitHub repository for this project.
-3.	Towards the top of the page are two green buttons. select the one labelled **Clode**. Click on this.
+3.	Towards the top of the page are two green buttons. select the one labelled **Clone**. Click on this.
 4.	The top most option is **Clone with HTTPS**. Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
 5.	Open a terminal (bash) window in the local IDE.
 6.	Change the current working directory to the location where you want the cloned directory to be made.

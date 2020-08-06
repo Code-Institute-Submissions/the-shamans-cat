@@ -16,5 +16,30 @@
       "**/.DS_Store": true,
       "**/.theia": true,
    },
-   "emmet.extensionsPath": ".theia"
+"emmet.extensionsPath": ".theia",
+"cSpell.words": [
+    "albertovilloldophd",
+    "allowfullscreen",
+    "fontawesome",
+    "lastname",
+    "tabindex",
+    "undermind",
+    "wireframes"
+],
+"cSpell.ignoreWords": [
+    "burnell",
+    "ctas",
+    "daehlin",
+    "delicia",
+    "fancybox",
+    "getdrawings",
+    "mullard",
+    "pixaby",
+    "scrollspy",
+    "simen",
+    "teamtreehouse",
+    "villoldo",
+    "villoldo's",
+    "weil"
+]
 }
