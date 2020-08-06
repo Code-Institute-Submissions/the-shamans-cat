@@ -161,7 +161,7 @@ The physical location of the practitioner is not an issue, as many types of sess
     * old fashioned style
     * out of date information
     * missing favicons
-    * non*responsive
+    * non-responsive
     * poorly designed:
         * too much text or text unreadable over busy background pictures, 
         * terrible choices of colour schemes - that would give you a headache 
