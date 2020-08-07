@@ -9,30 +9,31 @@ To view a live demo of the site go to: https://helensayer.github.io/the-shamans-
 
 ***
 
-## **Table of Contents**
+# **Table of Contents**
 
-* [Project Overview](#project-overview)
-    * [Background to Project](#background-to-project)
-* [UX Strategy](#ux-strategy)
-    * [Business Goals](#business-goals)
-    * [User Goals](#user-goals)
+* [PROJECT OVERVIEW](#project-overview)
+* [DEMO](#demo)
+* [UX](#ux)    
+    * [UX STRATEGY](#ux-strategy)
+        * [Business Goals](#business-goals)
+        * [User Goals](#user-goals)
         * [B2C](#b2c)
         * [Audience](#audience)
         * [Location](#location)
         * [Research](#research)
-        * [Product Considerations](#product-considerations)
-        * [How are potential clients going to find this website?](#how-are-potential-clients-going-to-find-this-website?)
-    - [Strategy Trade-offs](#strategy-trade-off)    
-    * [User Stories](#user-stories)   
         * [Potential Client Scenarios](#potential-client-scenarios)
-        * [The design goals of the website](#the-design-goals-of-the-website)
-* [UX Scope What are we doing to achieve the goals set in strategy plane?](#ux-scope-what-are-we-doing-to-achieve-the-goals-set-in-strategy-plane?)
-   * [Supporting the Business Objectives](###supporting-the-business-objectives)
-        * [User stories](#user-stories)
-* [UX Structure and Skeleton](#ux-structure-and-skeleton)
-* [Navigational Design, Hierarchy Interaction Design](###---navigational-design,-hierarchy-interaction-design--)
-    * [Wireframes](#wireframes)
-* [Existing Features](##features)
+        * [Product Considerations](#product-considerations)
+        * [Finding this website](#finding-this-website)
+        * [Strategy Trade-offs](#strategy-trade-off)       
+        * [Design Goals](#design-goals)
+    * [UX SCOPE](#ux-scope)
+        * [User Stories](#user-stories)
+        * [Supporting the Business Objectives](#supporting-the-business-objectives)
+    * [UX STRUCTURE & SKELETON](#ux-structure-and-skeleton)
+        * [Navigational Design, Hierarchy Interaction Design](#---navigational-design,-hierarchy-interaction-design--)
+        * [Wireframes](#wireframes)
+* [FEATURES](#features)    
+    * [Existing Features](#features)
     * [Common Features](#common-features)
     * [Features individual to each page](#features-individual-to-each-page:)
         * [Home page](#home-page)
@@ -42,17 +43,22 @@ To view a live demo of the site go to: https://helensayer.github.io/the-shamans-
         * [Contact page](#contact)
     * [Features tried and taken off site because did not look good and/or work with the design concepts](#features-tried-and-taken-off-site-because-did-not-look-good-and/or-work-with-the-design0concepts)
     * [Features Left to Implement](#features-left-to-implement)
-* [Technologies Used](#technologies-used)
-* [Tools used](#tools-used)
-* [Testing](#testing)
-* [Deployment](#deployment)
+* [TECHNOLOGIES USED](#technologies-used)
+    * [Tools used](#tools-used)
+* [TESTING](#testing)
+* [DEPLOYMENT](#deployment)
     * [How to run the project code locally](#how-to-run-the-project-code-locally)
-* [Credits](#credits)
+* [CREDITS](#credits)
     * [Content](#content)
     * [Media](#media)
     * [Code](#code)
     * [Acknowledgements](#acknowledgements)
-* [Disclaimer](#disclaimer)
+* [DISCLAIMER](#disclaimer)
+
+*****
+#   **TEST**
+
+
 
 
 ***
@@ -76,9 +82,10 @@ This site has been developed as a static frontend site using HTML5, CSS3 and Boo
 This is my first milestone project to demonstrate the skills I have learnt so far on the course.
 
 ***
+## **UX** 
+***
 
-
-## **UX Strategy** 
+### **UX Strategy** 
 
 **UX Strategy** = **Design Strategy** + **Business Strategy**
 
@@ -103,7 +110,7 @@ Learn about the practitioner and her experience so they can decide if credible a
 
 ***
 
-### **Business Goals**
+#### **Business Goals**
 
 *   To increase number of clients for practitioner.
 *	To establish an online presence for the practitioner.
@@ -115,7 +122,7 @@ Learn about the practitioner and her experience so they can decide if credible a
 *	Existing clients are able to book follow-up sessions online. 
 *	To utilise User Experience Design (UXD) to ensure that potential clients encounter a positive user experience whilst visiting the site and want to follow through, by contacting the practitioner to book a session and may want to return to the site at a later time for information.
 
-### **User Goals** 
+#### **User Goals** 
 
 *	To find a Shamanic Energy Healing practitioner by either arriving at the site through a word of mouth recommendation or via an online search and decide if they wish to work with the practitioner.
 *	To learn more about Shamanic Energy Healing and decide if they would like to undertake this kind of healing.
@@ -124,21 +131,28 @@ Learn about the practitioner and her experience so they can decide if credible a
 *	To easily get in touch with the practitioner to book a healing session.
 *	To be able to contact the practitioner for more information.
 
-### **B2C**
+#### **B2C**
 The website is a little different from a basic B2C site as the potential clients need reassurance, confidence and trust in the practitioner and the processes used during a session, to encourage them to make contact and/or book a healing session; they are not just influenced by emotion to make a quick impulse buy. They need a reasonable amount of background information in order to be able to make an informed choice about whether to have a healing session.
 
-### **Audience**
+#### **Audience**
 The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy healer. In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact.
 
-The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. The user may be a computer novice. This information is based on the shamanic energy healer’s own experience and that of their fellow practitioners. 
+The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. The user may be a computer novice. This information is based on the shamanic energy healer’s own experience, that of their fellow practitioners and potential users.
 
-### **Location**
+The website is informative to any user coming to the site wanting to know more about shamanic energy healing. 
+‘Shaman’ is in the name of the website and along with other keywords in the site 
+i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”, so search engines will pick up on these too. 
+These types of visitors could also become clients.
+
+#### **Location**
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone, skype and WhatsApp as well as by face to face sessions.
 
-### **Research**
+#### **Research**
 1. I talked to shamanic practitioners and potential clients and showed them my Ideas.
 
-    Feedback: I thought a carousel would be a good way of attracting clients to a section of the site they were most interested in. My research informed me that users did not like carousels and would not read most of the information. I checked this out with various web articles and found that research showed that carousels are not an effective way of promoting information or product as they get ignored by users, who get hit by banner blindness. This resulted in me not using a carousel on this website.
+    Feedback: 
+    *   I thought a carousel would be a good way of attracting clients to a section of the site they were most interested in. My research informed me that users did not like carousels and would not read most of the information. I checked this out with various web articles and found that research showed that carousels are not an effective way of promoting information or product as they get ignored by users, who get hit by banner blindness. This resulted in me not using a carousel on this website.
+    * Users wanted a simple layout.
 
 2. Looked at competitors’ websites to see how they were marketing themselves and the quality of their websites. 
 
@@ -155,47 +169,9 @@ The physical location of the practitioner is not an issue, as many types of sess
         * difficult to find information
 * On the other hand, some sites were very professional, custom made and looked very credible. These sites tend to belong to extremely successful Shamanic Practitioners who have large followings and, in some cases, give training. 
 * Other sites of prominent Shaman are old-fashioned looking but due to the importance of the Shamanic Practitioner, users are more interested in the content than what the page looked like.
+3. In conclusion, this website needs the right amount of relevant, interesting and inspiring content, presented in a clear way which make it easy to read and navigate through, even for computer novices, leading the visitor to make contact with the practitioner.
 
-In conclusion, this website needs the right amount of relevant, interesting and inspiring content, presented in a clear way which make it easy to read and navigate through, even for computer novices, leading the visitor to make contact with the practitioner.
-
-
-### **Product Considerations** 
-*How to rise above the competition and make this site special.*
-
-*	Mobile First, responsive approach to accommodate all user devices and screen types.
-*	A simple clean consistent appearance, using only a couple of colours and two typefaces, bright and uncluttered with an intuitive format and Informative headlines. 
-*	Keep the content to a minimum whilst still providing the user with sufficient information for them to feel they comprehend enough of the healing processes, and pricing structure, to be able to book a session. This includes the use of descriptive text, images, diagrams, videos, FAQs, testimonials and blogs.
-*	Encourage users to return to the site for reference by providing good information and explanations.
-*	Facilitate easy contact with practitioner so any questions and concerns can be dealt with promptly, paving the way for the user to book a session, use of Call-To-Actions (CTAs). Multiple contact routes via social media links, as well as a contact form.
-
-
-### **How are potential clients going to find this website?**
-
-*	Word of mouth
-*	Search Engines – need to use Search Engine Optimization (SEO) e.g. research and use keywords.
-*	Add to Google Business
-*	Add location to Google Maps
-*	Cross-links to other sites
-*	Blogs and articles 
-*	Join reference sites
-*	Subscription to listings
-
-
-
-
-
-
-
-
-
-
-
-
-
-USER Stories goes here???
-
-
-### **Potential Client Scenarios:**
+#### **Potential Client Scenarios**
 
 * Recommended, potential client looking to make contact to book a shamanic energy healing session
 
@@ -206,21 +182,28 @@ USER Stories goes here???
 * Returning client looking for contact details or other information.
 
 
-The website is informative to any user coming to the site wanting to know more about shamanic energy healing. 
-‘Shaman’ is in the name of the website and along with other keywords in the site 
-i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”, so search engines will pick up on these too. 
-These types of visitors could also become clients.
+#### **Product Considerations** 
+*How to rise above the competition and make this site special.*
 
-### **The design goals of the website are that:**
+*	Mobile First, responsive approach to accommodate all user devices and screen types.
+*	A simple clean consistent appearance, using only a couple of colours and two typefaces, bright and uncluttered with an intuitive format and Informative headlines. 
+*	Keep the content to a minimum whilst still providing the user with sufficient information for them to feel they comprehend enough of the healing processes, and pricing structure, to be able to book a session. This includes the use of descriptive text, images, diagrams, videos, FAQs, testimonials and blogs.
+*	Encourage users to return to the site for reference by providing good information and explanations.
+*	Facilitate easy contact with practitioner so any questions and concerns can be dealt with promptly, paving the way for the user to book a session, use of Call-To-Actions (CTAs). Multiple contact routes via social media links, as well as a contact form.
 
-* the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
-* the site is both engaging and inspiring keeping potential clients on the site. 
-* that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
-* it informs and educates the site visitor, so they gain a better understanding of shamanism and are more likely to book a session.
-* the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
-* the site is intuitive and user friendly.
-* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
-* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
+
+#### **Finding this Website**
+How are potential clients going to find this website?
+*	Word of mouth
+*	Search Engines – need to use Search Engine Optimization (SEO) e.g. research and use keywords.
+*	Add to Google Business
+*	Add location to Google Maps
+*	Cross-links to other sites
+*	Blogs and articles 
+*	Join reference sites
+*	Subscription to listings
+
+
 
 ---
 
@@ -234,7 +217,18 @@ These types of visitors could also become clients.
 
 ---
 
-## **UX Scope - What are we doing to achieve the goals set in strategy plane?**
+## **UX Scope**
+
+#### **The design goals of the website are that:**
+
+* the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
+* the site is both engaging and inspiring keeping potential clients on the site. 
+* that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
+* it informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully, more likely to book a session.
+* the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
+* the site is intuitive and user friendly.
+* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
 ### Supporting the Business Objectives
 To support the business objective the following elements, need to be included in the website:
@@ -243,16 +237,20 @@ To support the business objective the following elements, need to be included in
         * Use a Jaguar image – The shaman’s cat….. is a jaguar (need an explanation somewhere for title)
         * Logo of Jaguar silhouette
         * Favicon of Jaguar silhouette
+        * Social Media links to practitioner
 
-* **Create trust** by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session:
+* **Create trust** by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session.
+
+*   **Content requirements:**
     * Why someone might benefit from a shamanic healing session?
-    * Explanation of shamanic energy healing, including video
-    * What the client might expect from a shamanic energy healing session
-    * About the shamanic energy healing practitioner, including their training and experience
-    * Testimonials
-    * Gallery of photos showing the practitioner in training and other shamanic related photos.
-* **Rates** – pricing and FAQs
-* **Contact** - Contact Form with privacy statement.
+    * Explanation of shamanic energy healing, including text, diagrams and videos.
+    * What the client might expect from a shamanic energy healing session.
+    * About the shamanic energy healing practitioner, including their training and experience.
+    * Testimonials.
+    * Photos showing the practitioner in training and other shamanic related photos.
+* **Rates** – Pricing and FAQs
+* **Contact** - Contact Form
+* **Medical Disclaimer and Privacy Statement**
 
 ### **User stories**
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.
@@ -261,12 +259,10 @@ To support the business objective the following elements, need to be included in
 4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.
 5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
 6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
-7.	As a site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
+7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
-
 ___
-## **UX Structure and Skeleton**
-
+## **UX STRUCTURE & SKELETON**
 
 ### **Navigational Design, Hierarchy Interaction Design**
 
@@ -274,29 +270,19 @@ ___
 
 The wireframes were made using Balsamiq and exported as pdf files and can ve viewed following the links below.
 
-
 * <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf" target="_blank" rel="noopener">Home</a>
 * <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf" target="_blank" rel="noopener">Shamanic Energy Healing</a>
 * <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf" target="_blank" rel="noopener">About</a>
 * <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf" target="_blank" rel="noopener">Rates</a>
 * <a href="https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf" target="_blank" rel="noopener">Contact</a>  
- 
-
 
 ***
 
-In this section, you should go over the different parts of your project and describe each in a sentence or so.
+## **FEATURES**
  
 ### Existing Features
-* Feature 1 - allows users X to achieve Y, by having them fill out Z
-* ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-
-### Common Features
+#### Common Features
 The site has the following common features on each page:
 
 * **Logo** – Silhouette of Jaguar with text setting the brand - on every page top*right*hand side of screen, acts as a link to the home page from any other page on the website.
@@ -314,9 +300,9 @@ The site has the following common features on each page:
 * **Favicon** * Provides continuation of cat branding to identify webpage in browser tabs.
 
 
-### Features individual to each page:
+#### Features individual to each page:
 
-#### Home page 
+##### Home page 
 
 * **Call To Action** * Attract attention of user with hero image with call to action (CTA) button. 
     
@@ -331,7 +317,7 @@ The site has the following common features on each page:
     * Article outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users. A ‘read more’ button is being used. This uses Bootstrap accordion feature.
 
 
-#### Shamanic Healing page
+##### Shamanic Healing page
 
 
 * Shamanic healing - a more detailed look, with another video embedded from YouTube, with sound off default.
@@ -355,7 +341,7 @@ The site has the following common features on each page:
     * Fire Ceremony
 
 
-#### About 
+##### About 
 
 * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
     
@@ -366,7 +352,7 @@ The site has the following common features on each page:
 * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
 
 
-#### Rates page 
+##### Rates page 
 
 * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
@@ -375,13 +361,13 @@ The site has the following common features on each page:
 * FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
 
 
-#### Contact page 
+##### Contact page 
 
 * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
 * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
 
-### Features tried and taken off site because did not look good and/or work with the design concepts.
+#### Features tried and taken off site because did not look good and/or work with the design concepts.
 
 * I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
 * I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
@@ -493,8 +479,8 @@ This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning 
 
 To run this project locally, clone it from GitHub into your local IDE using the following steps:
 1.	Open GitHub.
-2.	Click on this <a href="https://github.com/HelenSayer/the-shamans-cat" target="_blank" rel="noopener">link</a> to the GitHub repository for this project.
-3.	Towards the top of the page are two green buttons. select the one labelled **Clone**. Click on this.
+2.	Click on this link https://github.com/HelenSayer/the-shamans-cat to the GitHub repository for this project.
+3.	Towards the top of the page are two green buttons. Select the one labelled **Code**. Click on this.
 4.	The top most option is **Clone with HTTPS**. Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
 5.	Open a terminal (bash) window in the local IDE.
 6.	Change the current working directory to the location where you want the cloned directory to be made.
