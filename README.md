@@ -82,20 +82,22 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 
 **UX Strategy** = **Design Strategy** + **Business Strategy**
 
-**UX Strategy** - _**Focus:** - What's worth doing?_
+**UX Strategy** - _**Focus:** - (What's worth doing?)_
 - The Shamanic Energy Healing Practitioner is setting up a business and is looking for clients. They need an online presence to aid this process.
 
-**Design Strategy**	- _**Definition:** - What are we creating?_
+**Design Strategy**	- _**Definition:** - (What are we creating?)_
 - Create a custom website for the practitioner.
 
-**Business Strategy** - _**Value:** - What value does it provide?_ 
+**Business Strategy** - _**Value:** - (What value does it provide?)_ 
+
+**Value to Business:**
 - Establish an online presence so potential clients can find the practitioner. 
 Creates a brand for the practitioner so they can be identified over the competition. 
 Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
 The site acts as proof of ability of the practitioner to the potential clients. 
 In addition, social media links help promote the practitioner’s online presence.
 
-**Value to Clients**
+**Value to Clients:**
 - Become informed about this modality and its benefits. 
 Learn about the practitioner and her experience so they can decide if credible and want to book a session.
 
@@ -226,6 +228,9 @@ These types of visitors could also become clients.
 
 ![Priority matrix table](assets/images/priority-matrix-table.png)
 ![Priority matrix graph](assets/images/priority-matrix-graph.png)
+
+
+
 
 ---
 
