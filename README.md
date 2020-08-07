@@ -1,23 +1,7 @@
-<!-- <div align="center">
-
-[![Jaguar image](https://helensayer.github.io/the-shamans-cat/assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat)
-# THE SHAMAN'S CAT
-## *Shamanic Energy Healing*
-
-*Click [*here*](https://helensayer.github.io/the-shamans-cat) or on the jaguar, to view website on GitHub Pages.* 
-
-</div>  -->
- 
 
 # [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
 
-
-
-
-
-
 To view a live demo of the site go to: https://helensayer.github.io/the-shamans-cat
-
 
  ## **Demo**
 
@@ -76,7 +60,7 @@ To view a live demo of the site go to: https://helensayer.github.io/the-shamans-
 
 A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. 
 
-The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos and pictures in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
+The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos and pictures, in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
 
 <!-- The website has the following features: 
 
@@ -95,24 +79,24 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 
 
 ## **UX Strategy** 
-_**What are you aiming to achieve in the first place and for whom?**_
 
-**UX Strategy** (Focus – what is worth doing?) = **Design Strategy** (Definition – what are we creating?) + **Business Strategy** (Value – what value does it provide?)
+**UX Strategy** = **Design Strategy** + **Business Strategy**
 
+**UX Strategy** - _**Focus:** - What's worth doing?_
+- The Shamanic Energy Healing Practitioner is setting up a business and is looking for clients. They need an online presence to aid this process.
 
-**Focus** * The Shamanic Energy Healing Practitioner is setting up a business and is looking for clients. They need an online presence to aid this process.
+**Design Strategy**	- _**Definition:** - What are we creating?_
+- Create a custom website for the practitioner.
 
-**Definition**	* Create a custom website for the practitioner.
-
-**Value** *To Business* 
-Establish an online presence so potential clients can find the practitioner. 
+**Business Strategy** - _**Value:** - What value does it provide?_ 
+- Establish an online presence so potential clients can find the practitioner. 
 Creates a brand for the practitioner so they can be identified over the competition. 
 Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
 The site acts as proof of ability of the practitioner to the potential clients. 
 In addition, social media links help promote the practitioner’s online presence.
 
-**Value** *To Clients*
-Become informed about this modality and its benefits. 
+**Value to Clients**
+- Become informed about this modality and its benefits. 
 Learn about the practitioner and her experience so they can decide if credible and want to book a session.
 
 ***
@@ -206,7 +190,7 @@ In conclusion, this website needs the right amount of relevant, interesting and 
 
 
 
-USER Stories
+USER Stories goes here???
 
 
 ### **Potential Client Scenarios:**
@@ -236,9 +220,14 @@ These types of visitors could also become clients.
 * the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 * the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
+---
+
 ### **Strategy Trade-off**
-Needs writing up with **B2C**
-**table and graph**
+
+![Priority matrix table](assets/images/priority-matrix-table.png)
+![Priority matrix graph](assets/images/priority-matrix-graph.png)
+
+---
 
 ## **UX Scope - What are we doing to achieve the goals set in strategy plane?**
 
