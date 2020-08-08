@@ -122,6 +122,8 @@ ___
 #### **B2C**
 The website is a little different from a basic B2C site as the potential clients need reassurance, confidence and trust in the practitioner and the processes used during a session, to encourage them to make contact and/or book a healing session; they are not just influenced by emotion to make a quick impulse buy. They need a reasonable amount of background information in order to be able to make an informed choice about whether to have a healing session.
 
+___
+
 #### **Audience**
 The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy healer. In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact.
 
@@ -131,9 +133,12 @@ The website is informative to any user coming to the site wanting to know more a
 ‘Shaman’ is in the name of the website and along with other keywords in the site 
 i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanism, Q'ero, Qero”, so search engines will pick up on these too. 
 These types of visitors could also become clients.
+___
 
 #### **Location**
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone, skype and WhatsApp as well as by face to face sessions.
+
+___
 
 #### **Research**
 1. I talked to shamanic practitioners and potential clients and showed them my Ideas.
@@ -159,6 +164,8 @@ The physical location of the practitioner is not an issue, as many types of sess
 * Other sites of prominent Shaman are old-fashioned looking but due to the importance of the Shamanic Practitioner, users are more interested in the content than what the page looked like.
 3. In conclusion, this website needs the right amount of relevant, interesting and inspiring content, presented in a clear way which make it easy to read and navigate through, even for computer novices, leading the visitor to make contact with the practitioner.
 
+___
+
 #### **Potential Client Scenarios**
 
 * Recommended, potential client looking to make contact to book a shamanic energy healing session
@@ -169,6 +176,8 @@ The physical location of the practitioner is not an issue, as many types of sess
 
 * Returning client looking for contact details or other information.
 
+___
+
 #### **Product Considerations** 
 *How to rise above the competition and make this site special.*
 
@@ -177,6 +186,8 @@ The physical location of the practitioner is not an issue, as many types of sess
 *	Keep the content to a minimum whilst still providing the user with sufficient information for them to feel they comprehend enough of the healing processes, and pricing structure, to be able to book a session. This includes the use of descriptive text, images, diagrams, videos, FAQs, testimonials and blogs.
 *	Encourage users to return to the site for reference by providing good information and explanations.
 *	Facilitate easy contact with practitioner so any questions and concerns can be dealt with promptly, paving the way for the user to book a session, use of Call-To-Actions (CTAs). Multiple contact routes via social media links, as well as a contact form.
+
+___
 
 #### **Finding this Website**
 How are potential clients going to find this website?
@@ -243,7 +254,7 @@ The content is mixed including text, diagrams, photos and videos.
 * **Contact** - Contact Form - to get in touch for more information or to book a session.
 * **Medical Disclaimer, Privacy Statement and copyright Info** - business rules - legal
 
-* **What Research indicated**
+* _**What Research indicated**_
     * **No Carousel** - as I initially thought it was a good idea but this turned out not to be a good idea as the users did not like it.
     * **Simple Navigation** To move around the site.
     * **Easy to read text**
@@ -256,24 +267,22 @@ The content is mixed including text, diagrams, photos and videos.
 #### **The design goals of the website are that:**
 
 * the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
-* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right. A hamburger menu icon on right hand side on devices with small screens.
+* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
+* the site is intuitive and user friendly.
 * the site is both engaging and inspiring keeping potential clients on the site. 
-****
-?????????????????????????????????????
-* the fonts used
+* For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
+* Subtle background colours are used with the text to improve its readability.
 * that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
 * it informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
-* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal and accordion sections.
-* the site is intuitive and user friendly.
+* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
 * the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 * the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
-
-
 ### **Wireframes**
 
-The wireframes were made using Balsamiq and exported as pdf files and can ve viewed following the links below.
-_**(Please note when opening links below please choose to open in a new browser tab, by right mouse clicking on the link and selecting the option.)**_
+The wireframes were made using Balsamiq and exported as pdf files and can be viewed following the links* below.
+
+*_(To open wireframes links in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
 * [Home](assets/wireframes/home.pdf)
 * [Shamanic Energy Healing](assets/wireframes/shamanic-energy-healing.pdf)
@@ -288,47 +297,43 @@ _**(Please note when opening links below please choose to open in a new browser 
 
 * **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, acts as a link to the home page from any other page on the website. There is also a logo in the footer bottom right-hand-side of each page. This logo also acts as a link to the home page.
 
-* **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked.
+* **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. The navigation-bar is replaced with a menu icon, for mobile devices, which drops down over content when clicked.
 
-* **Hero Image with Jumbotron** – Hero image with call to action (CTA) button, to get attention of user. Different hero image on each page, but with same format, which keeps a consistent feel across all the website pages.
+* **Hero Image with Jumbotron** – Hero image with call-to-action (CTA) button, to get attention of user. Different hero image and Jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
 
 * **Footer** – This is at the bottom of every page and contains:
-    
     *   Logo - When clicked takes user back to home page.
     *   Contact button which when clicked leads to the contact form.
-    *   Social media icons providing links to other social platforms used by the shaman.
+    *   Social media icons providing links to other social platforms used by the practitioner.
     *   A Terms & Condition's button - when clicked opens a modal, to clarify matters legally. 
     *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details.
     *   Copyright for protection of business data.
 
  * **Back-to-Top**    This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space.
 
-* **Favicon** * Provides continuation of cat branding to identify webpage in browser tabs.
-
+* **Favicon** * Provides continuation of cat branding to identify this site's webpages in browser tabs.
 ___
 ### **Features on individual Pages**
 #### Home page 
 
-* Hero Image
-* What is Shamanic energy healing? 
-    * Article with informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap accordion feature.
-    * A series of three short videos featuring Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
-* Benefits of Shamanic energy healing
-    * Article outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users. A ‘read more’ button is being used. This uses Bootstrap accordion feature.
-
+* Hero Image of a Peruvian sacred mountain - Salkantay.
+* Jumbotron text specific to Shamanic Energy Healing. The amount of text is increased on devices larger than mobiles.
+* Article - What is Shamanic energy healing? 
+    * Article with informative paragraphs of text. To avoid too much text on page a ‘read more’ button is used. This uses Bootstrap collapse feature.
+    * A series of three short videos featuring Alberto Villoldo of The Four Winds Society describing modern shamanic healing (YouTube embedded with sound off as default).    
+    * Article - Benefits of Shamanic energy healing
+    * Image of a butterfly which symbolizes transformation, which can occur with this healing modality. The image helps break up the text, and balances the screen on larger screened devices. 
+    * Text outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users, a ‘read more’ button is being used. This uses Bootstrap collapse feature.
 
 #### Shamanic Healing page
 
-* Hero Image 
-* Shamanic healing - a more detailed look, with another video embedded from YouTube, with sound off default.
-
-* The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
-
-* The Chakra System - image and text to give client a better understanding of terms and concepts used.
-
-* Healing Processes used in a healing session - (possible icon, symbol or small picture) and intro paragraph, then a click to drop down rest of text using Bootstrap 4, collapse feature.
-        The various processes:
-
+* Hero Image - Theologue by the artist Alex Grey. Showing artists impression of energy in and around the body.
+* Jumbotron text specific to the page - Shamanic Healing - briefly explains what the page is about.
+* Article - Shamanic Healing - a more detailed look, with a video explaining some of the healing techniques used  (embedded from YouTube, with sound off default).
+* Article - The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
+* Article - The Chakra System - image and text to give client a better understanding of terms and concepts used.
+* Article - The Shaman's Mesa - image and text explaining what the mesa is and that it will be used in healing sessions.
+* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater        sections. The various processes are:
     * Illumination
     * Extraction
     * Soul Retrieval
@@ -344,7 +349,8 @@ ___
 
 #### About 
 
-*  Hero Image -
+*  Hero Image - The practitioner with her Q'ero teacher don Augustin and his family.
+* Jumbotron text specific to the page - About Me - briefly explains what the page is about.
 * Mission statement
     * Centred on a full-width section of page to draw attention to it.
     * Inspire potential clients.
@@ -402,9 +408,9 @@ ___
 
 The following languages, frameworks and tools were used in the development of this site. HTML, CSS and Bootstrap provided the basic code for the site. Bootstrap classes were used as much as possible to save on writing new code in CSS.
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+_NB: The site was developed using the current version at time of development i.e. Bootstrap version: 4.3.1, jquery version: 3.4.1, popper version: 1.15.0, and FontAwesome version: 5.10.0._
 
-* [**Cloud9 & AWS Cloud 9**](https://www.awseducate.com/signin/SiteLogin) is an online Integrated Development Environment IDE. Used as recommended by Code Institute. It provides a standardised environment for development.
+* [**Cloud9 & AWS Cloud 9**](https://www.awseducate.com/signin/SiteLogin) is an online Integrated Development Environment IDE. Used as recommended by Code Institute. It provides a standardised environment for development. It was replaced as the recommended IDE by Gitpod.
 
 * [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development.
 
