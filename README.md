@@ -1,6 +1,6 @@
 # [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
 
- ## **Demo**
+ ### **Demo**
 
 ![mockup of site on multiple devices](assets/images/site-mockup.png)
 
@@ -68,9 +68,9 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
     * [Acknowledgements](#acknowledgements)
 * [DISCLAIMER](#disclaimer)
 
->## **UX** 
 
-### **UX Strategy** 
+
+>## **UX Strategy** 
 
 **UX Strategy** = **Design Strategy** + **Business Strategy**
 
@@ -97,7 +97,7 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 
 ***
 
-#### **Business Goals**
+### **Business Goals**
 
 *   To increase number of clients for practitioner.
 *	To establish an online presence for the practitioner.
@@ -109,7 +109,7 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 *	Existing clients are able to book follow-up sessions online. (Would not want new clients to book this way as the practitioner needs to initially assess each client.) 
 *	To utilise User Experience Design (UXD) to ensure that potential clients encounter a positive user experience whilst visiting the site and want to follow through, by contacting the practitioner to book a session and may want to return to the site at a later time for information.
 
-#### **User Goals** 
+### **User Goals** 
 
 *	To find a Shamanic Energy Healing practitioner by either arriving at the site through a word of mouth recommendation or via an online search and decide if they wish to work with the practitioner.
 *	To learn more about Shamanic Energy Healing and decide if they would like to undertake this kind of healing.
@@ -119,12 +119,12 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 *	To be able to contact the practitioner for more information.
 ___
 
-#### **B2C**
+### **B2C**
 The website is a little different from a basic B2C site as the potential clients need reassurance, confidence and trust in the practitioner and the processes used during a session, to encourage them to make contact and/or book a healing session; they are not just influenced by emotion to make a quick impulse buy. They need a reasonable amount of background information in order to be able to make an informed choice about whether to have a healing session.
 
 ___
 
-#### **Audience**
+### **Audience**
 The site is targeted at English speaking clients who are open to this type of healing and looking to find a shamanic energy healer. In this area of energy healing, clients tend to find their practitioners through word of mouth recommendations, then look for the site online to check details and make contact.
 
 The age of the audience can vary but tends towards a mature type of client. There are more women looking for this type of energy healing than men. The user may be a computer novice. This information is based on the shamanic energy healer’s own experience, that of their fellow practitioners and potential users.
@@ -135,12 +135,12 @@ i.e. “shaman, shamanic, shamanic healer, energy healing, healer, Inca shamanis
 These types of visitors could also become clients.
 ___
 
-#### **Location**
+### **Location**
 The physical location of the practitioner is not an issue, as many types of session can be carried out remotely via the phone, skype and WhatsApp as well as by face to face sessions.
 
 ___
 
-#### **Research**
+### **Research**
 1. I talked to shamanic practitioners and potential clients and showed them my Ideas.
 
     Feedback: 
@@ -166,7 +166,7 @@ ___
 
 ___
 
-#### **Potential Client Scenarios**
+### **Potential Client Scenarios**
 
 * Recommended, potential client looking to make contact to book a shamanic energy healing session
 
@@ -178,7 +178,7 @@ ___
 
 ___
 
-#### **Product Considerations** 
+### **Product Considerations** 
 *How to rise above the competition and make this site special.*
 
 *	Mobile First, responsive approach to accommodate all user devices and screen types.
@@ -189,7 +189,7 @@ ___
 
 ___
 
-#### **Finding this Website**
+### **Finding this Website**
 How are potential clients going to find this website?
 *	Word of mouth
 *	Search Engines – need to use Search Engine Optimization (SEO) e.g. research and use keywords.
@@ -266,7 +266,7 @@ The content is mixed including text, diagrams, photos and videos.
 
 #### **The design goals of the website are that:**
 
-* the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
+* The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
 * The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
 * the site is intuitive and user friendly.
 * the site is both engaging and inspiring keeping potential clients on the site. 
@@ -402,8 +402,6 @@ ___
 * Online Payment for sessions at point of booking
 * Shop selling related books via links to Amazon
 
-## **Surface Plane**
-
 >## **Technologies Used**
 
 The following languages, frameworks and tools were used in the development of this site. HTML, CSS and Bootstrap provided the basic code for the site. Bootstrap classes were used as much as possible to save on writing new code in CSS.
@@ -469,7 +467,11 @@ Error in console on Chrome Developer Tools.
 
 https://www.chromestatus.com/feature/5088147346030592
 
+>Error: Chrome tool shows that the hero image display correctly on apple mobile devices, this is not the case. If you look on a real apple device the image looks awful, as the background-position property in the CSS for the hero image is not being recognised. The problem is documented in stack overflow.
+Fix use @solutions
+????????????????????????????????????????????????????????????????????????????
 
+need to look for a solution.
 >## **Deployment**
 
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
