@@ -333,7 +333,7 @@ ___
 * Article - The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
 * Article - The Chakra System - image and text to give client a better understanding of terms and concepts used.
 * Article - The Shaman's Mesa - image and text explaining what the mesa is and that it will be used in healing sessions.
-* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater        sections. The various processes are:
+* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater sections and allows them to select the topic of interest to them. The various processes are:
     * Illumination
     * Extraction
     * Soul Retrieval
@@ -349,33 +349,34 @@ ___
 
 #### About 
 
-*  Hero Image - The practitioner with her Q'ero teacher don Augustin and his family.
+* Hero Image - The practitioner with her Q'ero teacher don Augustin and his family.
 * Jumbotron text specific to the page - About Me - briefly explains what the page is about.
 * Mission statement
     * Centred on a full-width section of page to draw attention to it.
     * Inspire potential clients.
-* section My personal journey – how I got here. Background to capture interest and build credibility.
-* section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January 2011) to demonstrates my credibility.
-* Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
+* Article - My Journey – how the practitioner became a shamanic energy healing practitioner. Background to capture interest and build credibility.
+* Article - My training – My formal training has been with The Four Winds Society https://thefourwinds.com/ - demonstrates practitioner's credibility. Quote from a magazine to demonstrate credibility of The Four Winds.
+* Testimonials 2 items which change from single column (mobile) double column on tablets and larger screen sizes, to improve appearance and useability for user. Demonstrates practitioner's credibility.
 
 ---
 
 #### Rates page 
 
-*  Hero Image -
-* contains a clear pricing structure
-* FAQs covering questions clients might ask. Uses Bootstrap's accordion to provide alternate subtle colours between questions to break up blocks of text and make it easier for the user to read.
+* Hero Image - A ceremony/training session with the practitioner's Four Winds class at Moray, Cusco, Peru.
+* Jumbotron text specific to the page - Rates and FAQs - clearly explains what is on the page.
+* Contains a clear pricing structure, so the user can easily tell if a session is affordable.
+* FAQs covering questions clients might ask. Uses Bootstrap's accordion to separate each FAQ and its answer. This breaks up blocks of text and make it easier for the user to find the information they are looking for quickly and to makes it easier to read.
 
 ---
 
 #### Contact page 
 
-* Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
-
+* Hero Image -
+* Jumbotron text specific to the page - 
 * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
 ---
 
-### Features tried and taken off site because did not look good and/or work with the design concepts.
+<!-- ### Features tried and taken off site because did not look good and/or work with the design concepts.
 
 * I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
 * I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
@@ -390,15 +391,14 @@ ___
 
 [Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)
 
- ---
+ --- -->
 
 ### **Features Left to Implement**
-* Search bar for site
-* Gallery
-* Privacy Policy
+
 * Blog/newsletter with sign-up
 * Membership with login for existing clients
 * Online-booking of sessions for members
+
 * Online Payment for sessions at point of booking
 * Shop selling related books via links to Amazon
 
