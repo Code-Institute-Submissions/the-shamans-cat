@@ -1,15 +1,28 @@
-
 # [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
-
-To view a live demo of the site go to: https://helensayer.github.io/the-shamans-cat
 
  ## **Demo**
 
 ![mockup of site on multiple devices](assets/images/site-mockup.png)
 
-***
+To view a live demo of the site click* on the link: https://helensayer.github.io/the-shamans-cat 
 
-# **Table of Contents**
+*_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
+
+
+>## **Project Overview**
+
+A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. 
+
+The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos and pictures, in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
+
+### **Background to Project**
+This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
+This is my first milestone project to demonstrate the skills I have learnt so far on the course.
+
+
+
+>## **Table of Contents**
+
 
 * [PROJECT OVERVIEW](#project-overview)
 * [DEMO](#demo)
@@ -55,35 +68,7 @@ To view a live demo of the site go to: https://helensayer.github.io/the-shamans-
     * [Acknowledgements](#acknowledgements)
 * [DISCLAIMER](#disclaimer)
 
-*****
-#   **TEST**
-
-
-
-
-***
-## **Project Overview**
-
-A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. 
-
-The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos and pictures, in order to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
-
-<!-- The website has the following features: 
-
-* **Common Features** The pages all share an easy to use navigation system, Hero Image, Call*to Action (CTA) button, logo, links to practitioner’s social media sites, terms & conditions, privacy policy and contact buttons.
- * **Homepage** – explains what Shamanic Energy Healing is, its role in our modern world, the principles behind it and its benefits.
-* **Shamanic Healing** – describes in more detail about Shamanic Energy Healing, the terminology and the processes used. 
-* **About** – explains the background and training of the practitioner, along with client testimonials, to establish the credibility of the practitioner doing this work.
-* **Rates** – how much a session costs and FAQs.
-* **Contact** – contact form. -->
-
-### **Background to Project**
-This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
-This is my first milestone project to demonstrate the skills I have learnt so far on the course.
-
-***
-## **UX** 
-***
+>## **UX** 
 
 ### **UX Strategy** 
 
@@ -99,14 +84,16 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 
 **Value to Business:**
 - Establish an online presence so potential clients can find the practitioner. 
-Creates a brand for the practitioner so they can be identified over the competition. 
-Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
-The site acts as proof of ability of the practitioner to the potential clients. 
-In addition, social media links help promote the practitioner’s online presence.
+- Creates a brand for the practitioner so they can be identified over the competition. 
+- Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
+- The site acts as proof of ability of the practitioner to the potential clients. 
+- In addition, social media links help promote the practitioner’s online presence.
 
 **Value to Clients:**
 - Become informed about this modality and its benefits. 
-Learn about the practitioner and her experience so they can decide if credible and want to book a session.
+- Learn about the practitioner, her experience so they can decide if the practitioner is credible.
+- Find out the cost of a session and decide if it is affordable.
+- Contact the practitioner for either, more information, or to book a session.
 
 ***
 
@@ -119,7 +106,7 @@ Learn about the practitioner and her experience so they can decide if credible a
 *	To make potential clients aware of the training and experience of the practitioner, through testimonials and a brief outline of the practitioner’s training in this field, in order to inspire confidence in the processes and the practitioner.
 *	To engage potential clients so that they contact the practitioner and book a healing session.
 *	Produce a blog with regular articles to attract new clients.
-*	Existing clients are able to book follow-up sessions online. 
+*	Existing clients are able to book follow-up sessions online. (Would not want new clients to book this way as the practitioner needs to initially assess each client.) 
 *	To utilise User Experience Design (UXD) to ensure that potential clients encounter a positive user experience whilst visiting the site and want to follow through, by contacting the practitioner to book a session and may want to return to the site at a later time for information.
 
 #### **User Goals** 
@@ -130,6 +117,7 @@ Learn about the practitioner and her experience so they can decide if credible a
 *	To be able to view the pricing structure and decide if a session is affordable.
 *	To easily get in touch with the practitioner to book a healing session.
 *	To be able to contact the practitioner for more information.
+___
 
 #### **B2C**
 The website is a little different from a basic B2C site as the potential clients need reassurance, confidence and trust in the practitioner and the processes used during a session, to encourage them to make contact and/or book a healing session; they are not just influenced by emotion to make a quick impulse buy. They need a reasonable amount of background information in order to be able to make an informed choice about whether to have a healing session.
@@ -181,7 +169,6 @@ The physical location of the practitioner is not an issue, as many types of sess
 
 * Returning client looking for contact details or other information.
 
-
 #### **Product Considerations** 
 *How to rise above the competition and make this site special.*
 
@@ -190,7 +177,6 @@ The physical location of the practitioner is not an issue, as many types of sess
 *	Keep the content to a minimum whilst still providing the user with sufficient information for them to feel they comprehend enough of the healing processes, and pricing structure, to be able to book a session. This includes the use of descriptive text, images, diagrams, videos, FAQs, testimonials and blogs.
 *	Encourage users to return to the site for reference by providing good information and explanations.
 *	Facilitate easy contact with practitioner so any questions and concerns can be dealt with promptly, paving the way for the user to book a session, use of Call-To-Actions (CTAs). Multiple contact routes via social media links, as well as a contact form.
-
 
 #### **Finding this Website**
 How are potential clients going to find this website?
@@ -202,55 +188,22 @@ How are potential clients going to find this website?
 *	Blogs and articles 
 *	Join reference sites
 *	Subscription to listings
-
-
-
 ---
 
-### **Strategy Trade-off**
+### **Strategy Trade-offs**
+To work out what's worth having in the initial release of the website I used the strategy trade-off matrix. 
 
+The first four Opportunities/Problems are possible at the moment with my current skillset. The last two will need additional skills that will be covered later on in the course. So I will produce a minimum-viable-product (MVP) implementing the four highest priorities listed in the table below. Future releases will include a blog and the ability for members i.e. existing clients, to book follow-up sessions via the website.
+
+**Strategy Trade-off Priority Matrix Table**
 ![Priority matrix table](assets/images/priority-matrix-table.png)
 ![Priority matrix graph](assets/images/priority-matrix-graph.png)
 
 
+>## **UX Scope**
 
-
----
-
-## **UX Scope**
-
-#### **The design goals of the website are that:**
-
-* the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
-* the site is both engaging and inspiring keeping potential clients on the site. 
-* that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
-* it informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully, more likely to book a session.
-* the client is not overwhelmed with information yet can find what they need easily from the navigation bar and accordion sections.
-* the site is intuitive and user friendly.
-* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
-* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
-
-### Supporting the Business Objectives
-To support the business objective the following elements, need to be included in the website:
-* **Online presence**
-    * Establish a brand so easily distinguishable from competition
-        * Use a Jaguar image – The shaman’s cat….. is a jaguar (need an explanation somewhere for title)
-        * Logo of Jaguar silhouette
-        * Favicon of Jaguar silhouette
-        * Social Media links to practitioner
-
-* **Create trust** by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session.
-
-*   **Content requirements:**
-    * Why someone might benefit from a shamanic healing session?
-    * Explanation of shamanic energy healing, including text, diagrams and videos.
-    * What the client might expect from a shamanic energy healing session.
-    * About the shamanic energy healing practitioner, including their training and experience.
-    * Testimonials.
-    * Photos showing the practitioner in training and other shamanic related photos.
-* **Rates** – Pricing and FAQs
-* **Contact** - Contact Form
-* **Medical Disclaimer and Privacy Statement**
+The scope of the project is based on the strategy and the priorities identified in the strategy trade-offs.
+Scope Includes the functional specifications and the content specifications.
 
 ### **User stories**
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.
@@ -261,65 +214,112 @@ To support the business objective the following elements, need to be included in
 6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
 7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
-___
-## **UX STRUCTURE & SKELETON**
+
+### **Feature Set**
+The website needs the following feature set to accommodate the business goals and user requirements, derived from the strategy trade-offs: 
+
+* **Online presence**
+    * Establish a brand so easily distinguishable from competition
+        * Use a Jaguar image – The shaman’s cat is a jaguar. The jaguar is an Inca shamanic archetype and represents the power of transformation.
+        * Logo of Jaguar silhouette
+        * Favicon of Jaguar silhouette
+        * Social Media links to practitioner
+
+* **Create trust** by establishing credentials of the shamanic practitioner and inspiring confidence in the potential clients, so they book a session.
+
+* **Content requirements:**
+To provide background information, important to the user in making informed choice about how to proceed.
+The content is mixed including text, diagrams, photos and videos.
+    * **Content Topics:**
+        * The role of the shaman in modern society.
+        * Why someone might benefit from a shamanic healing session?
+        * Explanation of shamanic energy healing. 
+        * What the client might expect from a shamanic energy healing session.
+        * About the shamanic energy healing practitioner, including their training and experience.
+        * Testimonials.
+        * Photos showing the practitioner in training.
+* **Rates** – Pricing - is it affordable?
+* **FAQs** - inform user - is this something I want to do?
+* **Contact** - Contact Form - to get in touch for more information or to book a session.
+* **Medical Disclaimer, Privacy Statement and copyright Info** - business rules - legal
+
+* **What Research indicated**
+    * **No Carousel** - as I initially thought it was a good idea but this turned out not to be a good idea as the users did not like it.
+    * **Simple Navigation** To move around the site.
+    * **Easy to read text**
+
+>## **UX STRUCTURE & SKELETON**
 
 ### **Navigational Design, Hierarchy Interaction Design**
+
+
+#### **The design goals of the website are that:**
+
+* the site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
+* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right. A hamburger menu icon on right hand side on devices with small screens.
+* the site is both engaging and inspiring keeping potential clients on the site. 
+****
+?????????????????????????????????????
+* the fonts used
+* that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
+* it informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
+* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal and accordion sections.
+* the site is intuitive and user friendly.
+* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
+
+
 
 ### **Wireframes**
 
 The wireframes were made using Balsamiq and exported as pdf files and can ve viewed following the links below.
+_**(Please note when opening links below please choose to open in a new browser tab, by right mouse clicking on the link and selecting the option.)**_
 
-* <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/home.pdf" target="_blank" rel="noopener">Home</a>
-* <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/shamanic-energy-healing.pdf" target="_blank" rel="noopener">Shamanic Energy Healing</a>
-* <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/about-me.pdf" target="_blank" rel="noopener">About</a>
-* <a href="https://helensayer.github.io/the-shamans-cat/assets/wireframes/rates.pdf" target="_blank" rel="noopener">Rates</a>
-* <a href="https://helensayer.github.io/the-shamans-cat/assets//wireframes/contact.pdf" target="_blank" rel="noopener">Contact</a>  
+* [Home](assets/wireframes/home.pdf)
+* [Shamanic Energy Healing](assets/wireframes/shamanic-energy-healing.pdf)
+* [About](assets/wireframes/about-me.pdf)
+* [Rates](assets/wireframes/rates.pdf)
+* [Contact](assets//wireframes/contact.pdf)
 
-***
 
-## **FEATURES**
- 
-### Existing Features
+>## **FEATURES**
 
-#### Common Features
-The site has the following common features on each page:
+### **Features Common to Each Page**
 
-* **Logo** – Silhouette of Jaguar with text setting the brand - on every page top*right*hand side of screen, acts as a link to the home page from any other page on the website.
+* **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, acts as a link to the home page from any other page on the website. There is also a logo in the footer bottom right-hand-side of each page. This logo also acts as a link to the home page.
 
 * **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. There is a menu icon for mobile devices, which drops down over content when clicked.
 
 * **Hero Image with Jumbotron** – Hero image with call to action (CTA) button, to get attention of user. Different hero image on each page, but with same format, which keeps a consistent feel across all the website pages.
 
 * **Footer** – This is at the bottom of every page and contains:
-    *   Copyright for protection of business data. 
-    *   A Terms & Condition's modal to clarify matter legally. 
-    *   Contact button which leads to the contact form.
+    
+    *   Logo - When clicked takes user back to home page.
+    *   Contact button which when clicked leads to the contact form.
     *   Social media icons providing links to other social platforms used by the shaman.
+    *   A Terms & Condition's button - when clicked opens a modal, to clarify matters legally. 
+    *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details.
+    *   Copyright for protection of business data.
+
+ * **Back-to-Top**    This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space.
 
 * **Favicon** * Provides continuation of cat branding to identify webpage in browser tabs.
 
+___
+### **Features on individual Pages**
+#### Home page 
 
-#### Features individual to each page:
-
-##### Home page 
-
-* **Call To Action** * Attract attention of user with hero image with call to action (CTA) button. 
-    
-* **Mission statement**
-    * Centred on a full-width section of page to draw attention to it.
-    * Inspire potential clients.
-
-* **What is Shamanic energy healing?** 
+* Hero Image
+* What is Shamanic energy healing? 
     * Article with informative paragraphs of text. To avoid too much text on page using a button ‘read more’. This uses Bootstrap accordion feature.
     * A series of three short videos featuring Alberto Villoldo of The Four Winds describing shamanic healing (YouTube embedded with sound off as default)
-* **Benefits of Shamanic energy healing**
+* Benefits of Shamanic energy healing
     * Article outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users. A ‘read more’ button is being used. This uses Bootstrap accordion feature.
 
 
-##### Shamanic Healing page
+#### Shamanic Healing page
 
-
+* Hero Image 
 * Shamanic healing - a more detailed look, with another video embedded from YouTube, with sound off default.
 
 * The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
@@ -340,34 +340,36 @@ The site has the following common features on each page:
     * Destiny Retrieval
     * Fire Ceremony
 
+---
 
-##### About 
+#### About 
 
-* Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
-    
+*  Hero Image -
+* Mission statement
+    * Centred on a full-width section of page to draw attention to it.
+    * Inspire potential clients.
 * section My personal journey – how I got here. Background to capture interest and build credibility.
-
 * section My training – including links to The Four Winds websites. (insert quote My formal training has been with The Four Winds Society, “the Harvard of neo-shamanism” (Harper’s Bazaar, January 2011) to demonstrates my credibility.
-
 * Testimonials 4 items which change from single column (mobile) double column (tablet) and 4 column (desktop). Demonstrates my credibility.
 
+---
 
-##### Rates page 
+#### Rates page 
 
-* Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
-
+*  Hero Image -
 * contains a clear pricing structure
+* FAQs covering questions clients might ask. Uses Bootstrap's accordion to provide alternate subtle colours between questions to break up blocks of text and make it easier for the user to read.
 
-* FAQs covering questions clients might ask. Alternate subtle colours between questions to break up blocks of text.  Uses collapsible text to expand answers. Not yet sure what collapse to use here? Bootstrap 4 again?
+---
 
-
-##### Contact page 
+#### Contact page 
 
 * Hero Image with Jumbotron text and CTA – To get attention and keep a consistent feel across all the website pages.
 
 * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
+---
 
-#### Features tried and taken off site because did not look good and/or work with the design concepts.
+### Features tried and taken off site because did not look good and/or work with the design concepts.
 
 * I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
 * I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
@@ -381,7 +383,9 @@ The site has the following common features on each page:
     So, I removed it and went back to a simple nav-item with no dropdowns.
 
 [Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)
-    
+
+ ---
+
 ### **Features Left to Implement**
 * Search bar for site
 * Gallery
@@ -394,7 +398,7 @@ The site has the following common features on each page:
 
 ## **Surface Plane**
 
-## **Technologies Used**
+>## **Technologies Used**
 
 The following languages, frameworks and tools were used in the development of this site. HTML, CSS and Bootstrap provided the basic code for the site. Bootstrap classes were used as much as possible to save on writing new code in CSS.
 
@@ -430,7 +434,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 
-## **Testing**
+>## **Testing**
 
 Whist developing the site, I have periodically run the code through the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors, mainly typos. I find this helps as mistakes might affect when adding new elements.
 
@@ -460,7 +464,7 @@ Error in console on Chrome Developer Tools.
 https://www.chromestatus.com/feature/5088147346030592
 
 
-## **Deployment**
+>## **Deployment**
 
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
 
@@ -492,7 +496,7 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 
 
 
-## **Credits**
+>## **Credits**
 
 ### **Content**
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
@@ -536,12 +540,12 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions)
 - For aligning the the 'Read more" buttons at the bottom of the cards in the card-deck Healing Processes I based my code on an answer in [Stackoverflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
-### Acknowledgements
+### **Acknowledgements**
 
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
 - I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
 - Thanks to anyone on Slack who responded to my questions relating to this site.
 - Mentors
 
-## Disclaimer
+### **Disclaimer**
 This website is being used for educational purposes only.
