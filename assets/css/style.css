@@ -338,8 +338,8 @@ main {
     }
 }
 
-/* Small devices (phones, with screens widths of 576px and up to 768px)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/* Small devices (phones, with screens widths of 577px and up to 768px)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .logo img {
         width: 184px;
         height: 30px;
@@ -368,7 +368,7 @@ main {
 } */
 
 /* Medium devices (tablets with screen widths of 769px and up to 992px) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     .logo img {
         width: 201px;
         height: 33px;
@@ -405,8 +405,8 @@ main {
 
 /* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
 
-/* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+/* Large devices (desktops, 993px and up) */
+@media screen and (min-width: 993px) {
     .logo img {
         width: 267px;
         height: 44px;
