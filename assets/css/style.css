@@ -12,7 +12,7 @@ h6 {
     font-weight: 700;
 }
 
-.home-videos-title {
+.videos-title {
     font-size: 1.3rem;
 }
 
@@ -414,7 +414,7 @@ main {
     .navbar li {
         font-size: 1.3rem;
     }
-    .home-videos-title {
+    .videos-title {
         font-size: 1.0rem;
     }
     .back-to-top {
@@ -443,7 +443,7 @@ main {
             width: 8%;
             bottom: 20%;
         }       
-    .home-videos-title {
+    .videos-title {
         font-size: 1.0rem;
     }
 }
