@@ -191,6 +191,7 @@ main {
 .jumbotron {
     margin-top: 40%;
     background-color: transparent;
+    position: relative;
     z-index: 100;
 }
 
