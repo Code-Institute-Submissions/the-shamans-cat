@@ -414,6 +414,13 @@ main {
     .navbar li {
         font-size: 1.3rem;
     }
+    p,
+    .benefits li,
+    .card-lists li,
+    .form-group,
+    .form-control {
+        font-size: 1.3rem;
+    }
     .videos-title {
         font-size: 1.0rem;
     }
