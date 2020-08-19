@@ -329,17 +329,19 @@ main {
 /* 1: Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devices */
 /* 2: Changes text size on breakpoints - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
 /* 3: Changes "back to top" anchor position above footer so gives better visibility for user. */
+/* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
 
-/* small devices - (phones with screens widths larger than 320px up to 576px) */
-@media screen and (min-width: 320px) and (max-width: 576px) {
+
+/* small devices - (phones with screens widths larger than 320px up) */
+@media screen and (min-width: 320px) and (max-width: 575.98px) {
     .logo img {
         width: 184px;
         height: 30px;
     }
 }
 
-/* Small devices (phones, with screens widths of 577px and up to 768px)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+/* Small devices (phones, with screens widths of 576px and up)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .logo img {
         width: 184px;
         height: 30px;
@@ -367,8 +369,8 @@ main {
         }   
 } */
 
-/* Medium devices (tablets with screen widths of 769px and up to 992px) */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+/* Medium devices (tablets with screen widths of 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .logo img {
         width: 201px;
         height: 33px;
@@ -403,10 +405,8 @@ main {
         }   
 }
 
-/* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
-
-/* Large devices (desktops, 993px and up) */
-@media screen and (min-width: 993px) {
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .logo img {
         width: 267px;
         height: 44px;
@@ -415,18 +415,35 @@ main {
         font-size: 1.3rem;
     }
     .home-videos-title {
-        font-size: 1.75rem;
+        font-size: 1.0rem;
     }
     .back-to-top {
         width: 7%;
         bottom: 25%;
     }  
-    .home-videos-title {
-        font-size: 0.75rem;
-    }
 }
 
-@media screen and (min-width: 1080px) {
+/* Extra Large devices (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .logo img {
+        width: 267px;
+        height: 44px;
+    }
+    .navbar li {
+        font-size: 1.6rem;
+    }
+    p,
+    .benefits li,
+    .card-lists li,
+    .form-group,
+    .form-control {
+        font-size: 1.5rem;
+    }
+    .back-to-top {
+            width: 8%;
+            bottom: 20%;
+        }   
+    }    
     .home-videos-title {
         font-size: 1.0rem;
     }
