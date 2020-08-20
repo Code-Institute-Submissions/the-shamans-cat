@@ -111,27 +111,27 @@ main {
 }
 
 .callout-container-home {
-    background: url("../images/salkantay-50-50-90-comp.jpg") no-repeat center top fixed;
+    background: url("../images/salkantay-50-50-90-comp.jpg") no-repeat center top;
     background-size: cover;
 }
 
 .callout-container-sh {
-    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom fixed;
+    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .callout-container-about {
-    background: url("../images/agustin-family.jpg") no-repeat right 58% top fixed;
+    background: url("../images/agustin-family.jpg") no-repeat right 58% top;
     background-size: cover;
 }
 
 .callout-container-rates {
-    background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom fixed;
+    background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom;
     background-size: cover;
 }
 
 .callout-container-contact {
-    background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80% fixed;
+    background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80%;
     background-size: cover;
 }
 
@@ -455,3 +455,10 @@ main {
         font-size: 1.0rem;
     }
 }
+
+/* @supports */
+/* This is to create work-around for i-Phone and i-Pads which do not support background-position - resulting in hero images being incorrectly displayed */
+
+/* @supports not (background: position) {
+
+} */
