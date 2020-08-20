@@ -112,7 +112,7 @@ main {
 
 /* Hero images */
 .callout-container-home {
-    background: url("../images/salkantay-50-50-90-comp.jpg") no-repeat center top;
+    background: url("../images/salkantay.jpg") no-repeat center top;
     background-size: cover;
 }
 
@@ -127,12 +127,12 @@ main {
 }
 
 .callout-container-rates {
-    background: url("../images/4winds-ceremony-moray-landscape.jpg") no-repeat left 15% bottom;
+    background: url("../images/4winds-ceremony-moray.jpg") no-repeat left 15% bottom;
     background-size: cover;
 }
 
 .callout-container-contact {
-    background: url("../images/despacho-augustin-luis-50-crop.jpg") no-repeat left 80% top 80%;
+    background: url("../images/despacho.jpg") no-repeat left 80% top 80%;
     background-size: cover;
 }
 
