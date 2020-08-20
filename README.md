@@ -293,13 +293,13 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
 
 >## **FEATURES**
 
-### **Features Common to Each Page**
+### **Existing Features Common to Each Page**
 
 * **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, acts as a link to the home page from any other page on the website. There is also a logo in the footer bottom right-hand-side of each page. This logo also acts as a link to the home page.
 
 * **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. The navigation-bar is replaced with a menu icon, for mobile devices, which drops down over content when clicked.
 
-* **Hero Image with Jumbotron** – Hero image with call-to-action (CTA) button, to get attention of user. Different hero image and Jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
+* **Hero Image with Jumbotron** – Hero image with overlaid Jumbotron containing a text area to each page. Below this text area is a call-to-action (CTA) button, to contact the practitioner. The button is brightly coloured to get attention of user. Different hero image and Jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
 
 * **Footer** – This is at the bottom of every page and contains:
     *   Logo - When clicked takes user back to home page.
@@ -309,11 +309,11 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
     *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details.
     *   Copyright for protection of business data.
 
- * **Back-to-Top**    This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space.
+ * **Back-to-Top**  -  This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space.
 
-* **Favicon** * Provides continuation of cat branding to identify this site's webpages in browser tabs.
+* **Favicon** - Provides continuation of cat/jaguar branding to identify this site's webpages in browser tabs.
 ___
-### **Features on individual Pages**
+### **Existing Features on individual Pages**
 #### Home page 
 
 * Hero Image of a Peruvian sacred mountain - Salkantay.
@@ -435,13 +435,21 @@ _NB: The site was developed using the current version at time of development i.e
 * [AutoPrefixer](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
 * [PhotoShop Elements](https://www.adobe.com/uk/products/photoshop-premiere-elements.html) used to resize, and prepare images for the web.
 * [TinyPNG](https://tinypng.com/) to compress image files to reduce their size which in turn reduces the images load time on the webpage.
-
-
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) in Gitpod to check spelling as you type.
+* Chrome DevTools and Safari Developer Tools available from browser.
+* [ally](https://color.a11y.com/) to test color contrast is optimized. 
 
 >## **Testing**
 
-Whist developing the site, I have periodically run the code through the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors, mainly typos. I find this helps as mistakes might affect when adding new elements.
+Gitpod indicates problem as you develop code. So they can be eliminated immediately where possible. The site pages have also been tested with appropriate validators and produce no errors:
+[HTML Validator](https://validator.w3.org/)
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+I write my text chunks for the site in word so they are spelling free when loaded to the website. I also have installed Code Spell Checker to avoid spelling mistakes and typos.
+
+**Page Load Times**
+Tested using Chrome DevTools:
+Load times for the home page are a bit slow due to it having three embedded YouTube videos. I believe that this can be addressed with javaScript. Currently, this is beyond my skillset and the scope of this project.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -472,6 +480,10 @@ Fix use @solutions
 ????????????????????????????????????????????????????????????????????????????
 
 need to look for a solution.
+
+
+
+
 >## **Deployment**
 
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
@@ -502,10 +514,7 @@ To run this project locally, clone it from GitHub into your local IDE using the 
 
 Click on the links for general help with <a href="https://help.github.com/en" target="_blank" rel="noopener">GitHub</a>, or for specific help with <a href="https://help.github.com/en/articles/cloning-a-repository-from-github" target="_blank" rel="noopener">Cloning a repository.</a>
 
-
-
 >## **Credits**
-
 ### **Content**
 - The text for What is Shamanic Energy Healing is by Alberto Villoldo and was copied from [The Four Wind Society's website](http://albertovilloldophd.com/light-body-self-healing/)
 - The first list of benefits was taken from [Delicia Burnell](http://www.deliciaburnell.co.uk/shamanic-healing/)
@@ -524,7 +533,6 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Text taken for Fire Ceremony from [The Four Winds](https://thefourwinds.com/blog/the-shaman-and-relationships/fire-ceremony/)
 - Text for FAQs based on websites and information from [Kitty Norris](https://kittynorris.com/frequently-asked-questions/) and Eileen Mullard.
 
-
 ### **Media**
 - The photos used in this site unless specifically noted here are all copyright to Helen Sayer.
 - The image of jaguar (is actually a panther) and was obtained from [pixaby](https://pixabay.com/vectors/tiger-panther-feline-animal-wild-307205/). It is used in the Favicon.
@@ -538,7 +546,6 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - Butterfly image from Alberto Villoldo's Facebook page [link](https://www.facebook.com/pg/AlbertoVilloldo/photos/?ref=page_internal)
 - Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
 
-
 ### **Code**
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
 - I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
@@ -549,7 +556,6 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 - For aligning the the 'Read more" buttons at the bottom of the cards in the card-deck Healing Processes I based my code on an answer in [Stackoverflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
 ### **Acknowledgements**
-
 - I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
 - I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
 - Thanks to anyone on Slack who responded to my questions relating to this site.
