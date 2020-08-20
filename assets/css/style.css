@@ -86,7 +86,7 @@ main {
 .logo img {
     border: 1px solid white;
     border-radius: 3px;
-    width:150px;
+    width: 147px;
     height: 24px;
 }
 
@@ -337,15 +337,15 @@ main {
 /* small devices - (phones with screens widths larger than 320px up) */
 @media screen and (min-width: 320px) and (max-width: 575.98px) {
     .logo img {
-        width: 184px;
+        width: 183px;
         height: 30px;
     }
-}
+} 
 
 /* Small devices (phones, with screens widths of 576px and up)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     .logo img {
-        width: 184px;
+        width: 183px;
         height: 30px;
     }
     p,
@@ -367,8 +367,8 @@ main {
 /* Medium devices (tablets with screen widths of 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     .logo img {
-        width: 201px;
-        height: 33px;
+        width: 256px;
+        height: 42px;
     }
     p,
     .benefits li,
@@ -403,7 +403,7 @@ main {
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .logo img {
-        width: 267px;
+        width: 269px;
         height: 44px;
     }
     .navbar li {
@@ -428,7 +428,7 @@ main {
 /* Extra Large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     .logo img {
-        width: 267px;
+        width: 269px;
         height: 44px;
     }
     .navbar li {
