@@ -110,6 +110,7 @@ main {
     z-index: 98;
 }
 
+/* Hero images */
 .callout-container-home {
     background: url("../images/salkantay-50-50-90-comp.jpg") no-repeat center top;
     background-size: cover;
@@ -363,13 +364,6 @@ main {
         }   
 }
 
-/* Small devices (landscape phones, up to 640px wide x 360px high) e.g. Moto G4 and Galaxy S5  */
-/* @media screen and (max-width : 640px) and (max-height : 360px) {
-        .back-to-top {
-            bottom: 67%;
-        }   
-} */
-
 /* Medium devices (tablets with screen widths of 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     .logo img {
@@ -455,10 +449,3 @@ main {
         font-size: 1.0rem;
     }
 }
-
-/* @supports */
-/* This is to create work-around for i-Phone and i-Pads which do not support background-position - resulting in hero images being incorrectly displayed */
-
-/* @supports not (background: position) {
-
-} */
