@@ -328,8 +328,8 @@ main {
 /* Media Queries */
 
 /* media query actions:- */
-/* 1: Changes size of navbar-brand so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devices */
-/* 2: Changes text size on breakpoints - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
+/* 1: Changes size of navbar-brand (logo) so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devices */
+/* 2: Changes text size on breakpoints as typography is not responsive in Bootstrap - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
 /* 3: Changes "back to top" anchor position above footer so gives better visibility for user. */
 /* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
 
@@ -355,6 +355,9 @@ main {
     .form-control {
         font-size: 1.1rem;
     }
+    .testimonials p {
+        font-size: 1.0rem;
+    }
     .back-to-top {
             width: 10%;
             bottom: 51%;
@@ -377,9 +380,12 @@ main {
     .form-control {
         font-size: 1.2rem;
     }
+    .testimonials p {
+        font-size: 1.1rem;
+    }
     .back-to-top {
             width: 8%;
-            bottom: 20%;
+            bottom: 30%;
         }   
     }    
 
@@ -416,6 +422,9 @@ main {
     .form-control {
         font-size: 1.3rem;
     }
+    .testimonials p {
+        font-size: 1.2rem;
+    }
     .videos-title {
         font-size: 1.0rem;
     }
@@ -426,7 +435,35 @@ main {
 }
 
 /* Extra Large devices (desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1439.98px)  {
+    .logo img {
+        width: 269px;
+        height: 44px;
+    }
+    .navbar li {
+        font-size: 1.5rem;
+    }
+    p,
+    .benefits li,
+    .card-lists li,
+    .form-group,
+    .form-control {
+        font-size: 1.4rem;
+    }
+    .testimonials p {
+        font-size: 1.3rem;
+    }
+    .back-to-top {
+            width: 8%;
+            bottom: 20%;
+        }       
+    .videos-title {
+        font-size: 1.2rem;
+    }
+}
+/* 
+/* Extra Large devices (desktops, 1440px and up) */
+@media screen and (min-width: 1440px)  {
     .logo img {
         width: 269px;
         height: 44px;
@@ -441,11 +478,14 @@ main {
     .form-control {
         font-size: 1.5rem;
     }
+    .testimonials p {
+        font-size: 1.4rem;
+    }
     .back-to-top {
             width: 8%;
             bottom: 20%;
         }       
     .videos-title {
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
-}
+} */
