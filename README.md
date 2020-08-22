@@ -26,7 +26,7 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 
 * [PROJECT OVERVIEW](#project-overview)
 * [DEMO](#demo)
-* [UX](#ux)    
+* [UX]    
     * [UX STRATEGY](#ux-strategy)
         * [Business Goals](#business-goals)
         * [User Goals](#user-goals)
@@ -37,28 +37,29 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
         * [Potential Client Scenarios](#potential-client-scenarios)
         * [Product Considerations](#product-considerations)
         * [Finding this website](#finding-this-website)
-        * [Strategy Trade-offs](#strategy-trade-off)       
-        * [Design Goals](#design-goals)
+        * [Strategy Trade-offs](#strategy-trade-offs)       
     * [UX SCOPE](#ux-scope)
         * [User Stories](#user-stories)
-        * [Supporting the Business Objectives](#supporting-the-business-objectives)
-    * [UX STRUCTURE & SKELETON](#ux-structure-and-skeleton)
-        * [Navigational Design, Hierarchy Interaction Design](#---navigational-design,-hierarchy-interaction-design--)
+        * [Supporting the Business Objectives]
+        <!-- (#supporting-the-business-objectives) -->
+    * [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
+        * [Navigational Design, Hierarchy Interaction Design](#navigational-design-hierarchy-interaction-design)
+        * [Design Goals](#the-design-goals-of-the-website-are-that..)
         * [Wireframes](#wireframes)
-* [FEATURES](#features)    
-    * [Existing Features](#features)
-    * [Common Features](#common-features)
-    * [Features individual to each page](#features-individual-to-each-page:)
+* [FEATURES](#features) 
+    * [Common Features](#existing-features-common-to-each-page) 
+    * [Features individual to each page](#existing-features-on-individual-pages)
         * [Home page](#home-page)
-        * [Shamanic Energy Healing page](#shamanic-energy-healing-page)
+        * [Shamanic Healing page](#shamanic-healing-page)
         * [About page](#about)
-        * [Rates page](#rates)
-        * [Contact page](#contact)
+        * [Rates page](#rates-page)
+        * [Contact page](#contact-page)
     * [Features tried and taken off site because did not look good and/or work with the design concepts](#features-tried-and-taken-off-site-because-did-not-look-good-and/or-work-with-the-design0concepts)
     * [Features Left to Implement](#features-left-to-implement)
 * [TECHNOLOGIES USED](#technologies-used)
     * [Tools used](#tools-used)
 * [TESTING](#testing)
+    * [Bugs](#bugs)
 * [DEPLOYMENT](#deployment)
     * [How to run the project code locally](#how-to-run-the-project-code-locally)
 * [CREDITS](#credits)
@@ -116,7 +117,9 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 *	To find out more about the practitioner and determine if they are credible to work with.
 *	To be able to view the pricing structure and decide if a session is affordable.
 *	To easily get in touch with the practitioner to book a healing session.
-*	To be able to contact the practitioner for more information.
+*	To be able to contact the practitioner for more information either through the site or via social media.
+*   To be able to navigate through the site easily.
+*   To be able to view the website on any device e.g. Mobile, tablet, laptop, desktop.
 ___
 
 ### **B2C**
@@ -182,7 +185,10 @@ ___
 *How to rise above the competition and make this site special.*
 
 *	Mobile First, responsive approach to accommodate all user devices and screen types.
-*	A simple clean consistent appearance, using only a couple of colours and two typefaces, bright and uncluttered with an intuitive format and Informative headlines. 
+*   Navigation is easy and intuitive.
+*	A simple clean consistent appearance, bright and uncluttered with an intuitive format and informative headlines. 
+*   Text is in easy to read typefaces and contrasted appropriately.
+*   Images are relevant to the content.
 *	Keep the content to a minimum whilst still providing the user with sufficient information for them to feel they comprehend enough of the healing processes, and pricing structure, to be able to book a session. This includes the use of descriptive text, images, diagrams, videos, FAQs, testimonials and blogs.
 *	Encourage users to return to the site for reference by providing good information and explanations.
 *	Facilitate easy contact with practitioner so any questions and concerns can be dealt with promptly, paving the way for the user to book a session, use of Call-To-Actions (CTAs). Multiple contact routes via social media links, as well as a contact form.
@@ -226,7 +232,7 @@ Scope Includes the functional specifications and the content specifications.
 7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
-### **Feature Set**
+### **Functional Specifications**
 The website needs the following feature set to accommodate the business goals and user requirements, derived from the strategy trade-offs: 
 
 * **Online presence**
@@ -259,12 +265,48 @@ The content is mixed including text, diagrams, photos and videos.
     * **Simple Navigation** To move around the site.
     * **Easy to read text**
 
->## **UX STRUCTURE & SKELETON**
+>## **UX STRUCTURE and SKELETON**
 
-### **Navigational Design, Hierarchy Interaction Design**
+**STRUCTURE**
+
+The structure plane deals with how the information is structured and how it is logically grouped. 
+- how our information is structured, 
+- how it's logically grouped, the features, the elements, the data, the information. 
+- Remember, a user is only visiting your site for some kind of content. They're looking for some kind of content.
 
 
-#### **The design goals of the website are that:**
+- **Interaction Design** 
+- **Information Design**
+- **Information Architecture (IA)**
+- **Hierarchy**
+
+
+
+**SKELETON**
+
+The skeleton plane deals with how the information is represented and the user navigates to the information and what features are present. 
+
+- How will the user navigate through the information and the features?
+- How will the content relate to each other? What relationships will the content have?
+- What has priority? What has top priority? What has lower priority? And based on those priorities, where do we position the content?
+- How do we navigate to those higher and lower priorities?
+
+
+- **Interface Design**
+- **Navigation Design**
+- **Information Design**
+- **Wireframes**
+
+
+### **Navigational Design Hierarchy Interaction Design**** 
+
+
+
+
+
+
+
+#### **The design goals of the website are that..** ????????
 
 * The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
 * The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
@@ -278,6 +320,9 @@ The content is mixed including text, diagrams, photos and videos.
 * the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
 * the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
 
+
+
+
 ### **Wireframes**
 
 The wireframes were made using Balsamiq and exported as pdf files and can be viewed following the links* below.
@@ -290,6 +335,15 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
 * [Rates](assets/wireframes/rates.pdf)
 * [Contact](assets//wireframes/contact.pdf)
 
+
+>## **UX SURFACE** 
+
+What will the finished product look like? What colors, typography, and design elements will we use?
+- Visual Design
+- What the user can do
+- How they interact
+- What effects are there, what can they click, where can they go to.
+- How does it look on the screen.
 
 >## **FEATURES**
 
@@ -406,15 +460,13 @@ ___
 
 The following languages, frameworks and tools were used in the development of this site. HTML, CSS and Bootstrap provided the basic code for the site. Bootstrap classes were used as much as possible to save on writing new code in CSS.
 
-_NB: The site was developed using the current version at time of development i.e. Bootstrap version: 4.3.1, jquery version: 3.4.1, popper version: 1.15.0, and FontAwesome version: 5.10.0._
-
 * [**Cloud9 & AWS Cloud 9**](https://www.awseducate.com/signin/SiteLogin) is an online Integrated Development Environment IDE. Used as recommended by Code Institute. It provides a standardised environment for development. It was replaced as the recommended IDE by Gitpod.
 
 * [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development.
 
-* [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
+* [**HTML**](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
-* [**CSS**](https://www.w3.org/Style/CSS/Overview.en.html) is a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
+* [**CSS**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
 
 * [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript*based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
