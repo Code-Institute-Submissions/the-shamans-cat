@@ -18,7 +18,7 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
 
 *_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
-#### _(Back to TOC anchor point)_
+#### _Back to TOC anchor point_
 
 >## **Table of Contents**
 
