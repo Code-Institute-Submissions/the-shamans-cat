@@ -1,14 +1,5 @@
 # [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
 
- ### **Demo**
-
-![mockup of site on multiple devices](assets/images/site-mockup.png)
-
-To view a live demo of the site click* on the link: https://helensayer.github.io/the-shamans-cat 
-
-*_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
-
-
 >## **Project Overview**
 
 A Shamanic Energy Healing practitioner is starting a new business in the UK. The main aim of the website is to generate clients for the practitioner. 
@@ -19,10 +10,17 @@ The website has been designed to provide potential clients with a basic understa
 This site has been developed as a static frontend site using HTML5, CSS3 and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
 This is my first milestone project to demonstrate the skills I have learnt so far on the course.
 
+ ### **Demo**
 
+![mockup of site on multiple devices](assets/images/site-mockup.png)
+
+To view a live demo of the site click* on the link: https://helensayer.github.io/the-shamans-cat 
+
+*_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
+
+#### _(Back to TOC anchor point)_
 
 >## **Table of Contents**
-
 
 * [PROJECT OVERVIEW](#project-overview)
 * [DEMO](#demo)
@@ -40,11 +38,10 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
         * [Strategy Trade-offs](#strategy-trade-offs)       
     * [UX SCOPE](#ux-scope)
         * [User Stories](#user-stories)
-        * [Supporting the Business Objectives]
-        <!-- (#supporting-the-business-objectives) -->
+        * [Content Specification](#content-specification)
     * [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
-        * [Navigational Design, Hierarchy Interaction Design](#navigational-design-hierarchy-interaction-design)
-        * [Design Goals](#the-design-goals-of-the-website-are-that..)
+        * [Functional Specifications](#functional-specifications)
+        * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
         * [Wireframes](#wireframes)
 * [FEATURES](#features) 
     * [Common Features](#existing-features-common-to-each-page) 
@@ -54,7 +51,6 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
         * [About page](#about)
         * [Rates page](#rates-page)
         * [Contact page](#contact-page)
-    * [Features tried and taken off site because did not look good and/or work with the design concepts](#features-tried-and-taken-off-site-because-did-not-look-good-and/or-work-with-the-design0concepts)
     * [Features Left to Implement](#features-left-to-implement)
 * [TECHNOLOGIES USED](#technologies-used)
     * [Tools used](#tools-used)
@@ -70,31 +66,30 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 * [DISCLAIMER](#disclaimer)
 
 
-
 >## **UX Strategy** 
 
 **UX Strategy** = **Design Strategy** + **Business Strategy**
 
 **UX Strategy** - _**Focus:** - (What's worth doing?)_
-- The Shamanic Energy Healing Practitioner is setting up a business and is looking for clients. They need an online presence to aid this process.
+* The Shamanic Energy Healing Practitioner is setting up a business and is looking for clients. They need an online presence to aid this process.
 
 **Design Strategy**	- _**Definition:** - (What are we creating?)_
-- Create a custom website for the practitioner.
+* Create a custom website for the practitioner.
 
 **Business Strategy** - _**Value:** - (What value does it provide?)_ 
 
 **Value to Business:**
-- Establish an online presence so potential clients can find the practitioner. 
-- Creates a brand for the practitioner so they can be identified over the competition. 
-- Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
-- The site acts as proof of ability of the practitioner to the potential clients. 
-- In addition, social media links help promote the practitioner’s online presence.
+* Establish an online presence so potential clients can find the practitioner. 
+* Creates a brand for the practitioner so they can be identified over the competition. 
+* Increases the practitioner’s client base by inspiring confidence in the potential clients to make contact and book a session. 
+* The site acts as proof of ability of the practitioner to the potential clients. 
+* In addition, social media links help promote the practitioner’s online presence.
 
 **Value to Clients:**
-- Become informed about this modality and its benefits. 
-- Learn about the practitioner, her experience so they can decide if the practitioner is credible.
-- Find out the cost of a session and decide if it is affordable.
-- Contact the practitioner for either, more information, or to book a session.
+* Become informed about this modality and its benefits. 
+* Learn about the practitioner, her experience so they can decide if the practitioner is credible.
+* Find out the cost of a session and decide if it is affordable.
+* Contact the practitioner for either, more information, or to book a session.
 
 ***
 
@@ -119,7 +114,10 @@ This is my first milestone project to demonstrate the skills I have learnt so fa
 *	To easily get in touch with the practitioner to book a healing session.
 *	To be able to contact the practitioner for more information either through the site or via social media.
 *   To be able to navigate through the site easily.
-*   To be able to view the website on any device e.g. Mobile, tablet, laptop, desktop.
+*   To be able to view the website on any device e.g. mobile, tablet, laptop, desktop.
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
 ### **B2C**
@@ -166,7 +164,9 @@ ___
 * On the other hand, some sites were very professional, custom made and looked very credible. These sites tend to belong to extremely successful Shamanic Practitioners who have large followings and, in some cases, give training. 
 * Other sites of prominent Shaman are old-fashioned looking but due to the importance of the Shamanic Practitioner, users are more interested in the content than what the page looked like.
 3. In conclusion, this website needs the right amount of relevant, interesting and inspiring content, presented in a clear way which make it easy to read and navigate through, even for computer novices, leading the visitor to make contact with the practitioner.
+___
 
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
 ### **Potential Client Scenarios**
@@ -216,6 +216,10 @@ The first four Opportunities/Problems are possible at the moment with my current
 ![Priority matrix table](assets/images/priority-matrix-table.png)
 ![Priority matrix graph](assets/images/priority-matrix-graph.png)
 
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **UX Scope**
 
@@ -232,8 +236,9 @@ Scope Includes the functional specifications and the content specifications.
 7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
-### **Functional Specifications**
-The website needs the following feature set to accommodate the business goals and user requirements, derived from the strategy trade-offs: 
+### **Content Specification**
+
+The website needs the following content to accommodate the business goals and user requirements, derived from the strategy trade-offs: 
 
 * **Online presence**
     * Establish a brand so easily distinguishable from competition
@@ -246,7 +251,7 @@ The website needs the following feature set to accommodate the business goals an
 
 * **Content requirements:**
 To provide background information, important to the user in making informed choice about how to proceed.
-The content is mixed including text, diagrams, photos and videos.
+The content is mixed including text, diagrams, photos and videos, so this breaks up the text to some extent. Due to there being a lot of text necessary to explain the background I have used various components from Bootstrap to breakup large chunks of text to make them more interesting and readable for the user. i.e. jumbotron, collapse, accordion and modals.
     * **Content Topics:**
         * The role of the shaman in modern society.
         * Why someone might benefit from a shamanic healing session?
@@ -264,64 +269,114 @@ The content is mixed including text, diagrams, photos and videos.
     * **No Carousel** - as I initially thought it was a good idea but this turned out not to be a good idea as the users did not like it.
     * **Simple Navigation** To move around the site.
     * **Easy to read text**
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **UX STRUCTURE and SKELETON**
 
-**STRUCTURE**
-
-The structure plane deals with how the information is structured and how it is logically grouped. 
+<!-- The structure plane deals with how the information is structured and how it is logically grouped. 
 - how our information is structured, 
 - how it's logically grouped, the features, the elements, the data, the information. 
-- Remember, a user is only visiting your site for some kind of content. They're looking for some kind of content.
+- Remember, a user is only visiting your site for some kind of content. They're looking for some kind of content. -->
+
+### **Functional Specifications**
+Taking on-board the information from the scope plane and the following points:
+
+* The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site.
+* The site is intuitive and user friendly, using standard, predictable, learnable interfaces and interactions and has feedback where necessary e.g. if required fields not completed correctly.
+* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
+* The site is both engaging and inspiring keeping potential clients on the site. 
+* For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
+* Subtle background colours are used with the text to improve its readability.
+* The site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
+* The site informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
+* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
+* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
+* The contact form will 
+
+### **Navigational Design and Hierarchy**
+
+The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree and keeps the number of clicks for a user to get to a destination under three clicks. This system can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
 
 
-- **Interaction Design** 
-- **Information Design**
-- **Information Architecture (IA)**
-- **Hierarchy**
+![Tree Structure](assets/images/sitemap.png)
+
+**Each page** has some identical components
+*   **Header** - contains logo and menu
+*   **Footer** - contains logo, contact button, social media links, Terms & Conditions, Privacy Policy, Copyright information.
+*   **Hero image** with call-to-action
+
+**Individual pages:**
+*   **Home** - Background to Shamanic Healing
+*   **Shamanic Healing** - Healing systems and processes used
+*   **About** - About the practitioner - training, experience, testimonials.
+*   **Rates** - Pricing and FAQs
+*   **Contact** - Contact form
+
+**Navigational Elements**
+
+* **Menu**
+* **Logo**
+* **Back-to-Top/Top**
+* **Contact Buttons**
+* **Social Media Icons**
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
+
+I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g.
+![Two level tree structure](assets/images/dropdowns.png)
 
 
 
-**SKELETON**
 
-The skeleton plane deals with how the information is represented and the user navigates to the information and what features are present. 
+As there is a lot of information on the site I had wanted a search bar to help users find things more easily and , as a search bar is beyond the scope of this project. So, I thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g.
+
+![Site Directory](assets/images/img-site-directory.png)
+
+
+<!-- The skeleton plane deals with how the information is represented and the user navigates to the information and what features are present. 
 
 - How will the user navigate through the information and the features?
 - How will the content relate to each other? What relationships will the content have?
 - What has priority? What has top priority? What has lower priority? And based on those priorities, where do we position the content?
-- How do we navigate to those higher and lower priorities?
+- How do we navigate to those higher and lower priorities?-->
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
+
+### **File Structure**
+
+![File structure](assets/images/directory-structure.png)
+
+The **root directory** of the project contains:
+  * **index.html** (Home)
+  * **sh.html** (Shamanic-Healing)
+  * **about.html**
+  * **rates.html** 
+  * **contact.html**
+  * **README.md** 
+   and a subdirectory called **assets**.
+
+ **assets** in turn has three subdirectories with the following content:
+ * **css**
+    * style.css
+ * **images**
+    * all image files for the website pages and the README.md
+ * **wireframes**
+    * a wireframe of each page showing view on mobile, tablet and desktop.
 
 
-- **Interface Design**
+
+
+<!-- - **Interface Design**
 - **Navigation Design**
-- **Information Design**
-- **Wireframes**
-
-
-### **Navigational Design Hierarchy Interaction Design**** 
-
-
-
-
-
-
-
-#### **The design goals of the website are that..** ????????
-
-* The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site. The site has been tested as new elements and formatting have been added, as well as final stage testing, to ensure this is achieved.
-* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
-* the site is intuitive and user friendly.
-* the site is both engaging and inspiring keeping potential clients on the site. 
-* For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
-* Subtle background colours are used with the text to improve its readability.
-* that the site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
-* it informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
-* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
-* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
-* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
-
-
-
+- **Information Design** -->
 
 ### **Wireframes**
 
@@ -344,6 +399,10 @@ What will the finished product look like? What colors, typography, and design el
 - How they interact
 - What effects are there, what can they click, where can they go to.
 - How does it look on the screen.
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **FEATURES**
 
@@ -351,7 +410,7 @@ What will the finished product look like? What colors, typography, and design el
 
 * **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, acts as a link to the home page from any other page on the website. There is also a logo in the footer bottom right-hand-side of each page. This logo also acts as a link to the home page.
 
-* **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. The navigation-bar is replaced with a menu icon, for mobile devices, which drops down over content when clicked.
+* **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. The navigation-bar is replaced with a menu (Burger) icon, for mobile devices, which drops down over content when clicked.
 
 * **Hero Image with Jumbotron** – Hero image with overlaid Jumbotron containing a text area to each page. Below this text area is a call-to-action (CTA) button, to contact the practitioner. The button is brightly coloured to get attention of user. Different hero image and Jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
 
@@ -363,7 +422,7 @@ What will the finished product look like? What colors, typography, and design el
     *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details.
     *   Copyright for protection of business data.
 
- * **Back-to-Top**  -  This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space.
+ * **Back-to-Top**  -  This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space. The z-index has been set so that it does not show on top of the Hero image as this looked messy. The user is near the top of the page when on the Hero image anyway.
 
 * **Favicon** - Provides continuation of cat/jaguar branding to identify this site's webpages in browser tabs.
 ___
@@ -374,7 +433,7 @@ ___
 * Jumbotron text specific to Shamanic Energy Healing. The amount of text is increased on devices larger than mobiles.
 * Article - What is Shamanic energy healing? 
     * Article with informative paragraphs of text. To avoid too much text on page a ‘read more’ button is used. This uses Bootstrap collapse feature.
-    * A series of three short videos featuring Alberto Villoldo of The Four Winds Society describing modern shamanic healing (YouTube embedded with sound off as default).    
+    * A series of three short videos featuring Alberto Villoldo of The Four Winds Society describing modern shamanic healing (YouTube embedded,  NOT set to play automatically).    
     * Article - Benefits of Shamanic energy healing
     * Image of a butterfly which symbolizes transformation, which can occur with this healing modality. The image helps break up the text, and balances the screen on larger screened devices. 
     * Text outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users, a ‘read more’ button is being used. This uses Bootstrap collapse feature.
@@ -383,11 +442,11 @@ ___
 
 * Hero Image - Theologue by the artist Alex Grey. Showing artists impression of energy in and around the body.
 * Jumbotron text specific to the page - Shamanic Healing - briefly explains what the page is about.
-* Article - Shamanic Healing - a more detailed look, with a video explaining some of the healing techniques used  (embedded from YouTube, with sound off default).
+* Article - Shamanic Healing - a more detailed look, with a video explaining some of the healing techniques used  (embedded from YouTube, NOT set to play automatically).
 * Article - The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
-* Article - The Chakra System - image and text to give client a better understanding of terms and concepts used.
+* Article - The Chakra System - image and text to give client a better understanding of terms and concepts used. To avoid too much text on page a ‘read more’ button is used. This uses Bootstrap collapse feature.
 * Article - The Shaman's Mesa - image and text explaining what the mesa is and that it will be used in healing sessions.
-* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater sections and allows them to select the topic of interest to them. The various processes are:
+* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater sections and allows them to select the topic of interest to them. The card deck displays single column on mobile and to two columns on devices larger than mobiles. The various processes are:
     * Illumination
     * Extraction
     * Soul Retrieval
@@ -432,18 +491,12 @@ ___
 
 <!-- ### Features tried and taken off site because did not look good and/or work with the design concepts.
 
-* I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better.
+
 * I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
     This left me wondering the best way to get users stay on website and find/look for more information. 
 * I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
 
 [Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)
-
-* I then thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. 
-    I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on.
-    So, I removed it and went back to a simple nav-item with no dropdowns.
-
-[Site directory screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/img-site-directory.pdf)
 
  --- -->
 
@@ -453,8 +506,17 @@ ___
 * Membership with login for existing clients
 * Online-booking of sessions for members
 
+**Possible features for the future not included in initial planning**
+* Search bar
+* Improved privacy policy delivery
 * Online Payment for sessions at point of booking
 * Shop selling related books via links to Amazon
+
+With my current skillset cannot develop these at this time and they are beyond the scope of this project.
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **Technologies Used**
 
@@ -464,11 +526,11 @@ The following languages, frameworks and tools were used in the development of th
 
 * [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development.
 
-* [**HTML**](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
+* [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
-* [**CSS**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
+* [**CSS**](https://www.w3.org/Style/CSS/Overview.en.html) is a declarative cascading style sheet programming language. Used to provide styling to html elements on a webpage.
 
-* [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript*based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
+* [**BOOTSTRAP Framework**](https://getbootstrap.com/) is a free, popular, opensource, CSS Framework for developing responsive and mobile-first websites. It contains CSS and JavaScript based design templates for typography, forms, buttons, navigation and other interface components. Used to help standardise and speed up development. Also provides features I am not yet skilled to create using JavaScript.
 
 * [**FontAwesome**](https://fontawesome.com/start) is a font and icon toolkit which adds extra icons to enhance the appearance of the website.
 
@@ -490,6 +552,11 @@ The following languages, frameworks and tools were used in the development of th
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) in Gitpod to check spelling as you type.
 * Chrome DevTools and Safari Developer Tools available from browser.
 * [ally](https://color.a11y.com/) to test color contrast is optimized. 
+
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **Testing**
 
@@ -523,18 +590,21 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### **Bugs**
 
+
+**Fixed Bug:**
+
+* **background-attachment property on iPhones**.
+Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered tha it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the Hero Images, which now work as expected on iPhones.
+
+**Outstanding Bugs**
 Error in console on Chrome Developer Tools.
 
 https://www.chromestatus.com/feature/5088147346030592
 
->Error: Chrome tool shows that the hero image display correctly on apple mobile devices, this is not the case. If you look on a real apple device the image looks awful, as the background-position property in the CSS for the hero image is not being recognised. The problem is documented in stack overflow.
-Fix use @solutions
-????????????????????????????????????????????????????????????????????????????
+Fix is beyond the scope of this project.
 
-need to look for a solution.
-
-
-
+LOGO
+I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as is only a png file and does not scale well, so used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file. This would involve either buying it from a logo maker site or investing in a tool such as Adobe Illustrator. It would then have to be the right size to fit in the Bootstrap navbar which is quite restrictive. Logos need to be well thought out and designed. Hopefully, as I gain more web development skills I will be better able to deal with logos.
 
 >## **Deployment**
 
@@ -555,7 +625,7 @@ This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning 
 
 To run this project locally, clone it from GitHub into your local IDE using the following steps:
 1.	Open GitHub.
-2.	Click on this link https://github.com/HelenSayer/the-shamans-cat to the GitHub repository for this project.
+2.	Click on this link https://github.com/HelenSayer/the-shamans-cat to the GitHub repository for this project or cut and paste it into your browser.
 3.	Towards the top of the page are two green buttons. Select the one labelled **Code**. Click on this.
 4.	The top most option is **Clone with HTTPS**. Copy the URL for the repository by clicking on the clipboard button immediately to the right of the URL.
 5.	Open a terminal (bash) window in the local IDE.
@@ -564,7 +634,11 @@ To run this project locally, clone it from GitHub into your local IDE using the 
  `git clone https://<span></span>github.com/HelenSayer/the-shamans-cat.git`
 8.	Press Enter. Your local clone will be created.
 
-Click on the links for general help with <a href="https://help.github.com/en" target="_blank" rel="noopener">GitHub</a>, or for specific help with <a href="https://help.github.com/en/articles/cloning-a-repository-from-github" target="_blank" rel="noopener">Cloning a repository.</a>
+Click on the links for general help with [GitHub](https://help.github.com/en), or for specific help with [Cloning a repository.](https://help.github.com/en/articles/cloning-a-repository-from-github)
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 >## **Credits**
 ### **Content**
@@ -615,3 +689,8 @@ Click on the links for general help with <a href="https://help.github.com/en" ta
 
 ### **Disclaimer**
 This website is being used for educational purposes only.
+
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
