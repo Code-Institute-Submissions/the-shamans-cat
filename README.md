@@ -23,25 +23,26 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
 >## **Table of Contents**
 
 * [PROJECT OVERVIEW](#project-overview)
-* [DEMO](#demo)   
+    * [Background to Project](#background-to-project)
+    * [DEMO](#demo)   
 * [UX STRATEGY](#ux-strategy)
-        * [Business Goals](#business-goals)
-        * [User Goals](#user-goals)
-        * [B2C](#b2c)
-        * [Audience](#audience)
-        * [Location](#location)
-        * [Research](#research)
-        * [Potential Client Scenarios](#potential-client-scenarios)
-        * [Product Considerations](#product-considerations)
-        * [Finding this website](#finding-this-website)
-        * [Strategy Trade-offs](#strategy-trade-offs)       
+    * [Business Goals](#business-goals)
+    * [User Goals](#user-goals)
+    * [B2C](#b2c)
+    * [Audience](#audience)
+    * [Location](#location)
+    * [Research](#research)
+    * [Potential Client Scenarios](#potential-client-scenarios)
+    * [Product Considerations](#product-considerations)
+    * [Finding this website](#finding-this-website)
+    * [Strategy Trade-offs](#strategy-trade-offs)       
 * [UX SCOPE](#ux-scope)
-        * [User Stories](#user-stories)
-        * [Content Specification](#content-specification)
+    * [User Stories](#user-stories)
+    * [Content Specification](#content-specification)
 * [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
-        * [Functional Specifications](#functional-specifications)
-        * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
-        * [Wireframes](#wireframes)
+    * [Functional Specifications](#functional-specifications)
+    * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
+    * [Wireframes](#wireframes)
 * [FEATURES](#features) 
     * [Common Features](#existing-features-common-to-each-page) 
     * [Features individual to each page](#existing-features-on-individual-pages)
@@ -327,16 +328,11 @@ ___
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
-I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g.
-![Two level tree structure](assets/images/dropdowns.png)
+**Things I experimented with and then took off**
 
+I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g. ![Two level tree structure](assets/images/dropdowns.png)
 
-
-
-As there is a lot of information on the site I had wanted a search bar to help users find things more easily and , as a search bar is beyond the scope of this project. So, I thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g.
-
-![Site Directory](assets/images/img-site-directory.png)
-
+As there is a lot of information on the site I had wanted a search bar to help users find things more easily. Unfortunately, a search bar is beyond the scope of this project. So, I thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g. of site directory. ![Site Directory](assets/images/img-site-directory.png)
 
 <!-- The skeleton plane deals with how the information is represented and the user navigates to the information and what features are present. 
 
