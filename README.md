@@ -23,9 +23,8 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
 >## **Table of Contents**
 
 * [PROJECT OVERVIEW](#project-overview)
-* [DEMO](#demo)
-* [UX]    
-    * [UX STRATEGY](#ux-strategy)
+* [DEMO](#demo)   
+* [UX STRATEGY](#ux-strategy)
         * [Business Goals](#business-goals)
         * [User Goals](#user-goals)
         * [B2C](#b2c)
@@ -36,10 +35,10 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
         * [Product Considerations](#product-considerations)
         * [Finding this website](#finding-this-website)
         * [Strategy Trade-offs](#strategy-trade-offs)       
-    * [UX SCOPE](#ux-scope)
+* [UX SCOPE](#ux-scope)
         * [User Stories](#user-stories)
         * [Content Specification](#content-specification)
-    * [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
+* [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
         * [Functional Specifications](#functional-specifications)
         * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
         * [Wireframes](#wireframes)
@@ -285,21 +284,20 @@ ___
 Taking on-board the information from the scope plane and the following points:
 
 * The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site.
-* The site is intuitive and user friendly, using standard, predictable, learnable interfaces and interactions and has feedback where necessary e.g. if required fields not completed correctly.
-* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A hamburger menu icon on right hand side on devices with small screens.
+* The site is intuitive, so easily learnable, making it user friendly. It uses consistent, predictable, interfaces and interactions and gives feedback where necessary e.g. if required fields not completed correctly in contact form.
+* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A Burger menu icon on right hand side on devices with small screens.
 * The site is both engaging and inspiring keeping potential clients on the site. 
 * For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
 * Subtle background colours are used with the text to improve its readability.
 * The site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
 * The site informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
 * the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
-* the use of colourful visual elements and inspiring articles is directing the potential client to contact the shamanic practitioner. 
+* the use of colourful visual elements such as the contact buttons and inspiring articles are directing the potential client to contact the shamanic practitioner. 
 * the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
-* The contact form will 
 
 ### **Navigational Design and Hierarchy**
 
-The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree and keeps the number of clicks for a user to get to a destination under three clicks. This system can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
+The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree and keeps the number of clicks for a user, to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
 
 
 ![Tree Structure](assets/images/sitemap.png)
@@ -307,7 +305,7 @@ The content will be arranged on the site using a standard **tree structure** goi
 **Each page** has some identical components
 *   **Header** - contains logo and menu
 *   **Footer** - contains logo, contact button, social media links, Terms & Conditions, Privacy Policy, Copyright information.
-*   **Hero image** with call-to-action
+*   **Hero image** with call-to-action, which takes the user to the contact form.
 
 **Individual pages:**
 *   **Home** - Background to Shamanic Healing
@@ -319,7 +317,8 @@ The content will be arranged on the site using a standard **tree structure** goi
 **Navigational Elements**
 
 * **Menu**
-* **Logo**
+* **Logo** The logo can be found on the left-hand-side (LHS) of nav-bar and on the LHS of the footer. When  
+
 * **Back-to-Top/Top**
 * **Contact Buttons**
 * **Social Media Icons**
