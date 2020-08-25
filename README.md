@@ -409,7 +409,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 
 ### **Colours**
 
-![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.
+>![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.
 
 ![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff`  -   Used for background-color to the mission statement.
 
