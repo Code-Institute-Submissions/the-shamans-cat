@@ -39,12 +39,18 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
 * [UX SCOPE](#ux-scope)
     * [User Stories](#user-stories)
     * [Content Specification](#content-specification)
+     * [Functional Specifications](#functional-specifications)
 * [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
-    * [Functional Specifications](#functional-specifications)
     * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
     * [Wireframes](#wireframes)
+* [UX SURFACE](#ux-surface)
 * [FEATURES](#features) 
-    * [Common Features](#existing-features-common-to-each-page) 
+    * [Existing Features Common to Each Page](#existing-features-common-to-each-page) 
+        * [Logo](#logo)
+        * [Navigation bar](#navigation-bar)
+        * [Hero Image with Jumbotron](#hero-image-with-jumbotron)
+        * [Footer](#footer)
+        * [Favicon](#favicon)
     * [Features individual to each page](#existing-features-on-individual-pages)
         * [Home page](#home-page)
         * [Shamanic Healing page](#shamanic-healing-page)
@@ -162,7 +168,7 @@ ___
         * poorly cropped/focused pictures which did not relate to the text
         * difficult to find information
 * On the other hand, some sites were very professional, custom made and looked very credible. These sites tend to belong to extremely successful Shamanic Practitioners who have large followings and, in some cases, give training. 
-* Other sites of prominent Shaman are old-fashioned looking but due to the importance of the Shamanic Practitioner, users are more interested in the content than what the page looked like.
+* Other sites of prominent Shaman are old-fashioned looking but due to the importance of the Shamanic practitioner, users are more interested in the content than what the page looked like.
 3. In conclusion, this website needs the right amount of relevant, interesting and inspiring content, presented in a clear way which make it easy to read and navigate through, even for computer novices, leading the visitor to make contact with the practitioner.
 ___
 
@@ -236,9 +242,11 @@ Scope Includes the functional specifications and the content specifications.
 7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
 8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
 
+---
+
 ### **Content Specification**
 
-The website needs the following content to accommodate the business goals and user requirements, derived from the strategy trade-offs: 
+The website needs the following content to accommodate the business goals and user requirements.
 
 * **Online presence**
     * Establish a brand so easily distinguishable from competition
@@ -256,6 +264,7 @@ The content is mixed including text, diagrams, photos and videos, so this breaks
         * The role of the shaman in modern society.
         * Why someone might benefit from a shamanic healing session?
         * Explanation of shamanic energy healing. 
+        * Processes that can be used in a session.
         * What the client might expect from a shamanic energy healing session.
         * About the shamanic energy healing practitioner, including their training and experience.
         * Testimonials.
@@ -269,6 +278,28 @@ The content is mixed including text, diagrams, photos and videos, so this breaks
     * **No Carousel** - as I initially thought it was a good idea but this turned out not to be a good idea as the users did not like it.
     * **Simple Navigation** To move around the site.
     * **Easy to read text**
+
+---
+
+### **Functional Specifications**
+The site enables users to carry out the tasks outlined in the user stories using the content outlined in content requirements and is aimed at fulfilling the business requirements. It will follow the guidelines below.
+* **Responsive** - The site is developed using the mobile-first and a responsive approach, to ensure users on all devices have a good user-experience when visiting the site.
+* The site is intuitive, so easily learnable, it uses consistent, predictable, interfaces and interactions, making it user friendly.
+* **Navigation** - The navigation is conventional so that even a novice users can move between pages easily. 
+    * **Menu** -  a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A Burger menu icon on right hand side on devices with smaller screens. 
+    * **clickable Logo** - allows users to return to the home page.
+    * **Contact Buttons** - Allow users to move from each page to the contact form.
+    * **Back-to-Top** - on each page allows users to return to the top of the page and the navigation menu. 
+* **Hero Images** on each page to get the attention of the users. With informative text and call-to-action buttons.
+* The site gives feedback where necessary e.g. if required fields not completed correctly in the contact form,  a message comes up informing the user what they need to do.
+* The site is both engaging and inspiring keeping potential clients on the site. 
+* For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
+* Subtle background colours are used with the text to improve its readability as well as good contrast ratios.
+* The site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
+* The site informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
+* The client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
+* The use of colourful visual elements such as the contact buttons, hero images and inspiring articles are directing the potential client to contact the shamanic practitioner. 
+* The images help tell the story that is in the articles and any text on the pictures is clear and easy to read.  
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -276,30 +307,9 @@ ___
 
 >## **UX STRUCTURE and SKELETON**
 
-<!-- The structure plane deals with how the information is structured and how it is logically grouped. 
-- how our information is structured, 
-- how it's logically grouped, the features, the elements, the data, the information. 
-- Remember, a user is only visiting your site for some kind of content. They're looking for some kind of content. -->
-
-### **Functional Specifications**
-Taking on-board the information from the scope plane and the following points:
-
-* The site is developed using the mobile-first approach to ensure users on all devices have a good user-experience when visiting the site.
-* The site is intuitive, so easily learnable, making it user friendly. It uses consistent, predictable, interfaces and interactions and gives feedback where necessary e.g. if required fields not completed correctly in contact form.
-* The navigation is conventional so that novice users can find their way around the site easily. So a fixed top navigation bar with logo on the left hand side and menu items aligned to the right, with text reading from left to right. A Burger menu icon on right hand side on devices with small screens.
-* The site is both engaging and inspiring keeping potential clients on the site. 
-* For consistency and simplicity there are only two font-families used throughout the site. These are both clear and easy to read.
-* Subtle background colours are used with the text to improve its readability.
-* The site has good quality images and a simplistic uncluttered feel to it, which allows users to easily focus on the content.
-* The site informs and educates the site visitor, so they gain a better understanding of shamanism and are hopefully more likely to book a session.
-* the client is not overwhelmed with information yet can find what they need easily from the navigation bar, modal, collapse and accordion sections.
-* the use of colourful visual elements such as the contact buttons and inspiring articles are directing the potential client to contact the shamanic practitioner. 
-* the images help tell the story that is in the articles and any text on the pictures is clear and easy to read.
-
 ### **Navigational Design and Hierarchy**
 
-The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree and keeps the number of clicks for a user, to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
-
+The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree. It keeps the number of clicks for a user to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
 
 ![Tree Structure](assets/images/sitemap.png)
 
@@ -307,47 +317,41 @@ The content will be arranged on the site using a standard **tree structure** goi
 *   **Header** - contains logo and menu
 *   **Footer** - contains logo, contact button, social media links, Terms & Conditions, Privacy Policy, Copyright information.
 *   **Hero image** with call-to-action, which takes the user to the contact form.
+*   **Back-to-Top** - back to top anchor.
 
 **Individual pages:**
-*   **Home** - Background to Shamanic Healing
-*   **Shamanic Healing** - Healing systems and processes used
+*   **Home** - Background to Shamanic Healing.
+*   **Shamanic Healing** - Healing systems and processes used.
 *   **About** - About the practitioner - training, experience, testimonials.
-*   **Rates** - Pricing and FAQs
-*   **Contact** - Contact form
+*   **Rates** - Pricing and FAQs.
+*   **Contact** - Contact form.
 
 **Navigational Elements**
-
-* **Menu**
-* **Logo** The logo can be found on the left-hand-side (LHS) of nav-bar and on the LHS of the footer. When  
-
-* **Back-to-Top/Top**
-* **Contact Buttons**
-* **Social Media Icons**
+* **Menu** To enable users to navigate from whichever page they are on to any of the other pages of the site. The active page name in the menu is an off-white white to indicated to the user which page they are on. On rollover, a menu items changes to a lighter shade of grey.
+* **Logo** The logo can be found on the left-hand-side (LHS) of nav-bar and in the footer. When clicked it takes the user back to the home page.
+* **Back-to-Top/Top** This is a small white arrow on purple background, with 'Back-to-Top' text beneath it, located on the right-hand-side of the screen (text changes to 'Top' on smaller screens). When clicked this takes the user to the top of their current page. On hover the purple goes a darker shade.
+* **Contact Buttons** Located on each page - take user to the contact form.
+* **Social Media Icons** Located in the footer of each page, they connect the user to social media sites.
 ___
-
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
-**Things I experimented with and then took off**
+### **Features tried and taken off site because did not look good and/or work with the design concepts.**
+
+**Dropdown Menus**
 
 I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g. ![Two level tree structure](assets/images/dropdowns.png)
 
-As there is a lot of information on the site I had wanted a search bar to help users find things more easily. Unfortunately, a search bar is beyond the scope of this project. So, I thought I would make a site directory to allow users to see the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g. of site directory. ![Site Directory](assets/images/img-site-directory.png)
+**Search Functionality**
+As there is a lot of information on the site I had wanted a search bar so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. So, I thought I would experiment with a site directory to allow users to see and navigate to the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g. of site directory.
 
-<!-- The skeleton plane deals with how the information is represented and the user navigates to the information and what features are present. 
-
-- How will the user navigate through the information and the features?
-- How will the content relate to each other? What relationships will the content have?
-- What has priority? What has top priority? What has lower priority? And based on those priorities, where do we position the content?
-- How do we navigate to those higher and lower priorities?-->
+![Site Directory](assets/images/img-site-directory.png)
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
 ### **File Structure**
-
-![File structure](assets/images/directory-structure.png)
 
 The **root directory** of the project contains:
   * **index.html** (Home)
@@ -356,22 +360,23 @@ The **root directory** of the project contains:
   * **rates.html** 
   * **contact.html**
   * **README.md** 
-   and a subdirectory called **assets**.
+  * **assets** subdirectory
 
  **assets** in turn has three subdirectories with the following content:
- * **css**
-    * style.css
- * **images**
-    * all image files for the website pages and the README.md
- * **wireframes**
-    * a wireframe of each page showing view on mobile, tablet and desktop.
+ * **css** - style.css
+ * **images** - all image files for the website pages and the README.md
+ * **wireframes** - a wireframe of each page showing view on mobile, tablet and desktop:
+    * home.pdf
+    * shamanic-healing.pdf
+    * about-me.pdf
+    * rates.pdf
+    * contact.pdf
+    
+    ![File structure](assets/images/directory-structure.png)
 
+### **Information Design**
 
-
-
-<!-- - **Interface Design**
-- **Navigation Design**
-- **Information Design** -->
+The information in the site is arranged in a logical way. Leading the user through the principles of shamanism, its benefits, how it works in detail, the experience of the practitioner, the cost, FAQs and how to contact the practitioner. It is done in this way as it provides answers to the questions a user might ask as they go through a decision process to determine if they want to book a session.
 
 ### **Wireframes**
 
@@ -380,46 +385,72 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
 *_(To open wireframes links in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
 * [Home](assets/wireframes/home.pdf)
-* [Shamanic Energy Healing](assets/wireframes/shamanic-energy-healing.pdf)
+* [Shamanic-Healing](assets/wireframes/shamanic-energy-healing.pdf)
 * [About](assets/wireframes/about-me.pdf)
 * [Rates](assets/wireframes/rates.pdf)
 * [Contact](assets//wireframes/contact.pdf)
-
-
->## **UX SURFACE** 
-
-What will the finished product look like? What colors, typography, and design elements will we use?
-- Visual Design
-- What the user can do
-- How they interact
-- What effects are there, what can they click, where can they go to.
-- How does it look on the screen.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
+>## **UX SURFACE** 
+
+*To view what the website looks like please go to the [Demo](#demo) section to see a mockup or to view a live demo, click* on the link: https://helensayer.github.io/the-shamans-cat 
+ *_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
+
+**Visual Design -**
+As there is a lot of information, I have presented it in a way that is not overwhelming to the user. I have done this by using a suitable amount of white space between text and images. On the Home, Shamanic-Healing and About pages i.e. those pages containing large amounts of information, I have split the the page beneath the hero image into two columns. In order that the text is broken up and not in one large block, thus making it easier to read and also look more interesting. I have added relevant pictures and videos to break the text up even further as wells as using the Bootstrap features of collapse, modals, card-deck and accordion.
+
+### **Fonts**
+To improve the look of the site from the default Bootstrap appearance, and to ensure the text is easy to read, the site uses fonts from Google Fonts; Raleway for the headings and Roboto for the main paragraph text. The proportions of the Roboto font make it easy to read and Raleway was designed for headings.
+
+Sans-serif is used as a backup font-family if Roboto or Raleway should fail to load.
+
+### **Colours**
+
+![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.
+
+![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff`  -   Used for background-color to the mission statement.
+
+![#8a2be2](https://via.placeholder.com/50x50/8a2be2/333333?text=+) `#8a2be2` BlueViolet - Used for contact buttons.
+
+![BlueViolet](https://via.placeholder.com/50x50/570790/333333?text=+) `#570790`  - Used for contact buttons on hover.
+
+![#6d757d](https://via.placeholder.com/50x50/6d757d/333333?text=+) `#6d757d` Gray - Used for nav-bar and footer background-color, set by Bootstrap.
+
+<!-- C/O https://placeholder.com/ -->
+
+
 >## **FEATURES**
 
 ### **Existing Features Common to Each Page**
 
-* **Logo** – Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, acts as a link to the home page from any other page on the website. There is also a logo in the footer bottom right-hand-side of each page. This logo also acts as a link to the home page.
+ ![Common Features](assets/images/features.png)
 
-* **Navigation bar** – Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website. The navigation-bar is replaced with a menu (Burger) icon, for mobile devices, which drops down over content when clicked.
+#### **Logo**
+* Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, when clicked this acts as a link to the home page from any page on the website. There is also a logo in the footer of each page. When clicked this logo also acts as a link to the home page.
 
-* **Hero Image with Jumbotron** – Hero image with overlaid Jumbotron containing a text area to each page. Below this text area is a call-to-action (CTA) button, to contact the practitioner. The button is brightly coloured to get attention of user. Different hero image and Jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
+#### **Navigation bar**
+* Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website.  The navigation bar is responsive so it fills the width of the screen for any device. The menu text is replaced with a menu (Burger) icon, for mobile devices, which drops down over content when clicked. The active page is noted in the navigation bar by its name being white, as opposed to the inactive page names which are grey. They change to a lighter grey on hover.
 
-* **Footer** – This is at the bottom of every page and contains:
-    *   Logo - When clicked takes user back to home page.
-    *   Contact button which when clicked leads to the contact form.
-    *   Social media icons providing links to other social platforms used by the practitioner.
-    *   A Terms & Condition's button - when clicked opens a modal, to clarify matters legally. 
-    *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details.
-    *   Copyright for protection of business data.
+#### **Hero Image with Jumbotron**
+* Hero image with an overlaid jumbotron containing a text area on each page. The jumbotron has an opaque background so that the hero image is still visible but the text of the jumbotron is contrasted well for easy reading.  The purpose of the hero image is to get the attention of the site visitor and draw them into the site. Below this text area is a call-to-action (CTA) button, for the user to contact the practitioner. The button is brightly coloured to get the attention of user. There is a different hero image and jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
 
- * **Back-to-Top**  -  This anchor is in the form of a purple arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space. The z-index has been set so that it does not show on top of the Hero image as this looked messy. The user is near the top of the page when on the Hero image anyway.
+#### **Footer** – This is found at the bottom of every page and contains:
+*   Logo - When clicked takes user back to home page.
+*   Contact button which when clicked leads to the contact form.
+*   Social media icons - when clicked provide links to other social platforms used by the practitioner.
+When the user hovers the mouse over the social media icons they change color to the real colours of icons for those sites.
+*   A Terms & Condition's button - when clicked opens a modal, to clarify matters legally. When hovered over with the mouse the background of the button changes to white and the text changes from white to black.
+*   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details. The modal behaves in the same way as the Terms & Conditions modal.
+*   Copyright for protection of business data. This is just plane white text contrasting against the grey of the footer background -color.
 
-* **Favicon** - Provides continuation of cat/jaguar branding to identify this site's webpages in browser tabs.
+ #### **Back-to-Top**
+ * This anchor is in the form of a purple circle containing a white arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side, above the footer. When hovered over it changes colour to a darker purple. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space. The z-index has been set so that it does not show on top of the hero image as this looked messy. The user is near the top of the page when on the hero image anyway.
+
+#### **Favicon**
+* Provides continuation of cat/jaguar branding to identify this site's webpages in browser tabs.
 ___
 ### **Existing Features on individual Pages**
 #### Home page 
@@ -453,9 +484,7 @@ ___
     * Destiny Retrieval
     * Fire Ceremony
 
----
-
-#### About 
+#### About page
 
 * Hero Image - The practitioner with her Q'ero teacher don Augustin and his family.
 * Jumbotron text specific to the page - About Me - briefly explains what the page is about.
@@ -466,8 +495,6 @@ ___
 * Article - My training – My formal training has been with The Four Winds Society https://thefourwinds.com/ - demonstrates practitioner's credibility. Quote from a magazine to demonstrate credibility of The Four Winds.
 * Testimonials 2 items which change from single column (mobile) double column on tablets and larger screen sizes, to improve appearance and useability for user. Demonstrates practitioner's credibility.
 
----
-
 #### Rates page 
 
 * Hero Image - A ceremony/training session with the practitioner's Four Winds class at Moray, Cusco, Peru.
@@ -475,35 +502,22 @@ ___
 * Contains a clear pricing structure, so the user can easily tell if a session is affordable.
 * FAQs covering questions clients might ask. Uses Bootstrap's accordion to separate each FAQ and its answer. This breaks up blocks of text and make it easier for the user to find the information they are looking for quickly and to makes it easier to read.
 
----
-
 #### Contact page 
 
 * Hero Image -
 * Jumbotron text specific to the page - 
 * Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
----
-
-<!-- ### Features tried and taken off site because did not look good and/or work with the design concepts.
-
-
-* I wanted to draw the visitor into the site with call to action buttons on a carousel, with 4-5 images in the slideshow, on the home page. I set this up and asked some sample users to test and they said they found the carousel distracting and annoying. I looked on the internet and found many articles stating that research showed that carousels did not work very well. Users did not read them. So, I decided to remove the carousel. 
-    This left me wondering the best way to get users stay on website and find/look for more information. 
-* I wanted a search bar on the site so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. In the absence I decided to setup dropdown items on four of the pages' menus. This looked quite messy especially on small screens. 
-
-[Dropdowns screenshot](https://helensayer.github.io/the-shamans-cat/assets/images/dropdowns.pdf)
-
- --- -->
 
 ### **Features Left to Implement**
 
+* Submit button on Contact form needs to be made fully functional.
+* Improved privacy policy delivery
 * Blog/newsletter with sign-up
 * Membership with login for existing clients
 * Online-booking of sessions for members
 
 **Possible features for the future not included in initial planning**
 * Search bar
-* Improved privacy policy delivery
 * Online Payment for sessions at point of booking
 * Shop selling related books via links to Amazon
 
@@ -589,7 +603,7 @@ If this section grows too long, you may want to split it off into a separate fil
 **Fixed Bug:**
 
 * **background-attachment property on iPhones**.
-Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered tha it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the Hero Images, which now work as expected on iPhones.
+Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered tha it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work as expected on iPhones.
 
 **Outstanding Bugs**
 Error in console on Chrome Developer Tools.
@@ -598,8 +612,10 @@ https://www.chromestatus.com/feature/5088147346030592
 
 Fix is beyond the scope of this project.
 
-LOGO
-I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as is only a png file and does not scale well, so used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file. This would involve either buying it from a logo maker site or investing in a tool such as Adobe Illustrator. It would then have to be the right size to fit in the Bootstrap navbar which is quite restrictive. Logos need to be well thought out and designed. Hopefully, as I gain more web development skills I will be better able to deal with logos.
+<!-- LOGO
+I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as is only a png file and does not scale well, so used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file. This would involve either buying it from a logo maker site or investing in a tool such as Adobe Illustrator. It would then have to be the right size to fit in the Bootstrap navbar which is quite restrictive. Logos need to be well thought out and designed. Hopefully, as I gain more web development skills I will be better able to deal with logos. -->
+
+---
 
 >## **Deployment**
 
@@ -671,20 +687,19 @@ ___
 - I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
 - I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
 - Bootstrap css hides portion of container below navbar navbar-fixed-top [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
-- I have used a code snippet from CI Slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
+- I have used a code snippet from Code Institute Slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
 - I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive. The snippet is from [teamtreehouse.com](https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
 - For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions)
 - For aligning the the 'Read more" buttons at the bottom of the cards in the card-deck Healing Processes I based my code on an answer in [Stackoverflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
 ### **Acknowledgements**
-- I received inspiration for this project from reading information on Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
-- I would give particular acknowledgement to Anna Greaves, who's talks handouts and her own 1st milestone project have been a huge help and inspiration.
+- I received inspiration for this project from information in Code Institute notes, Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
+- I would give particular acknowledgement to Anna Greaves, who's talks, handouts and her own 1st milestone project have been a huge help.
 - Thanks to anyone on Slack who responded to my questions relating to this site.
 - Mentors
 
 ### **Disclaimer**
 This website is being used for educational purposes only.
-
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
