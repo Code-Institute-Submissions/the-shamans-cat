@@ -340,7 +340,9 @@ ___
 
 **Dropdown Menus**
 
-I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g. ![Two level tree structure](assets/images/dropdowns.png)
+I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g. 
+
+![Two level tree structure](assets/images/dropdowns.png)
 
 **Search Functionality**
 As there is a lot of information on the site I had wanted a search bar so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. So, I thought I would experiment with a site directory to allow users to see and navigate to the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g. of site directory.
@@ -409,7 +411,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 
 ### **Colours**
 
-![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.`
+![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.
 
 ![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff`  -   Used for background-color to the mission statement.
 
