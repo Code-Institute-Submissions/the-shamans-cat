@@ -95,8 +95,8 @@ main {
 /* Containers' code is based on code from the Whiskey Drop lesson */
 
 .callout-container {
-    height: 85vh;
-    /* allows info below the fold to show on most screens to encourage users to scroll down. */
+    height: 75vh;
+    /* allows article title of information below the fold to show above the fold to encourage users to scroll further down the page. */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -340,6 +340,9 @@ main {
         width: 183px;
         height: 30px;
     }
+    .jumbotron {
+        margin-top: 20%;
+    }
 } 
 
 /* Small devices (phones, with screens widths of 576px and up)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
@@ -361,10 +364,10 @@ main {
     .back-to-top {
             width: 10%;
             bottom: 51%;
-        }   
-        .fa-smaller-icon {
-            font-size: 2.5rem;
-        }   
+    }   
+    .fa-smaller-icon {
+        font-size: 2.5rem;
+    }   
 }
 
 /* Medium devices (tablets with screen widths of 768px and up) */
@@ -389,21 +392,21 @@ main {
         }   
     }    
 
-/* Small devices (landscape phones, up to 823px wide x 414px high e.g. Pixel2 and Pixel2 XL in landscape mode.) */
-@media screen and (max-width : 823px) and (max-height : 414px) {
-       .lead {
+/* Small devices (landscape phones, up to 823px wide x 450px high e.g. Pixel2 and Pixel2 XL in landscape mode.) */
+@media screen and (max-width : 823px) and (max-height : 450px) {
+    .lead {
             font-size: 1rem;
     }
        .jumbotron-header {
            font-size: 1.75rem;
     }
-        .jumbotron {
-            margin-top: 20%;
-        }
-        .back-to-top {
-            width: 9%;
-            bottom: 55%;
-        }   
+    .jumbotron {
+        margin-top: 13%;
+    }
+    .back-to-top {
+        width: 9%;
+        bottom: 55%;
+    }   
 }
 
 /* Large devices (desktops, 992px and up) */
