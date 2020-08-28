@@ -57,10 +57,13 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
         * [About page](#about)
         * [Rates page](#rates-page)
         * [Contact page](#contact-page)
-    * [Features Left to Implement](#features-left-to-implement)
+    * [Features Left to Implement](#features-left-to-implement)###
 * [TECHNOLOGIES USED](#technologies-used)
     * [Tools used](#tools-used)
 * [TESTING](#testing)
+    * [General Testing as Coding](#general-testing-as-coding)
+    * [Structured Testing](#structured-testing)
+    * [Testing User stories](#testing-user-stories)
     * [Bugs](#bugs)
 * [DEPLOYMENT](#deployment)
     * [How to run the project code locally](#how-to-run-the-project-code-locally)
@@ -234,7 +237,7 @@ Scope Includes the functional specifications and the content specifications.
 
 ### **User stories**
 1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.
-2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic energy healing and decide if I want to contact this practitioner.
+2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic-healing and decide if I want to contact this practitioner.
 3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or for more information.
 4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.
 5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
@@ -398,11 +401,11 @@ ___
 
 >## **UX SURFACE** 
 
-*To view what the website looks like please go to the [Demo](#demo) section to see a mockup or to view a live demo, click* on the link: https://helensayer.github.io/the-shamans-cat 
- *_(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
+*To view what the website looks like please go to the [Demo](#demo) section to see a mockup or to view a live demo, click* on the link: https://helensayer.github.io/the-shamans-cat.
+ _(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
 **Visual Design -**
-As there is a lot of information, I have presented it in a way that is not overwhelming to the user. I have done this by using a suitable amount of white space between text and images. On the Home, Shamanic-Healing and About pages i.e. those pages containing large amounts of information, I have split the the page beneath the hero image into two columns. In order that the text is broken up and not in one large block, thus making it easier to read and also look more interesting. I have added relevant pictures and videos to break the text up even further as wells as using the Bootstrap features of collapse, modals, card-deck and accordion.
+As there is a lot of information, I have presented it in a way that is not overwhelming to the user. I have done this by using a suitable amount of white space between text and images. It appears single column on smaller screened devices. On larger screened devices, on the Home, Shamanic-Healing and About pages i.e. those pages containing large amounts of information, I have split the the page beneath the hero image into two columns. In order that the text is broken up and not in one large block, thus making it easier to read and also look more interesting. I have added relevant pictures and videos to break the text up even further as wells as using the Bootstrap features of collapse, modals, card-deck and accordion.
 
 ### **Fonts**
 To improve the look of the site from the default Bootstrap appearance, and to ensure the text is easy to read, the site uses fonts from Google Fonts; Raleway for the headings and Roboto for the main paragraph text. The proportions of the Roboto font make it easy to read and Raleway was designed for headings.
@@ -411,17 +414,17 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 
 ### **Colours**
 
-![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white.
+![#fefefa](https://via.placeholder.com/50x50/fefefa/333333?text=+) `#fefefa`  - BabyPowder - background-colour to `<body>` to make text easier to read as is an off-white so is easier on the eye.
 
-![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff`  -   Used for background-color to the mission statement.
+![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff`  -   Used for background-color to the mission statement, to make it stand out from the normal text.
 
-![#8a2be2](https://via.placeholder.com/50x50/8a2be2/333333?text=+) `#8a2be2` BlueViolet - Used for contact buttons.
+![#8a2be2](https://via.placeholder.com/50x50/8a2be2/333333?text=+) `#8a2be2` BlueViolet - Used for contact buttons, a bright colour, to draw attention. It contrast well against the background.
 
-![BlueViolet](https://via.placeholder.com/50x50/570790/333333?text=+) `#570790`  - Used for contact buttons on hover.
+![#570790](https://via.placeholder.com/50x50/570790/333333?text=+) `#570790`  - a darker purple, used for contact buttons on hover.
 
 ![#6d757d](https://via.placeholder.com/50x50/6d757d/333333?text=+) `#6d757d` Gray - Used for nav-bar and footer background-color, set by Bootstrap.
 
-<!-- C/O https://placeholder.com/ -->
+<!-- Code for colour placeholders is from https://placeholder.com/ -->
 
 
 >## **FEATURES**
@@ -437,7 +440,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 * Fixed position at the top of the screen and reading from left to right, in a conventional manner, offering intuitive access to all pages of the website.  The navigation bar is responsive so it fills the width of the screen for any device. The menu text is replaced with a menu (Burger) icon, for mobile devices, which drops down over content when clicked. The active page is noted in the navigation bar by its name being white, as opposed to the inactive page names which are grey. They change to a lighter grey on hover.
 
 #### **Hero Image with Jumbotron**
-* Hero image with an overlaid jumbotron containing a text area on each page. The jumbotron has an opaque background so that the hero image is still visible but the text of the jumbotron is contrasted well for easy reading.  The purpose of the hero image is to get the attention of the site visitor and draw them into the site. Below this text area is a call-to-action (CTA) button, for the user to contact the practitioner. The button is brightly coloured to get the attention of user. There is a different hero image and jumbotron text on each page, but with same format, which keeps a consistent feel across all the website pages.
+* Hero image with an overlaid jumbotron containing a text area on each page. The jumbotron has an opaque background so that the hero image is still visible but the text of the jumbotron is contrasted well for easy reading. The purpose of the hero image is to get the attention of the site visitor and draw them into the site. The hero image does not fill the entire vertical screen and shows there is more information below the fold, encouraging the user to scroll down the page. Below this text area is a call-to-action (CTA) button, for the user to contact the practitioner. The button is brightly coloured to get the attention of user. There is a different hero image and jumbotron text on each page, but with same layout format, which keeps a consistent feel across all the website pages.
 
 #### **Footer** – This is found at the bottom of every page and contains:
 *   Logo - When clicked takes user back to home page.
@@ -446,7 +449,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 When the user hovers the mouse over the social media icons they change color to the real colours of icons for those sites.
 *   A Terms & Condition's button - when clicked opens a modal, to clarify matters legally. When hovered over with the mouse the background of the button changes to white and the text changes from white to black.
 *   A Privacy Policy button - when clicked opens a modal to clarify matters legally regarding the electronic storage of personal details. The modal behaves in the same way as the Terms & Conditions modal.
-*   Copyright for protection of business data. This is just plane white text contrasting against the grey of the footer background -color.
+*   Copyright for protection of business data. This is just plane white text contrasting against the grey of the footer background-color.
 
  #### **Back-to-Top**
  * This anchor is in the form of a purple circle containing a white arrow with text **Back-to-Top** beneath it. It appears towards the bottom of each page on the right-hand-side, above the footer. When hovered over it changes colour to a darker purple. When clicked it allows the user to go to the top of the current page. It changes name to **Top** on smaller devices, so that it takes up less screen space. The z-index has been set so that it does not show on top of the hero image as this looked messy. The user is near the top of the page when on the hero image anyway.
@@ -458,23 +461,22 @@ ___
 #### Home page 
 
 * Hero Image of a Peruvian sacred mountain - Salkantay.
-* Jumbotron text specific to Shamanic Energy Healing. The amount of text is increased on devices larger than mobiles.
+* Jumbotron text setting context for call to action. The amount of text is increased on devices larger than mobiles.
 * Article - What is Shamanic energy healing? 
     * Article with informative paragraphs of text. To avoid too much text on page a ‘read more’ button is used. This uses Bootstrap collapse feature.
-    * A series of three short videos featuring Alberto Villoldo of The Four Winds Society describing modern shamanic healing (YouTube embedded,  NOT set to play automatically).    
-    * Article - Benefits of Shamanic energy healing
-    * Image of a butterfly which symbolizes transformation, which can occur with this healing modality. The image helps break up the text, and balances the screen on larger screened devices. 
-    * Text outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users, a ‘read more’ button is being used. This uses Bootstrap collapse feature.
+    * A series of three short videos featuring Alberto Villoldo of The Four Winds Society describing modern shamanic healing. The videos are YouTube embedded and responsive. They are NOT set to play automatically. The user can use the normal YouTube controls and expand the video to full-screen if desired. 
+    * Article - Benefits of Shamanic healing. This contains text outlining the benefits of this type of healing. To avoid too much text on page and overwhelming users, a ‘read more/less’ button is being used. This uses Bootstrap collapse feature.
+    * Image of a butterfly that symbolizes transformation, which can occur with this healing modality. The image helps break up the text, and balances the screen on larger screened devices. 
 
 #### Shamanic Healing page
 
 * Hero Image - Theologue by the artist Alex Grey. Showing artists impression of energy in and around the body.
 * Jumbotron text specific to the page - Shamanic Healing - briefly explains what the page is about.
-* Article - Shamanic Healing - a more detailed look, with a video explaining some of the healing techniques used  (embedded from YouTube, NOT set to play automatically).
+* Article - Shamanic Healing - a more detailed look, with a video explaining some of the healing techniques used.  The video is YouTube embedded and responsive. It is NOT set to play automatically. The user can use the normal YouTube controls and expand the video to full-screen if desired. 
 * Article - The Luminous Energy Field – image and text to give client a better understanding of terms and concepts used.
-* Article - The Chakra System - image and text to give client a better understanding of terms and concepts used. To avoid too much text on page a ‘read more’ button is used. This uses Bootstrap collapse feature.
+* Article - The Chakra System - image and text to give client a better understanding of terms and concepts used. To avoid too much text on page a ‘read more/less’ button is used. This uses Bootstrap collapse feature.
 * Article - The Shaman's Mesa - image and text explaining what the mesa is and that it will be used in healing sessions.
-* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater sections and allows them to select the topic of interest to them. The card deck displays single column on mobile and to two columns on devices larger than mobiles. The various processes are:
+* Healing Processes that can be used in a session. As there are ten processes, these were displayed using Bootstrap card-deck and modals, to break up text so it was in a better format for the user to digest. A block of standard text could have been overwhelming for the user, so this breaks it up into smaller neater sections and allows them to select the topic of interest to them. The card deck displays single column on mobile and two columns on devices larger than mobiles. The various processes are:
     * Illumination
     * Extraction
     * Soul Retrieval
@@ -495,35 +497,33 @@ ___
     * Inspire potential clients.
 * Article - My Journey – how the practitioner became a shamanic energy healing practitioner. Background to capture interest and build credibility.
 * Article - My training – My formal training has been with The Four Winds Society https://thefourwinds.com/ - demonstrates practitioner's credibility. Quote from a magazine to demonstrate credibility of The Four Winds.
-* Testimonials 2 items which change from single column (mobile) double column on tablets and larger screen sizes, to improve appearance and useability for user. Demonstrates practitioner's credibility.
+* Testimonials two items which change from single column (mobile) double column on tablets and larger screen sizes. Demonstrates practitioner's credibility.
 
 #### Rates page 
 
 * Hero Image - A ceremony/training session with the practitioner's Four Winds class at Moray, Cusco, Peru.
 * Jumbotron text specific to the page - Rates and FAQs - clearly explains what is on the page.
 * Contains a clear pricing structure, so the user can easily tell if a session is affordable.
-* FAQs covering questions clients might ask. Uses Bootstrap's accordion to separate each FAQ and its answer. This breaks up blocks of text and make it easier for the user to find the information they are looking for quickly and to makes it easier to read.
+* FAQs covering questions clients might ask. Uses Bootstrap's accordion to separate each FAQ and its answer. This breaks up blocks of text and makes it easier to read and for the user to find the information they are looking for.
 
 #### Contact page 
 
-* Hero Image -
-* Jumbotron text specific to the page - 
-* Contact form requesting clients name, email, telephone number and message. Each field must be validated before user can send using the ‘send button’
+* Hero Image - don Augustin and don Luis making a despacho offering.
+* Jumbotron text specific to the page - Explaining there is a contact form below.
+* Contact form requesting clients name, email, telephone number, topic and message. Each field, except the Skype ID, must be validated before user can send using the ‘Submit button’. If validation fails a message appears, prompting the user for the correct information to be entered.
 
 ### **Features Left to Implement**
+ when I have developed the appropriate skills**
 
-* Submit button on Contact form needs to be made fully functional.
-* Improved privacy policy delivery
-* Blog/newsletter with sign-up
-* Membership with login for existing clients
-* Online-booking of sessions for members
-
-**Possible features for the future not included in initial planning**
+* Complete the contact form so that it submits successfully and data is captured.
+* Improved privacy policy so users can respond to GDPR compliance.
+* [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) to avoid SPAM.
+* Blog/newsletter with sign-up to attract new clients.
+* Membership with login for existing clients.
+* Online-booking of sessions for members.
 * Search bar
-* Online Payment for sessions at point of booking
-* Shop selling related books via links to Amazon
-
-With my current skillset cannot develop these at this time and they are beyond the scope of this project.
+* Online Payment for sessions at point of booking.
+* Shop selling related books via links to Amazon.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -535,7 +535,7 @@ The following languages, frameworks and tools were used in the development of th
 
 * [**Cloud9 & AWS Cloud 9**](https://www.awseducate.com/signin/SiteLogin) is an online Integrated Development Environment IDE. Used as recommended by Code Institute. It provides a standardised environment for development. It was replaced as the recommended IDE by Gitpod.
 
-* [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development.
+* [**Gitpod IDE**](https://www.gitpod.io/) is an online IDE used as recommended by Code Institute. It provides a standardised environment for development. It was used with a Code Institute template, which sets up various extensions for the IDE which provide assistance to the coder e.g. Auto Close Tag, Bootstrap 4CDN Snippet, Prettier- Code Formatter. More can be added if required.
 
 * [**HTML**](https://www.w3.org/html/) Hypertext Markup Language is a declarative programming language, used to provide structural elements to web pages.
 
@@ -554,16 +554,17 @@ The following languages, frameworks and tools were used in the development of th
 * [**Git**](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development. The history of this website's development can be found in the Git log on my GitHub repository.
 
 ### **Tools used**
+* [Balsamiq](https://balsamiq.com/wireframes/) - for making wireframes.
 * [Favicon Generator](https://www.favicon-generator.org/) To generate a favicon appropriate to follow the branding of the site.
 * [HTML Validator](https://validator.w3.org/) To validate HTML code. Used throughout development and to do final checks before project submission.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) To validate CSS code. Used throughout development and to do final checks before project submission.
+* [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Tests how easily a visitor can use your page on a mobile device.
 * [AutoPrefixer](https://autoprefixer.github.io/) is a PostCSS plugin which parses your CSS and adds vendor prefixes to ensure css code works in different browsers.
 * [PhotoShop Elements](https://www.adobe.com/uk/products/photoshop-premiere-elements.html) used to resize, and prepare images for the web.
 * [TinyPNG](https://tinypng.com/) to compress image files to reduce their size which in turn reduces the images load time on the webpage.
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) in Gitpod to check spelling as you type.
 * Chrome DevTools and Safari Developer Tools available from browser.
-* [ally](https://color.a11y.com/) to test color contrast is optimized. 
-
+* [ally](https://color.a11y.com/) to test color contrast is optimized.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -571,51 +572,161 @@ ___
 
 >## **Testing**
 
-Gitpod indicates problem as you develop code. So they can be eliminated immediately where possible. The site pages have also been tested with appropriate validators and produce no errors:
-[HTML Validator](https://validator.w3.org/)
-[CSS Validator](https://jigsaw.w3.org/css-validator/)
+### **General Testing as Coding**
 
-I write my text chunks for the site in word so they are spelling free when loaded to the website. I also have installed Code Spell Checker to avoid spelling mistakes and typos.
+**Errors**
+Gitpod indicates problem as you develop code. Chrome Dev tools indicates errors in the console too. So any errors can be eliminated immediately where possible. The site pages have also been tested with appropriate validators and produce no errors, [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+**Spelling** I write my content text chunks in word, so they are spelling free when loaded to the website. I also have installed [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) onto Gitpod to help avoid spelling mistakes and typos while I am coding.
+
+**Chrome Dev Tools**
+I use Chrome to monitor and test the code as I develop. So I check new code straight away and make sure that it is working responsively on each of the mobile devices listed in Dev Tools and on larger break-points too.
+___
+
+### **Testing User stories**
+_**1.	As a first-time site visitor, I can find what I am looking for easily and find the site engaging. I can contact the practitioner to book a session or return to the site at a future date.**_
+
+**Navigation**
+*   When the visitor lands on the home page, or any page, they can locate the navigation bar easily and use its menu to move to and from any other page on the site.
+*   The user can identify which page they are on, the active page, by that page name being highlighted in the navigation bar. The navigation bar is fixed so is always available for reference as the user scrolls up and down the page.
+*   If the user needs to return to the top of the current page they can click the 'Back-to-Top arrow', which is on the right-hand-side of the screen.
+*   On any page the user can click on the logo, in the navigation bar or the footer, to return to the home page of the site.
+
+**Contacting the Practitioner**
+*   If the visitor wants to contact the practitioner they can do this by filling out and submitting the contact form. They can navigate to the contact form by:    
+    *   Selecting the 'Contact' page from the navigation bar menu and scrolling down the page to the contact form or click on the 'Contact Form' button in the jumbotron section of this page, which jumps to the contact form section of this page.
+    *   Clicking on the 'Contact me' button in the hero/jumbotron section, on the Home, Shamanic-Healing, About or Rates pages.
+    *   Clicking on the 'Contact me' button in the footer of any page.
+    *   Clicking on the 'Contact me to book a session' button on the Rates page.
+
+**Contact Form**    
+*   Once on the Contact form:
+    *   If the user tries to submit the form without filling in any required details or with missing required details, they will be directed back to the first of the required input fields which is missing data. This field will be highlighted and a pop-up message will appear, attached to this field, prompting the user to '! Please fill in this field'.
+    *   If the user misses out the @ symbol in the email address a prompt will appear '! Please include an '@' in the email address.'
+    *   If the user tries to submit the form without selecting a message topic they will be prompted to fill in this field with the following message, '! Please select an item in the list.'
+    *   Currently there is not a success message for successful submission of the form as the form needs connecting to a server set up to handle the data from the form. This is beyond the scope of this project.
+
+  **Engaging**  
+* The site has been laid out to include text, videos and pictures, using plenty of space between items to allow for an uncluttered feel, while remaining informative and interesting to keep the user engaged with the site. Various Bootstrap features have been used to break up text, so that is not overwhelming to the user yet still provides sufficient information for the user to be encouraged to book a session.
+
+_**2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic-healing and decide if I want to contact this practitioner.**_
+
+*   How the user uses the navigation and the contact form are described in the point above. 
+*   When the user arrives at the Home page, the title of the section below the hero-image is set to show just above the fold on most devices; the title is 'What is Shamanic Energy Healing?' so the user can immediately scroll down and read more about this.
+    *    The user can choose to watch the three videos on the page which explain modern shamanism. The user can click on red arrow on the video to start watching, they can also choose to use the YouTube controls within the embedded video i.e. stop/start, pause, control the sound, or view in full-screen mode.
+    *   The text is broken into smaller sections using Bootstrap collapse the 'Read more/less' buttons. which work allow the user to reveal/cover-up additional text.
+ *   One of the pages is called Shamanic-Healing so the user can navigate straight to this page. The hero image area on this page contains text describing the page - 'Healing systems and processes use.' So the user can scroll down the page to find out more.
+        *  As the user scrolls down the page, there is a video explaining some of the techniques used during a session. The video has the same YouTube features as described above.
+        *   The Healing Processes section is laid out using Bootstrap cards and modals, so when the user selects a healing process they wish to learn more about they click on the 'Read More' button at the bottom of the card and it opens a modal containing more text relating to this process. The modal can be closed either by clicking on the cross in the top-right-hand corner of the modal, or by clicking on the close button at the base of the modal text.
+
+_**3.	As a site visitor, I can view the credentials of this shamanic healer, and decide if I want to contact them for a session or for more information.**_
+
+*   The user can see from the navigation bar that there is an About page. They can navigate there easily and check out the practitioner to decide if they are credible. The About page has a mission statement for the practitioner, as well as inspiring articles about the practitioner's training, their experience and client testimonials, to provide information to establish the practitioners credibility.
+*   Once on the About page they can navigate to the contact form by clicking on either of the contact buttons, one on the hero image and the other in the footer, or by selecting the Contact page from the navigation bar menu.
+
+_**4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.**__
+_**5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.**_
+
+*   The user can easily navigate the site to find out about the practitioner from the About page as described in the point above.
+*   The user can navigate to the Rates page using the navigation bar menu from any page on the site. 
+*   The Rates page indicates, in the jumbotron text on the hero image, that it contains Rates and FAQs, which the user sees when they open the page. They can then scroll down to read the pricing information, cancellation policy, and the FAQs.
+*   The FAQs are displayed in Bootstrap accordion component which breaks up the text so not one large block overwhelming the user. The user clicks on the question they want to reveal the answer to. The question text becomes bold and underlined as well as highlighted, to indicate to the user the question that has been selected. A drop down section appears directly beneath the active question. On selecting another question the previously selected question closes and the new one opens.
+*   If they choose the user can then contact the practitioner by the 'Contact me to book a session' button directly above the FAQs section, or by the other two 'contact me' buttons, (one in the hero image jumbotron or one in the footer) or via the Contact page and complete the contact form as described above.
+
+
+_**5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.**_
+*   The user can 
+
+
+_**6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.**_
+
+
+_**7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.**_
+
+*   The user may use the social media buttons located in the footer on every page. These will take the user to the practitioner's page on these platforms.NB: not all social media has been set up with the practitioner’s direct link as this is site is only for educational purposes and not a live working site. The links will take the user to the application only in most cases.
+    *   The social media icons will change colour to the true application's colour when hovered over by the user to indicate which icon is being selected.  
+
+_**8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.**_
+
+
+### **Manual Functionality testing**
+Items tested to check functionality as described in the features section above.
+
+Items tested on each page of the site.
+
+|Feature|Mobile|Desktop
+|:---|:---|:---|
+|**Navigation**|Test Status|Test Status|
+|Menu|passed|passed|
+|Logo|passed|passed|
+|Back-to-Top|passed|passed|
+
+---
+
+|Feature|Mobile|Desktop
+|:---|:---|:---|
+|**Footer**|Test Status|Test Status|
+|Logo|passed|passed|
+|Contact me button|passed|passed|
+|Back-to-Top|passed|passed|
+
+
+
+**Testing on Different Devices via Chrome Dev Tools**
+
+
+
+Mobile
+I also tested each page of the website with Google's [Mobile-Friendly](https://search.google.com/test/mobile-friendly). Each page passed the test. So all pages on the site are deemed to be mobile-friendly.
+
+
+**Chrome Dev Tools Testing**
+
+
+**Lighthouse Testing**
 
 **Page Load Times**
-Tested using Chrome DevTools:
+
 Load times for the home page are a bit slow due to it having three embedded YouTube videos. I believe that this can be addressed with javaScript. Currently, this is beyond my skillset and the scope of this project.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+do 2 one for mobile one  for desktop
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+**Testing on different browsers**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**Physical Devices used for testing**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### **Bugs**
 
 
-**Fixed Bug:**
+#### **Fixed Bug:**
 
 * **background-attachment property on iPhones**.
-Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered tha it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work as expected on iPhones.
+Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered that it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work on iPhones.
+___
 
-**Outstanding Bugs**
-Error in console on Chrome Developer Tools.
+#### **Outstanding Bugs**
 
-https://www.chromestatus.com/feature/5088147346030592
+**Chrome Dev Tools Console Errors**
 
-Fix is beyond the scope of this project.
+On the Home and Shamanic-healing pages I get the following error relating to the embedded videos from YouTube:
 
-<!-- LOGO
-I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as is only a png file and does not scale well, so used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file. This would involve either buying it from a logo maker site or investing in a tool such as Adobe Illustrator. It would then have to be the right size to fit in the Bootstrap navbar which is quite restrictive. Logos need to be well thought out and designed. Hopefully, as I gain more web development skills I will be better able to deal with logos. -->
+* A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. It has been blocked, as Chrome now only delivers cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.
+This is a warning and does not stop the site functioning. The fix is beyond the scope of this project.
+
+
+On every page I get the following error which has jus started to appear recently.
+* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+
+This does not seem to affect the functionality and I can find very little information on the web
+
+---
+
+**LOGO Image**
+
+I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as it does not scale well, even with img-fluid class applied. In the end I used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file and save it to use on the web. I have had an unsuccessful attempt at making a working SVG logo. So have reverted back to my original PNG logo file.  I trust as I gain more web development skills I will be able to find and add a better logo to the site.
 
 ---
 
@@ -686,12 +797,12 @@ ___
 - Chakra image is from The Four Winds Society website blog. [Link](https://thefourwinds.com/blog/shamanism/the-chakras-an-introduction/) 
 
 ### **Code**
-- I have used code and ideas for coding from the previous mini-projects completed with the Code Institute.
+- I have used code and ideas for coding from course material from the Code Institute's.
 - I have used code snippets from Bootstrap for features such as cards, navbar, iframe, accordion and modified them as required.
-- Bootstrap css hides portion of container below navbar navbar-fixed-top [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
+- Bootstrap css hides portion of container below navbar navbar-fixed-top. This was addressed using [Stack-overflow](https://stackoverflow.com/questions/14735274/bootstrap-css-hides-portion-of-container-below-navbar-navbar-fixed-top)
 - I have used a code snippet from Code Institute Slack by Simen Daehlin to style videos in my style.css. I have noted this in the style.css.
 - I have used code snippet in a set of media queries to increase text sizes as bootstrap does not make text responsive. The snippet is from [teamtreehouse.com](https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4) and I have noted it in the style.css.
-- For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions)
+- For the favicon I have used reference to code from [Stackoverflow](https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions).
 - For aligning the the 'Read more" buttons at the bottom of the cards in the card-deck Healing Processes I based my code on an answer in [Stackoverflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
 ### **Acknowledgements**
