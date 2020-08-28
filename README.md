@@ -44,6 +44,9 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
     * [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
     * [Wireframes](#wireframes)
 * [UX SURFACE](#ux-surface)
+    * [Visual Design](#visual-design)
+    * [Fonts](#fonts)
+    * [Colours](#colours)
 * [FEATURES](#features) 
     * [Existing Features Common to Each Page](#existing-features-common-to-each-page) 
         * [Logo](#logo)
@@ -54,15 +57,14 @@ To view a live demo of the site click* on the link: https://helensayer.github.io
     * [Features individual to each page](#existing-features-on-individual-pages)
         * [Home page](#home-page)
         * [Shamanic Healing page](#shamanic-healing-page)
-        * [About page](#about)
+        * [About page](#about-page)
         * [Rates page](#rates-page)
         * [Contact page](#contact-page)
-    * [Features Left to Implement](#features-left-to-implement)###
+    * [Features Left to Implement](#features-left-to-implement)
 * [TECHNOLOGIES USED](#technologies-used)
     * [Tools used](#tools-used)
 * [TESTING](#testing)
     * [General Testing as Coding](#general-testing-as-coding)
-    * [Structured Testing](#structured-testing)
     * [Testing User stories](#testing-user-stories)
     * [Bugs](#bugs)
 * [DEPLOYMENT](#deployment)
@@ -312,7 +314,7 @@ ___
 
 ### **Navigational Design and Hierarchy**
 
-The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree. It keeps the number of clicks for a user to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
+The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree. It keeps the number of clicks, for a user to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
 
 ![Tree Structure](assets/images/sitemap.png)
 
@@ -343,7 +345,7 @@ ___
 
 **Dropdown Menus**
 
-I did look at adding an additional layer to the tree structure but this looked messy and confusing and took up a lot of the screen on mobile devices e.g. 
+I did look at adding an additional layer to the tree structure but this looked messy, confusing and took up a lot of the screen on mobile devices e.g. 
 
 ![Two level tree structure](assets/images/dropdowns.png)
 
@@ -404,7 +406,7 @@ ___
 *To view what the website looks like please go to the [Demo](#demo) section to see a mockup or to view a live demo, click* on the link: https://helensayer.github.io/the-shamans-cat.
  _(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
-**Visual Design -**
+### **Visual Design**
 As there is a lot of information, I have presented it in a way that is not overwhelming to the user. I have done this by using a suitable amount of white space between text and images. It appears single column on smaller screened devices. On larger screened devices, on the Home, Shamanic-Healing and About pages i.e. those pages containing large amounts of information, I have split the the page beneath the hero image into two columns. In order that the text is broken up and not in one large block, thus making it easier to read and also look more interesting. I have added relevant pictures and videos to break the text up even further as wells as using the Bootstrap features of collapse, modals, card-deck and accordion.
 
 ### **Fonts**
@@ -442,7 +444,8 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 #### **Hero Image with Jumbotron**
 * Hero image with an overlaid jumbotron containing a text area on each page. The jumbotron has an opaque background so that the hero image is still visible but the text of the jumbotron is contrasted well for easy reading. The purpose of the hero image is to get the attention of the site visitor and draw them into the site. The hero image does not fill the entire vertical screen and shows there is more information below the fold, encouraging the user to scroll down the page. Below this text area is a call-to-action (CTA) button, for the user to contact the practitioner. The button is brightly coloured to get the attention of user. There is a different hero image and jumbotron text on each page, but with same layout format, which keeps a consistent feel across all the website pages.
 
-#### **Footer** – This is found at the bottom of every page and contains:
+#### **Footer**
+**This is found at the bottom of every page and contains:**
 *   Logo - When clicked takes user back to home page.
 *   Contact button which when clicked leads to the contact form.
 *   Social media icons - when clicked provide links to other social platforms used by the practitioner.
@@ -457,6 +460,10 @@ When the user hovers the mouse over the social media icons they change color to 
 #### **Favicon**
 * Provides continuation of cat/jaguar branding to identify this site's webpages in browser tabs.
 ___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
+
 ### **Existing Features on individual Pages**
 #### Home page 
 
@@ -513,7 +520,8 @@ ___
 * Contact form requesting clients name, email, telephone number, topic and message. Each field, except the Skype ID, must be validated before user can send using the ‘Submit button’. If validation fails a message appears, prompting the user for the correct information to be entered.
 
 ### **Features Left to Implement**
- when I have developed the appropriate skills**
+
+ _**when I have developed the appropriate skills**_
 
 * Complete the contact form so that it submits successfully and data is captured.
 * Improved privacy policy so users can respond to GDPR compliance.
@@ -608,6 +616,10 @@ _**1.	As a first-time site visitor, I can find what I am looking for easily and 
 
   **Engaging**  
 * The site has been laid out to include text, videos and pictures, using plenty of space between items to allow for an uncluttered feel, while remaining informative and interesting to keep the user engaged with the site. Various Bootstrap features have been used to break up text, so that is not overwhelming to the user yet still provides sufficient information for the user to be encouraged to book a session.
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 _**2.	As a site visitor, I can easily use the navigation bar to find out more details on shamanic-healing and decide if I want to contact this practitioner.**_
 
@@ -633,11 +645,6 @@ _**5.	As a potential client looking for a shamanic energy healer, I can find out
 *   The FAQs are displayed in Bootstrap accordion component which breaks up the text so not one large block overwhelming the user. The user clicks on the question they want to reveal the answer to. The question text becomes bold and underlined as well as highlighted, to indicate to the user the question that has been selected. A drop down section appears directly beneath the active question. On selecting another question the previously selected question closes and the new one opens.
 *   If they choose the user can then contact the practitioner by the 'Contact me to book a session' button directly above the FAQs section, or by the other two 'contact me' buttons, (one in the hero image jumbotron or one in the footer) or via the Contact page and complete the contact form as described above.
 
-
-_**5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.**_
-*   The user can 
-
-
 _**6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.**_
 
 
@@ -648,6 +655,10 @@ _**7.	As any site visitor, I can check out the practitioner on social media by c
 
 _**8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.**_
 
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
 ### **Manual Functionality testing**
 Items tested to check functionality as described in the features section above.
@@ -716,7 +727,7 @@ On the Home and Shamanic-healing pages I get the following error relating to the
 This is a warning and does not stop the site functioning. The fix is beyond the scope of this project.
 
 
-On every page I get the following error which has jus started to appear recently.
+On every page I get the following error:
 * DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
 * DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
 
