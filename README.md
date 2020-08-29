@@ -683,109 +683,108 @@ I also tested MS Edge running on a Acer Aspire running windows 10,
 display resolution 1366 x 768
 
 
-|Feature|Browser||||
-|:---|:---|:---|:---|:---|
-||Chrome|Safari|Firefox|Microsoft Edge*
-|>_**Home Page**_|||||
-|**Navigation**|||||
-|Menu|passed|passed|passed|passed|
-|Logo|passed|passed|passed|passed|
-|Back-to-Top|passed|passed|passed|passed|
-|**Footer**|||||
-|Logo|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Social Media Icons|passed|passed|passed|passed|
-|Terms & Conditions Modal|passed|passed|passed|passed|
-|Privacy Policy Modal|passed|passed|passed|passed|
-|**Content**|||||
-|Hero Image|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Text|passed|passed|passed|passed|
-|Videos|passed|passed|passed|passed|
-|Collapse Read more/less|passed|passed|passed|passed|
-|`Shamanic-Healing Page`|||||
-|**Navigation**|||||
-|Menu|passed|passed|passed|passed|
-|Logo|passed|passed|passed|passed|
-|Back-to-Top|passed|passed|passed|passed|
-|**Footer**|||||
-|Logo|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Social Media Icons|passed|passed|passed|passed|
-|Terms & Conditions Modal|passed|passed|passed|passed|
-|Privacy Policy Modal|passed|passed|passed|passed|
-|**Content**|||||
-|Hero Image|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Text|passed|passed|passed|passed|
-|Video|passed|passed|passed|passed|
-|Collapse Read more/less|passed|passed|passed|passed|
-|Healing Processes card and modals|passed|passed|passed|passed|
-|`About Page`|||||
-|**Navigation**|||||
-|Menu|passed|passed|passed|passed|
-|Logo|passed|passed|passed|passed|
-|Back-to-Top|passed|passed|passed|passed|
-|**Footer**|||||
-|Logo|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Social Media Icons|passed|passed|passed|passed|
-|Terms & Conditions Modal|passed|passed|passed|passed|
-|Privacy Policy Modal|passed|passed|passed|passed|
-|**Content**|||||
-|Hero Image|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Text|passed|passed|passed|passed|
-|Collapse Read more/less|passed|passed|passed|passed|
-|Testimonials|passed|passed|passed|passed|
-|`Rates Page`|||||
-|**Navigation**|||||
-|Menu|passed|passed|passed|passed|
-|Logo|passed|passed|passed|passed|
-|Back-to-Top|passed|passed|passed|passed|
-|**Footer**|||||
-|Logo|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Social Media Icons|passed|passed|passed|passed|
-|Terms & Conditions Modal|passed|passed|passed|passed|
-|Privacy Policy Modal|passed|passed|passed|passed|
-|**Content**|||||
-|Hero Image|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Text|passed|passed|passed|passed|
-|'Contact me to book a session' button|passed|passed|passed|passed|
-|FAQs Accordion|passed|passed|passed|passed|
-|`Contact Page`|||||
-|**Navigation**|||||
-|Menu|passed|passed|passed|passed|
-|Logo|passed|passed|passed|passed|
-|Back-to-Top|passed|passed|passed|passed|
-|**Footer**|||||
-|Logo|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Social Media Icons|passed|passed|passed|passed|
-|Terms & Conditions Modal|passed|passed|passed|passed|
-|Privacy Policy Modal|passed|passed|passed|passed|
-|**Content**|||||
-|Hero Image|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|
-|'Contact me' button|passed|passed|passed|passed|
-|Contact Form|passed|passed|passed|passed|
+Page|Feature|Browser||||
+|:---|:---|:---|:---|:---|:---|
+|||Chrome|Safari|Firefox|Microsoft Edge*
+|_**Home Page**_||||||
+||**Navigation**|||||
+||Menu|passed|passed|passed|passed|
+||Logo|passed|passed|passed|passed|
+||Back-to-Top|passed|passed|passed|passed|
+||**Footer**|||||
+||Logo|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Social Media Icons|passed|passed|passed|passed|
+||Terms & Conditions Modal|passed|passed|passed|passed|
+||Privacy Policy Modal|passed|passed|passed|passed|
+||**Content**|||||
+||Hero Image|passed|passed|passed|passed|
+||Jumbotron|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Text|passed|passed|passed|passed|
+||Videos|passed|passed|passed|passed|
+||Collapse Read more/less|passed|passed|passed|passed|
+|_**Shamanic-Healing Page**_|||||
+||**Navigation**|||||
+||Menu|passed|passed|passed|passed|
+||Logo|passed|passed|passed|passed|
+||Back-to-Top|passed|passed|passed|passed|
+||**Footer**|||||
+||Logo|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Social Media Icons|passed|passed|passed|passed|
+||Terms & Conditions Modal|passed|passed|passed|passed|
+||Privacy Policy Modal|passed|passed|passed|passed|
+||**Content**|||||
+||Hero Image|passed|passed|passed|passed|
+||Jumbotron|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Text|passed|passed|passed|passed|
+||Video|passed|passed|passed|passed|
+||Collapse Read more/less|passed|passed|passed|passed|
+||Healing Processes card and modals|passed|passed|passed|passed|
+|_**About Page**_|||||
+||**Navigation**|||||
+||Menu|passed|passed|passed|passed|
+||Logo|passed|passed|passed|passed|
+||Back-to-Top|passed|passed|passed|passed|
+||**Footer**|||||
+||Logo|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Social Media Icons|passed|passed|passed|passed|
+||Terms & Conditions Modal|passed|passed|passed|passed|
+||Privacy Policy Modal|passed|passed|passed|passed|
+||**Content**|||||
+||Hero Image|passed|passed|passed|passed|
+||Jumbotron|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Text|passed|passed|passed|passed|
+||Collapse Read more/less|passed|passed|passed|passed|
+||Testimonials|passed|passed|passed|passed|
+|_**Rates Page**_|||||
+||**Navigation**|||||
+||Menu|passed|passed|passed|passed|
+||Logo|passed|passed|passed|passed|
+||Back-to-Top|passed|passed|passed|passed|
+||**Footer**|||||
+||Logo|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Social Media Icons|passed|passed|passed|passed|
+||Terms & Conditions Modal|passed|passed|passed|passed|
+||Privacy Policy Modal|passed|passed|passed|passed|
+||**Content**|||||
+||Hero Image|passed|passed|passed|passed|
+||Jumbotron|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Text|passed|passed|passed|passed|
+||'Contact me to book a session' button|passed|passed|passed|passed|
+||FAQs Accordion|passed|passed|passed|passed|
+|_**Contact Page**_|||||
+||**Navigation**|||||
+||Menu|passed|passed|passed|passed|
+||Logo|passed|passed|passed|passed|
+||Back-to-Top|passed|passed|passed|passed|
+||**Footer**|||||
+||Logo|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Social Media Icons|passed|passed|passed|passed|
+||Terms & Conditions Modal|passed|passed|passed|passed|
+||Privacy Policy Modal|passed|passed|passed|passed|
+||**Content**|||||
+||Hero Image|passed|passed|passed|passed|
+||Jumbotron|passed|passed|passed|passed|
+||'Contact me' button|passed|passed|passed|passed|
+||Contact Form|passed|passed|passed|passed|
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
 #### **Responsive Testing on Different Devices via Chrome Dev Tools**
-
-|Feature|Device||||||||||||||
+___
+|_**Home Page**_|||||||||||||||
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Feature|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
-|`Home Page`|||||||||||||||
+|Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -803,7 +802,11 @@ ___
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Videos|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|`Shamanic-Healing Page`|||||||||||||||
+___
+___
+|_**Shamanic-Healing Page**_|||||||||||||||
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -822,7 +825,11 @@ ___
 |Video|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Healing Processes card and modals|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|`About Page`|||||||||||||||
+___
+___
+|_**About Page**_|||||||||||||||
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -840,7 +847,11 @@ ___
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Testimonials|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|`Rates Page`|||||||||||||||
+___
+___
+|_**Rates Page**_|||||||||||||||
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -858,7 +869,11 @@ ___
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |'Contact me to book a session' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |FAQs Accordion|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|`Contact Page`|||||||||||||||
+___
+___
+|_**Contact Page**_|||||||||||||||
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -874,16 +889,34 @@ ___
 |Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Contact Form|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+___
+___
+
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
+
+**Chrome Dev Tools Console Warnings**
+
+On the Home and Shamanic-healing pages I get the following warning relating to the embedded videos from YouTube:
+
+* A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. It has been blocked, as Chrome now only delivers cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.
+This is a warning and does not stop the site functioning. The fix is beyond the scope of this project.
 
 
-Mobile
-I also tested each page of the website with Google's [Mobile-Friendly](https://search.google.com/test/mobile-friendly). Each page passed the test. So all pages on the site are deemed to be mobile-friendly.
+On every page I get the following error:
+* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+
+This does not affect the functionality
 
 
-**Chrome Dev Tools Testing**
+<!-- Mobile
+I also tested each page of the website with Google's [Mobile-Friendly](https://search.google.com/test/mobile-friendly). Each page passed the test. So all pages on the site are deemed to be mobile-friendly. -->
 
 
-**Lighthouse Testing**
+#### **Chrome Lighthouse Testing**
+
+
 
 **Page Load Times**
 
@@ -891,14 +924,10 @@ Load times for the home page are a bit slow due to it having three embedded YouT
 
 do 2 one for mobile one  for desktop
 
-**Testing on different browsers**
 
-Chrome, firefox, Microsoft Edge, Safari
+**Physical Devices used for Testing**
 
-
-**Physical Devices used for testing**
-
-iPhone 8 
+iPhone 8 safari
 
 iMac (Retina 5K, 27-inch, 2019 running macOS Catalina 10.15.6
 Chrome Version 85.0.4183.83 (Official Build) (64-bit)
@@ -927,21 +956,8 @@ Chrome 84.0.4147.125
 Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered that it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work on iPhones.
 ___
 
-#### **Outstanding Bugs**
+<!-- #### **Outstanding Bugs** -->
 
-**Chrome Dev Tools Console Errors**
-
-On the Home and Shamanic-healing pages I get the following error relating to the embedded videos from YouTube:
-
-* A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. It has been blocked, as Chrome now only delivers cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.
-This is a warning and does not stop the site functioning. The fix is beyond the scope of this project.
-
-
-On every page I get the following error:
-* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
-* DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
-
-This does not seem to affect the functionality and I can find very little information on the web
 
 ---
 
