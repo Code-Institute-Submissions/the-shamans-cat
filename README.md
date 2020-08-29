@@ -245,7 +245,7 @@ Scope Includes the functional specifications and the content specifications.
 5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.
 6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.
 7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.
-8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.
+8.	As any site visitor I can use the contact form to contact the practitioner and ask for information.
 
 ---
 
@@ -597,22 +597,24 @@ _**1.	As a first-time site visitor, I can find what I am looking for easily and 
 **Navigation**
 *   When the visitor lands on the home page, or any page, they can locate the navigation bar easily and use its menu to move to and from any other page on the site.
 *   The user can identify which page they are on, the active page, by that page name being highlighted in the navigation bar. The navigation bar is fixed so is always available for reference as the user scrolls up and down the page.
-*   If the user needs to return to the top of the current page they can click the 'Back-to-Top arrow', which is on the right-hand-side of the screen.
+*   If the user needs to return to the top of the current page they can click the 'Back-to-Top' or 'Top'  arrow, which is towards the bottom, right-hand-side of the screen.
 *   On any page the user can click on the logo, in the navigation bar or the footer, to return to the home page of the site.
 
 **Contacting the Practitioner**
 *   If the visitor wants to contact the practitioner they can do this by filling out and submitting the contact form. They can navigate to the contact form by:    
     *   Selecting the 'Contact' page from the navigation bar menu and scrolling down the page to the contact form or click on the 'Contact Form' button in the jumbotron section of this page, which jumps to the contact form section of this page.
-    *   Clicking on the 'Contact me' button in the hero/jumbotron section, on the Home, Shamanic-Healing, About or Rates pages.
-    *   Clicking on the 'Contact me' button in the footer of any page.
-    *   Clicking on the 'Contact me to book a session' button on the Rates page.
+    *   Clicking on the 'Contact me' button in the hero/jumbotron section, on the Home, Shamanic-Healing, About or Rates pages takes the user directly to the contact form.
+    *   Clicking on the 'Contact me' button in the footer of any page takes the user directly to the contact form.
+    *   Clicking on the 'Contact me to book a session' button on the Rates page takes the user directly to the contact form.
 
 **Contact Form**    
 *   Once on the Contact form:
-    *   If the user tries to submit the form without filling in any required details or with missing required details, they will be directed back to the first of the required input fields which is missing data. This field will be highlighted and a pop-up message will appear, attached to this field, prompting the user to '! Please fill in this field'.
-    *   If the user misses out the @ symbol in the email address a prompt will appear '! Please include an '@' in the email address.'
-    *   If the user tries to submit the form without selecting a message topic they will be prompted to fill in this field with the following message, '! Please select an item in the list.'
+    *   If the user tries to submit the form without filling in any required details or with missing required details, they will be directed back to the first of the required input fields which is missing data. This field will be highlighted and a pop-up message may  appear attached to this field, prompting the user to '! Please fill in this field'.
+    *   If the user misses out the @ symbol in the email address. The user will not be able to submit the form until a valid email format has been entered. In Chrome a prompt will appear '! Please include an '@' in the email address.'
+    *   If the user tries to submit the form without selecting a message topic they will be prompted to fill in this field. In chrome they will get the  following message, '! Please select an item in the list.'
     *   Currently there is not a success message for successful submission of the form as the form needs connecting to a server set up to handle the data from the form. This is beyond the scope of this project.
+
+    *(The prompt is different in different browsers. In Firefox - the field is highlighted but there is no message. The field remains highlighted until completed correctly.)
 
   **Engaging**  
 * The site has been laid out to include text, videos and pictures, using plenty of space between items to allow for an uncluttered feel, while remaining informative and interesting to keep the user engaged with the site. Various Bootstrap features have been used to break up text, so that is not overwhelming to the user yet still provides sufficient information for the user to be encouraged to book a session.
@@ -625,8 +627,8 @@ _**2.	As a site visitor, I can easily use the navigation bar to find out more de
 
 *   How the user uses the navigation and the contact form are described in the point above. 
 *   When the user arrives at the Home page, the title of the section below the hero-image is set to show just above the fold on most devices; the title is 'What is Shamanic Energy Healing?' so the user can immediately scroll down and read more about this.
-    *    The user can choose to watch the three videos on the page which explain modern shamanism. The user can click on red arrow on the video to start watching, they can also choose to use the YouTube controls within the embedded video i.e. stop/start, pause, control the sound, or view in full-screen mode.
-    *   The text is broken into smaller sections using Bootstrap collapse the 'Read more/less' buttons. which work allow the user to reveal/cover-up additional text.
+    *    The user can choose to watch the three videos on the page which explain modern shamanism. The user can click on the red arrow on the video to start watching, they can also choose to use the YouTube controls within the embedded video i.e. stop/start, pause, control the sound, or view in full-screen mode.
+    *   The text is broken into smaller sections using Bootstrap collapse the 'Read more/less' buttons, which work allowing the user to reveal/cover-up additional text.
  *   One of the pages is called Shamanic-Healing so the user can navigate straight to this page. The hero image area on this page contains text describing the page - 'Healing systems and processes use.' So the user can scroll down the page to find out more.
         *  As the user scrolls down the page, there is a video explaining some of the techniques used during a session. The video has the same YouTube features as described above.
         *   The Healing Processes section is laid out using Bootstrap cards and modals, so when the user selects a healing process they wish to learn more about they click on the 'Read More' button at the bottom of the card and it opens a modal containing more text relating to this process. The modal can be closed either by clicking on the cross in the top-right-hand corner of the modal, or by clicking on the close button at the base of the modal text.
@@ -636,55 +638,242 @@ _**3.	As a site visitor, I can view the credentials of this shamanic healer, and
 *   The user can see from the navigation bar that there is an About page. They can navigate there easily and check out the practitioner to decide if they are credible. The About page has a mission statement for the practitioner, as well as inspiring articles about the practitioner's training, their experience and client testimonials, to provide information to establish the practitioners credibility.
 *   Once on the About page they can navigate to the contact form by clicking on either of the contact buttons, one on the hero image and the other in the footer, or by selecting the Contact page from the navigation bar menu.
 
-_**4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.**__
+_**4.	As a recommended potential client, I can find out about the shamanic practitioner, what sessions entail, read testimonials, view the pricing and then make contact via the contact form.**_
+
+ _and_
+
 _**5.	As a potential client looking for a shamanic energy healer, I can find out about the shamanic healer, what sessions entail, read testimonials, view pricing and can contact the practitioner via the contact form to book a session.**_
 
-*   The user can easily navigate the site to find out about the practitioner from the About page as described in the point above.
+*   The user can easily navigate the site to find out about the practitioner from the About page as described in the point 3 - above.
 *   The user can navigate to the Rates page using the navigation bar menu from any page on the site. 
 *   The Rates page indicates, in the jumbotron text on the hero image, that it contains Rates and FAQs, which the user sees when they open the page. They can then scroll down to read the pricing information, cancellation policy, and the FAQs.
-*   The FAQs are displayed in Bootstrap accordion component which breaks up the text so not one large block overwhelming the user. The user clicks on the question they want to reveal the answer to. The question text becomes bold and underlined as well as highlighted, to indicate to the user the question that has been selected. A drop down section appears directly beneath the active question. On selecting another question the previously selected question closes and the new one opens.
-*   If they choose the user can then contact the practitioner by the 'Contact me to book a session' button directly above the FAQs section, or by the other two 'contact me' buttons, (one in the hero image jumbotron or one in the footer) or via the Contact page and complete the contact form as described above.
+*   The FAQs are displayed in Bootstrap accordion component which breaks up the text so not one large block overwhelming the user. The user clicks on the question they want to reveal the answer to. The question text becomes bold, to indicate to the user the question that has been selected. A drop down section appears directly beneath the active question. On selecting another question the previously selected question closes and the new one opens.
+*   If they choose, the user can then contact the practitioner by the 'Contact me to book a session' button directly above the FAQs section, or by the other two 'contact me' buttons, (one in the hero image jumbotron or the one in the footer) or via the Contact page and complete the contact form as described above.
 
 _**6.	As a returning visitor, deciding to work with the practitioner, I can find the pricing and contact details easily.**_
 
+*   The user arrives at the site and can navigate to the Rates page using the navigation bar menu from any page on the site.
+*   The user can scroll down and find all the information on pricing for a session.
+*   Once the user has decided if the prices obtained are affordable they can move to Contact page via: The 'Contact me to book a session' button directly above the FAQs section on the Rates page, or by one of the other two 'contact me' buttons, (one in the hero image jumbotron or one in the footer) or via the Contact page and complete the contact form as described above.
 
 _**7.	As any site visitor, I can check out the practitioner on social media by clicking on the social media icons in the footer.**_
 
-*   The user may use the social media buttons located in the footer on every page. These will take the user to the practitioner's page on these platforms.NB: not all social media has been set up with the practitioner’s direct link as this is site is only for educational purposes and not a live working site. The links will take the user to the application only in most cases.
+*   The user may use the social media buttons located in the footer on every page. These will take the user to the practitioner's page on these platforms. NB: not all social media has been set up with the practitioner’s direct link as this is site is only for educational purposes and not a live working site. The links will take the user to the application only in most cases.
     *   The social media icons will change colour to the true application's colour when hovered over by the user to indicate which icon is being selected.  
 
-_**8.	As any site visitor I can use the contact form to contact the practitioner and/or ask for information.**_
+_**8.	As any site visitor I can use the contact form to contact the practitioner and ask for information.**_
 
+*   The visitor arrives on the site and can immediately see that there is a contact page. They can navigate there using the menu or any of the 'contact me' buttons found on each page.
+*    Having moved to the contact form. The user can complete the required fields and choose the message topic from the dropdown list 'I would like more information about..' The fill in the message section with their request.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
 
-### **Manual Functionality testing**
-Items tested to check functionality as described in the features section above.
+### **Manual Functionality Testing**
 
-Items tested on each page of the site.
+#### **Browsers**
+Tested on:
+iMac (Retina 5K, 27-inch, 2019 running macOS Catalina 10.15.6
+Chrome Version 85.0.4183.83 (Official Build) (64-bit)
+Safari version 13.1.2
 
-|Feature|Mobile|Desktop
-|:---|:---|:---|
-|**Navigation**|Test Status|Test Status|
-|Menu|passed|passed|
-|Logo|passed|passed|
-|Back-to-Top|passed|passed|
-
----
-
-|Feature|Mobile|Desktop
-|:---|:---|:---|
-|**Footer**|Test Status|Test Status|
-|Logo|passed|passed|
-|Contact me button|passed|passed|
-|Back-to-Top|passed|passed|
+Microsoft Edge was tested in Safari running MS Edge.
+I also tested MS Edge running on a Acer Aspire running windows 10
+display, resolution 1366 x 768
 
 
+|Feature|Browser||||
+|:---|:---|:---|:---|:---|
+||Chrome|Safari|Firefox|Microsoft Edge*
+|`Home Page`|||||
+|**Navigation**|||||
+|Menu|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|
+|**Footer**|||||
+|Logo|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|
+|**Content**|||||
+|Hero Image|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|
+|Videos|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|
+|`Shamanic-Healing Page`|||||
+|**Navigation**|||||
+|Menu|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|
+|**Footer**|||||
+|Logo|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|
+|**Content**|||||
+|Hero Image|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|
+|Video|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|
+|Healing Processes card and modals|passed|passed|passed|passed|
+|`About Page`|||||
+|**Navigation**|||||
+|Menu|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|
+|**Footer**|||||
+|Logo|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|
+|**Content**|||||
+|Hero Image|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|
+|Testimonials|passed|passed|passed|passed|
+|`Rates Page`|||||
+|**Navigation**|||||
+|Menu|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|
+|**Footer**|||||
+|Logo|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|
+|**Content**|||||
+|Hero Image|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|
+|'Contact me to book a session' button|passed|passed|passed|passed|
+|FAQs Accordion|passed|passed|passed|passed|
+|`Contact Page`|||||
+|**Navigation**|||||
+|Menu|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|
+|**Footer**|||||
+|Logo|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|
+|**Content**|||||
+|Hero Image|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|
+|Contact Form|passed|passed|passed|passed|
+___
 
-**Testing on Different Devices via Chrome Dev Tools**
+[_Back to Top of TOC_](#back-to-toc-anchor-point)
+___
 
+#### **Responsive Testing on Different Devices via Chrome Dev Tools**
+
+|Feature|Device||||||||||||||
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Feature|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
+|`Home Page`|||||||||||||||
+|**Navigation**|||||||||||||||
+|Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Footer**|||||||||||||||
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Content**|||||||||||||||
+|Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Videos|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|`Shamanic-Healing Page`|||||||||||||||
+|**Navigation**|||||||||||||||
+|Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Footer**|||||||||||||||
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Content**|||||||||||||||
+|Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Video|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Healing Processes card and modals|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|`About Page`|||||||||||||||
+|**Navigation**|||||||||||||||
+|Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Footer**|||||||||||||||
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Content**|||||||||||||||
+|Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Testimonials|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|`Rates Page`|||||||||||||||
+|**Navigation**|||||||||||||||
+|Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Footer**|||||||||||||||
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Content**|||||||||||||||
+|Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron||passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me to book a session' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|FAQs Accordion|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|`Contact Page`|||||||||||||||
+|**Navigation**|||||||||||||||
+|Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Footer**|||||||||||||||
+|Logo|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|**Content**|||||||||||||||
+|Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Contact Form|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 
 
 Mobile
@@ -704,8 +893,29 @@ do 2 one for mobile one  for desktop
 
 **Testing on different browsers**
 
+Chrome, firefox, Microsoft Edge, Safari
+
 
 **Physical Devices used for testing**
+
+iPhone 8 
+
+iMac (Retina 5K, 27-inch, 2019 running macOS Catalina 10.15.6
+Chrome Version 85.0.4183.83 (Official Build) (64-bit)
+Safari version 13.1.2
+
+HP Pavilion 32 80 cm (31.5") 2560 x 1440 pixels Quad HD LED monitor
+
+Acer Aspire running windows 10
+display resolution 1366 x 768
+Chrome version 84.0.4147.135
+Microsoft Edge version 84.0.522.61
+
+Huawei Y7 2018
+screen 1440 x 720
+O/S Android 8.0.0
+Chrome 84.0.4147.125
+
 
 
 ### **Bugs**
