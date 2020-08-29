@@ -679,14 +679,14 @@ Chrome Version 85.0.4183.83 (Official Build) (64-bit)
 Safari version 13.1.2
 
 Microsoft Edge was tested in Safari running MS Edge.
-I also tested MS Edge running on a Acer Aspire running windows 10
-display, resolution 1366 x 768
+I also tested MS Edge running on a Acer Aspire running windows 10,
+display resolution 1366 x 768
 
 
 |Feature|Browser||||
 |:---|:---|:---|:---|:---|
 ||Chrome|Safari|Firefox|Microsoft Edge*
-|`Home Page`|||||
+|>_**Home Page**_|||||
 |**Navigation**|||||
 |Menu|passed|passed|passed|passed|
 |Logo|passed|passed|passed|passed|
