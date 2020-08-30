@@ -814,7 +814,7 @@ ___
 |Jumbotron|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed P & L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|passed|passed|passed|Initially Failed in L*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Videos|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Videos|passed|passed|passed|passed|passed|passed|passed|passed|Initially Failed in L*|Initially Failed in P*|passed|passed|Initially Failed*|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 ___
 |_**Shamanic-Healing Page**_|||||||||||||||
@@ -822,7 +822,7 @@ ___
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
 |Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
@@ -900,7 +900,8 @@ ___
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Contact Form|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 
-*Initially Failed - These issues have now been addressed successfully and the current status is passed. [See fix](#bugs)
+*Initially Failed - These issues have now been addressed successfully and the current status is passed. [See fixes](#bugs)
+
 *L = Landscape mode; *H = Portrait mode.xs
 ___
 
@@ -960,6 +961,14 @@ I am using Bootstraps navbar with its default colours and when tested with a con
 
 * **Hero-Image - background-attachment property on iPhones**.
 Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered that it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work on iPhones.
+
+* **Jumbotron** - Text over-flowing below hero-image on some mobile devices. Addressed this by:
+    * 1, reducing amount of text in the jumbotron lead paragraph, on the Home page, on smaller devices. This was achieved by having two different paragraphs and only one of them being displayed depending on the screen size.
+    * 2, reducing the jumbotron margin-top with a media query.
+    * 3, reducing the size of the text in the jumbotron with a media query.
+
+* **Video Titles** - causing videos to go out of alignment above screen-widths of over 992px. Addressed this by reducing the font-size of the video titles with media queries above 922px screen-widths.
+
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
