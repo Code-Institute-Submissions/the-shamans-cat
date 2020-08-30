@@ -844,10 +844,10 @@ ___
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -868,7 +868,7 @@ ___
 |Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -886,10 +886,10 @@ ___
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -902,7 +902,7 @@ ___
 
 *Initially Failed - These issues have now been addressed successfully and the current status is passed. [See fixes](#bugs)
 
-*L = Landscape mode; *H = Portrait mode.xs
+*L = Landscape mode; *P = Portrait mode.xs
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
