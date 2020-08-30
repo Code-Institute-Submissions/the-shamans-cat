@@ -788,7 +788,7 @@ Page|Feature|Browser||||
 ||'Contact me' button|passed|passed|passed|passed|
 ||Contact Form|passed|passed|passed|passed|
 
-*Initially Failed - Hero Image [See fix](#bugs)
+*Initially Failed - Hero Image [See fix](#bugs). Now working ok.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -801,17 +801,17 @@ ___
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
 |**Navigation**|||||||||||||||
 |Menu|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Content**|||||||||||||||
 |Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed P & L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|passed|passed|passed|Initially Failed in L*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Videos|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -825,14 +825,14 @@ ___
 |Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
 |Back-to-Top|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Footer**|||||||||||||||
-|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*d|Initially Failed*|Initially Failed*|passed|passed|
+|Logo|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|Initially Failed*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Social Media Icons|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Terms & Conditions Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Content**|||||||||||||||
 |Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|Initially Failed in L*|Initially Failed in L*|passed|passed|Initially Failed in L*|passed|passed|passed|passed|passed|passed|Initially Failed in L*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Video|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -854,7 +854,7 @@ ___
 |Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Content**|||||||||||||||
 |Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|Initially Failed in L*|Initially Failed in L*|passed|passed|Initially Failed in L*|Initially Failed in L*|passed|Initially Failed in L*|passed|passed|passed|Initially Failed in L*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -875,7 +875,7 @@ ___
 |Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Content**|||||||||||||||
 |Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Jumbotron||passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron||passed|passed|passed|Initially Failed in L*|passed|passed|passed|passed|passed|passed|Initially Failed in L*|passed|passed|passed|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |'Contact me to book a session' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
@@ -896,9 +896,12 @@ ___
 |Privacy Policy Modal|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |**Content**|||||||||||||||
 |Hero Image|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-|Jumbotron|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+|Jumbotron|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|Initially Failed in L*|passed|passed|passed|Initially Failed in L*|passed|passed|
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Contact Form|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
+
+*Initially Failed - These issues have now been addressed successfully and the current status is passed. [See fix](#bugs)
+*L = Landscape mode; *H = Portrait mode.xs
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -953,9 +956,7 @@ I am using Bootstraps navbar with its default colours and when tested with a con
 
 #### **Fixed Bugs:**
 
-*   **LOGO Image:** I initially had a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text in PNG format. This looked better. I tried using img-fluid class with it but this did not work, so in the end I made it responsive using media queries. 
-
-A better fix might be to create the logo as a scalable vector graphic (SVG) file and make it web ready. I had an unsuccessful attempt at making a working SVG logo. So reverted back to my original PNG logo file.  I trust as I gain more web development skills I will be able to find and add a better logo to the site.
+*   **LOGO Image:** I initially had a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text in PNG format. This looked better. I tried using img-fluid class with it but this did not work, so in the end I made it responsive using media queries. A better fix might be to create the logo as a scalable vector graphic (SVG) file and make it web ready. I had an unsuccessful attempt at making a working SVG logo. So reverted back to my original PNG logo file.  I trust as I gain more web development skills I will be able to find and add a better logo to the site.
 
 * **Hero-Image - background-attachment property on iPhones**.
 Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered that it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work on iPhones.
