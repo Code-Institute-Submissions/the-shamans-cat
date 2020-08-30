@@ -939,19 +939,13 @@ Page|Performance|Accessibility|Best Practices|SEO|
 |Mobile|93|100|92|100|
 |Desktop|100|98|100|100|
 
+_**Issues from Lighthouse test**_
 
+**Performance:**
+Page load times are a bit slow for some pages, especially ones with videos and Bootstrap features. I believe that this can be addressed in the future. Currently, this is beyond my skillset and the scope of this project.
 
-**Page Load Times**
-
-Page load times for the pages are a bit slow. I believe that this can be addressed in the future. Currently, this is beyond my skillset and the scope of this project.
-
-**Accessibility**
-`Contrast: These are opportunities to improve the legibility of your content.
-Background and foreground colors do not have a sufficient contrast ratio.
-Low-contrast text is difficult or impossible for many users to read. Learn more.
-Failing Elements
-a.nav-link'
-I am using Bootstraps navbar with its default colours and when tested with a contrast testing tool it passed the test. [Test Results](assets/images/contrast-test.pdf)
+**Accessibility:** Contrast issue with nav-links.
+I am using Bootstraps navbar with its default colours and when tested with a contrast testing tool it passed the test. [Test Results](assets/images/contrast-test.png)
 
 **Best Practices**
 
