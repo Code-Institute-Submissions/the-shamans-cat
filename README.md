@@ -572,6 +572,7 @@ The following languages, frameworks and tools were used in the development of th
 * [TinyPNG](https://tinypng.com/) to compress image files to reduce their size which in turn reduces the images load time on the webpage.
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) in Gitpod to check spelling as you type.
 * Chrome DevTools and Safari Developer Tools available from browser.
+* Lighthouse - Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it from Chrome DevTools against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 * [ally](https://color.a11y.com/) to test color contrast is optimized.
 ___
 
@@ -582,12 +583,12 @@ ___
 
 ### **General Testing as Coding**
 
-**Errors**
+**Error Checking:**
 Gitpod indicates problem as you develop code. Chrome Dev tools indicates errors in the console too. So any errors can be eliminated immediately where possible. The site pages have also been tested with appropriate validators and produce no errors, [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-**Spelling** I write my content text chunks in word, so they are spelling free when loaded to the website. I also have installed [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) onto Gitpod to help avoid spelling mistakes and typos while I am coding.
+**Spelling:** I write my content text chunks in word, so they are spelling free when loaded to the website. I also have installed [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) onto Gitpod to help avoid spelling mistakes and typos while I am coding.
 
-**Chrome Dev Tools**
+**Chrome Dev Tools:**
 I use Chrome to monitor and test the code as I develop. So I check new code straight away and make sure that it is working responsively on each of the mobile devices listed in Dev Tools and on larger break-points too.
 ___
 
@@ -672,20 +673,31 @@ ___
 
 ### **Manual Functionality Testing**
 
+_**Physical Devices used for Testing**_
+
+*   **iPhone 8,** running iOS 13.61
+
+* **iMac (Retina 5K, 27-inch 2019,** running macOS Catalina 10.15.6 
+    - Chrome Version 85.0.4183.83 (Official Build) (64-bit)
+    - Safari version 13.1.2
+    - Firefox version 80.0 (64-bit)
+    - Microsoft Edge was tested in Safari running MS Edge
+
+* **HP Pavilion 32 80 cm (31.5") monitor** 2560 x 1440 pixels Quad HD LED
+
+* **Acer Aspire running windows 10,** display resolution 1366 x 768
+    - Chrome version 84.0.4147.135
+    - Microsoft Edge version 84.0.522.61
+
+* **Huawei Y7 2018,** screen 1440 x 720
+    -   O/S Android 8.0.0
+    -   Chrome 84.0.4147.125
+
 #### **Browsers**
-Tested on:
-iMac (Retina 5K, 27-inch, 2019 running macOS Catalina 10.15.6
-Chrome Version 85.0.4183.83 (Official Build) (64-bit)
-Safari version 13.1.2
-
-Microsoft Edge was tested in Safari running MS Edge.
-I also tested MS Edge running on a Acer Aspire running windows 10,
-display resolution 1366 x 768
-
 
 Page|Feature|Browser||||
 |:---|:---|:---|:---|:---|:---|
-|||Chrome|Safari|Firefox|Microsoft Edge*
+|||Chrome|Safari|Firefox|Microsoft Edge|
 |_**Home Page**_||||||
 ||**Navigation**|||||
 ||Menu|passed|passed|passed|passed|
@@ -698,7 +710,7 @@ Page|Feature|Browser||||
 ||Terms & Conditions Modal|passed|passed|passed|passed|
 ||Privacy Policy Modal|passed|passed|passed|passed|
 ||**Content**|||||
-||Hero Image|passed|passed|passed|passed|
+||Hero Image|passed|Initially Failed*|passed|passed|
 ||Jumbotron|passed|passed|passed|passed|
 ||'Contact me' button|passed|passed|passed|passed|
 ||Text|passed|passed|passed|passed|
@@ -716,7 +728,7 @@ Page|Feature|Browser||||
 ||Terms & Conditions Modal|passed|passed|passed|passed|
 ||Privacy Policy Modal|passed|passed|passed|passed|
 ||**Content**|||||
-||Hero Image|passed|passed|passed|passed|
+||Hero Image|passed|Initially Failed*|passed|passed|
 ||Jumbotron|passed|passed|passed|passed|
 ||'Contact me' button|passed|passed|passed|passed|
 ||Text|passed|passed|passed|passed|
@@ -735,7 +747,7 @@ Page|Feature|Browser||||
 ||Terms & Conditions Modal|passed|passed|passed|passed|
 ||Privacy Policy Modal|passed|passed|passed|passed|
 ||**Content**|||||
-||Hero Image|passed|passed|passed|passed|
+||Hero Image|passed|Initially Failed*|passed|passed|
 ||Jumbotron|passed|passed|passed|passed|
 ||'Contact me' button|passed|passed|passed|passed|
 ||Text|passed|passed|passed|passed|
@@ -753,7 +765,7 @@ Page|Feature|Browser||||
 ||Terms & Conditions Modal|passed|passed|passed|passed|
 ||Privacy Policy Modal|passed|passed|passed|passed|
 ||**Content**|||||
-||Hero Image|passed|passed|passed|passed|
+||Hero Image|passed|Initially Failed*|passed|passed|
 ||Jumbotron|passed|passed|passed|passed|
 ||'Contact me' button|passed|passed|passed|passed|
 ||Text|passed|passed|passed|passed|
@@ -771,10 +783,12 @@ Page|Feature|Browser||||
 ||Terms & Conditions Modal|passed|passed|passed|passed|
 ||Privacy Policy Modal|passed|passed|passed|passed|
 ||**Content**|||||
-||Hero Image|passed|passed|passed|passed|
+||Hero Image|passed|Initially Failed*|passed|passed|
 ||Jumbotron|passed|passed|passed|passed|
 ||'Contact me' button|passed|passed|passed|passed|
 ||Contact Form|passed|passed|passed|passed|
+
+*Initially Failed - Hero Image [See fix](#bugs)
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -803,7 +817,6 @@ ___
 |Videos|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 ___
-___
 |_**Shamanic-Healing Page**_|||||||||||||||
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
@@ -826,7 +839,6 @@ ___
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Healing Processes card and modals|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 ___
-___
 |_**About Page**_|||||||||||||||
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
@@ -847,7 +859,6 @@ ___
 |Text|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Collapse Read more/less|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Testimonials|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
-___
 ___
 |_**Rates Page**_|||||||||||||||
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
@@ -870,7 +881,6 @@ ___
 |'Contact me to book a session' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |FAQs Accordion|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 ___
-___
 |_**Contact Page**_|||||||||||||||
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Feature/Devices|Moto G4|Galaxy S5|Pixel 2|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|iPhone 6/7/8 Plus|iPhone X|iPad|iPad Pro|Surface Duo|Galaxy Fold| Break point 1200|Break point 1440|
@@ -890,7 +900,6 @@ ___
 |'Contact me' button|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 |Contact Form|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|passed|
 ___
-___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
 ___
@@ -907,66 +916,60 @@ On every page I get the following error:
 * DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
 * DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
 
-This does not affect the functionality
-
-
-<!-- Mobile
-I also tested each page of the website with Google's [Mobile-Friendly](https://search.google.com/test/mobile-friendly). Each page passed the test. So all pages on the site are deemed to be mobile-friendly. -->
-
+This does not affect the functionality of the site.
 
 #### **Chrome Lighthouse Testing**
+Lighthouse is an open-source, automated tool for improving the quality of web pages. I ran it against the pages of this site. I used it to audit for: performance, accessibility, best practices and SEO.
+
+Page|Performance|Accessibility|Best Practices|SEO|
+|:---|:---|:---|:---|:---|
+|_**Home Page**_|||||
+|Mobile|87|100|92|100|
+|Desktop|99|98|100|100|
+|_**Shamanic-Healing Page**_|||||
+|Mobile|75|100|92|100|
+|Desktop|92|98|100|100|
+|_**About Page**_|||||
+|Mobile|84|100|92|100|
+|Desktop|99|98|100|100|
+|_**Rates Page**_|||||
+|Mobile|84|100|92|100|
+|Desktop|99|98|100|100|
+|_**Contact Page**_|||||
+|Mobile|93|100|92|100|
+|Desktop|100|98|100|100|
 
 
 
 **Page Load Times**
 
-Load times for the home page are a bit slow due to it having three embedded YouTube videos. I believe that this can be addressed with javaScript. Currently, this is beyond my skillset and the scope of this project.
+Page load times for the pages are a bit slow. I believe that this can be addressed in the future. Currently, this is beyond my skillset and the scope of this project.
 
-do 2 one for mobile one  for desktop
+**Accessibility**
+`Contrast: These are opportunities to improve the legibility of your content.
+Background and foreground colors do not have a sufficient contrast ratio.
+Low-contrast text is difficult or impossible for many users to read. Learn more.
+Failing Elements
+a.nav-link'
+I am using Bootstraps navbar with its default colours and when tested with a contrast testing tool it passed the test. [Test Results](assets/images/contrast-test.pdf)
 
+**Best Practices**
 
-**Physical Devices used for Testing**
+Warning: Displays images with inappropriate size. (- refers to the logo.)
+Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity.
 
-iPhone 8 safari
+*   **LOGO Image:** I initially had a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text in PNG format. This looked better. I tried using img-fluid class with it but this did not work, so in the end I made it responsive using media queries. 
 
-iMac (Retina 5K, 27-inch, 2019 running macOS Catalina 10.15.6
-Chrome Version 85.0.4183.83 (Official Build) (64-bit)
-Safari version 13.1.2
-
-HP Pavilion 32 80 cm (31.5") 2560 x 1440 pixels Quad HD LED monitor
-
-Acer Aspire running windows 10
-display resolution 1366 x 768
-Chrome version 84.0.4147.135
-Microsoft Edge version 84.0.522.61
-
-Huawei Y7 2018
-screen 1440 x 720
-O/S Android 8.0.0
-Chrome 84.0.4147.125
-
-
-
+ A better fix might be to create the logo as a scalable vector graphic (SVG) file and make it web ready. I had an unsuccessful attempt at making a working SVG logo. So reverted back to my original PNG logo file.  I trust as I gain more web development skills I will be able to find and add a better logo to the site.
 ### **Bugs**
-
 
 #### **Fixed Bug:**
 
-* **background-attachment property on iPhones**.
+* **Hero-Image - background-attachment property on iPhones**.
 Chrome dev tool showed that the hero images were displaying correctly on apple mobile devices, this was not the case. I looked on a real apple mobile device (iPhone 8) and the image looked awful. It only displayed part of the background image. At first I thought it was not recognising the the background-position property in the CSS. On further investigation, reading articles in stackoverflow https://stackoverflow.com/questions/3183467/css-background-position-not-working-in-mobile-safari-iphone-ipad, I discovered that it was the background-attachment property that was not being interpreted as expected, so I removed the value of 'fixed' so it would use the default which is 'scroll'. I tested this and it worked, so I changed it on all the hero images, which now work on iPhones.
-___
-
-<!-- #### **Outstanding Bugs** -->
-
-
 ---
-
-**LOGO Image**
-
-I tried initially to have a navbar-brand with a separate image and descriptive text written in the html element but experienced issues with the text wrapping under the image. Not a good visual image for users. So, I developed a logo which included text. This looked better. However, I cannot set the logo to responsive as it does not scale well, even with img-fluid class applied. In the end I used media queries to adjust size on different screen sizes. This doesn't work particularly well as in LightHouse tests in Chrome Dev Tools it looses points on best practice as logo image is not responsive. A fix might be to create the logo as a scalable vector graphic (SVG) file and save it to use on the web. I have had an unsuccessful attempt at making a working SVG logo. So have reverted back to my original PNG logo file.  I trust as I gain more web development skills I will be able to find and add a better logo to the site.
-
+*
 ---
-
 >## **Deployment**
 
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
