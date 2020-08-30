@@ -902,7 +902,7 @@ ___
 
 *Initially Failed - These issues have now been addressed successfully and the current status is passed. [See fixes](#bugs)
 
-*L = Landscape mode; *P = Portrait mode.xs
+*L = Landscape mode; *P = Portrait mode.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
