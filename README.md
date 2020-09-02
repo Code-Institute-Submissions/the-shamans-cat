@@ -370,20 +370,21 @@ The **root directory** of the project contains:
   * **about.html**
   * **rates.html** 
   * **contact.html**
-  * **README.md** 
-  * **assets** subdirectory
-
- **assets** in turn has three subdirectories with the following content:
- * **css** - style.css
- * **images** - all image files for the website pages and the README.md
- * **wireframes** - a wireframe of each page showing view on mobile, tablet and desktop:
-    * home.pdf
-    * shamanic-healing.pdf
-    * about-me.pdf
-    * rates.pdf
-    * contact.pdf
+  * **assets** subdirectory which contains two subdirectories, **css** and **images**.
+    *   **css** holds the file `style.css`
+    * **images** - holds all image files for the website pages.
+  * **docs** subdirectory which contains one subdirectory called **wireframes** and all the other image documents used in the README.md file.*
+    * **wireframes** - contains files for each wireframe.
+        * home.pdf
+        * shamanic-healing.pdf
+        * about-me.pdf
+        * rates.pdf
+        * contact.pdf
+   * **README.md** -  The readme file for the website.   
     
-    ![File structure](docs/directory-structure.png)
+ *My Mentor told me that it was good practice to keep the files used in the README.md separate from those actually displayed on the website. So I moved them into their own subdirectory **docs**.
+
+![File structure](docs/directory-structure.png)
 
 ### **Information Design**
 
