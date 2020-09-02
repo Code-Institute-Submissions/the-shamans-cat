@@ -96,7 +96,7 @@ main {
 
 .callout-container {
     height: 75vh;
-    /* allows article title of information below the fold to show above the fold to encourage users to scroll further down the page. */
+    /* allows next article title to show above the fold, to encourage users to scroll further down the page. */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
