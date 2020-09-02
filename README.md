@@ -396,7 +396,7 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
 *_(To open wireframes links in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
 * [Home](docs/wireframes/home.pdf)
-* [Shamanic-Healing](docs/wireframes/shamanic-energy-healing.pdf)
+* [Shamanic-Healing](docs/wireframes/shamanic-healing.pdf)
 * [About](docs/wireframes/about-me.pdf)
 * [Rates](docs/wireframes/rates.pdf)
 * [Contact](docs//wireframes/contact.pdf)
