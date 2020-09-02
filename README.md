@@ -1,4 +1,4 @@
-# [![Jaguar image](assets/images/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
+# [![Jaguar image](docs/jaguar-from-logo-no-text.gif)](https://helensayer.github.io/the-shamans-cat) **THE SHAMAN'S CAT** 
 
 >## **Project Overview**
 
@@ -7,12 +7,13 @@ A Shamanic Energy Healing practitioner is starting a new business in the UK. The
 The website has been designed to provide potential clients with a basic understanding of the concepts and processes involved with this modality and their benefits. The potential client can then make an informed choice to contact the practitioner and book a healing session. The material is presented in a varied format; text, videos, and pictures, to engage the potential clients. There are multiple links on each page guiding the potential client to make contact with the practitioner. 
 
 ### **Background to Project**
-This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/assets/images/code-institute-guidlines-ms1.pdf) 
+This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/docs
+/code-institute-guidelines-ms1.pdf) 
 This is my first milestone project to demonstrate the skills I have learned so far on the course.
 
  ### **Demo**
 
-![mockup of the site on multiple devices](assets/images/site-mockup.png)
+![mockup of the site on multiple devices](docs/site-mockup.png)
 
 To view a live demo of the site click* on the link: https://helensayer.github.io/the-shamans-cat 
 
@@ -227,8 +228,8 @@ To work out what's worth having in the initial release of the website I used the
 The first four Opportunities/Problems are possible at the moment with my current skillset. The last two will need additional skills that will be covered later on in the course. So I will produce a minimum-viable-product (MVP) implementing the four highest priorities listed in the table below. Future releases will include a blog and the ability for members i.e. existing clients, to book follow-up sessions via the website.
 
 **Strategy Trade-off Priority Matrix Table**
-![Priority matrix table](assets/images/priority-matrix-table.png)
-![Priority matrix graph](assets/images/priority-matrix-graph.png)
+![Priority matrix table](docs/priority-matrix-table.png)
+![Priority matrix graph](docs/priority-matrix-graph.png)
 
 ___
 
@@ -319,7 +320,7 @@ ___
 
 The content will be arranged on the site using a standard **tree structure** going down one level only. This reduces complexity as it reveals information and structure as the user navigates through the tree. It keeps the number of clicks, for a user to get to a destination, to under three clicks. This tree structure can be challenging on a mobile device, but this issue is resolved by using the convention of the Burger icon. The navigation elements collapse into this single Burger icon and are revealed when you click on the icon.
 
-![Tree Structure](assets/images/sitemap.png)
+![Tree Structure](docs/sitemap.png)
 
 **Each page** has some identical components
 *   **Header** - contains logo and menu
@@ -350,12 +351,12 @@ ___
 
 I did look at adding another layer to the tree structure but this looked messy, confusing and took up a lot of the screen on mobile devices e.g. 
 
-![Two level tree structure](assets/images/dropdowns.png)
+![Two level tree structure](docs/dropdowns.png)
 
 **Search Functionality**
 As there is a lot of information on the site I had wanted a search bar so that visitors could search for a specific topic or word, but the functionality of that is beyond the scope of this project. So, I thought I would experiment with a site directory to allow users to see and navigate to the major topics covered by the website. I did this by creating a blank nav-item and listing all the articles as dropdown items. I linked all the dropdown items with ids to the articles, installed smooth scroll and scrollspy to show the user where they were on the navigation. I also did not show it on small devices as it took up too much of the screen. My mentor was concerned that the user would not know what page they were on. So, I removed it and went back to a simple nav-item with no dropdowns. e.g. the site directory.
 
-![Site Directory](assets/images/img-site-directory.png)
+![Site Directory](docs/img-site-directory.png)
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -382,7 +383,7 @@ The **root directory** of the project contains:
     * rates.pdf
     * contact.pdf
     
-    ![File structure](assets/images/directory-structure.png)
+    ![File structure](docs/directory-structure.png)
 
 ### **Information Design**
 
@@ -394,11 +395,11 @@ The wireframes were made using Balsamiq and exported as pdf files and can be vie
 
 *_(To open wireframes links in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
 
-* [Home](assets/wireframes/home.pdf)
-* [Shamanic-Healing](assets/wireframes/shamanic-energy-healing.pdf)
-* [About](assets/wireframes/about-me.pdf)
-* [Rates](assets/wireframes/rates.pdf)
-* [Contact](assets//wireframes/contact.pdf)
+* [Home](docs/wireframes/home.pdf)
+* [Shamanic-Healing](docs/wireframes/shamanic-energy-healing.pdf)
+* [About](docs/wireframes/about-me.pdf)
+* [Rates](docs/wireframes/rates.pdf)
+* [Contact](docs//wireframes/contact.pdf)
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
@@ -436,7 +437,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 
 ### **Existing Features Common to Each Page**
 
- ![Common Features](assets/images/features.png)
+ ![Common Features](docs/features.png)
 
 #### **Logo**
 * Silhouette of Jaguar with text setting the brand - on every page top-right-hand side in the navigation bar, when clicked this acts as a link to the home page from any page on the website. There is also a logo in the footer of each page. When clicked this logo also acts as a link to the home page.
@@ -577,6 +578,7 @@ The following languages, frameworks and tools were used in the development of th
 * Chrome DevTools and Safari Developer Tools are available from the browser.
 * Lighthouse - Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it from Chrome DevTools against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 * [ally](https://color.a11y.com/) to test colour contrast is optimized.
+* [Grammarly](Grammarly.com) This is a tool that checks your text for spelling and punctuation etc.
 ___
 
 [_Back to Top of TOC_](#back-to-toc-anchor-point)
