@@ -44,6 +44,9 @@ _(To open in a new browser tab, right mouse click on the link and select **Open 
   - [Functional Specifications](#functional-specifications)
 - [UX STRUCTURE and SKELETON](#ux-structure-and-skeleton)
   - [Navigational Design and Hierarchy](#navigational-design-and-hierarchy)
+  - [Features tried and taken off](#features-tried-and-taken-off)
+  - [File Structure](#file-structure)
+  - [Information Design](#information-design)
   - [Wireframes](#wireframes)
 - [UX SURFACE](#ux-surface)
   - [Visual Design](#visual-design)
@@ -56,7 +59,7 @@ _(To open in a new browser tab, right mouse click on the link and select **Open 
     - [Hero Image with Jumbotron](#hero-image-with-jumbotron)
     - [Footer](#footer)
     - [Favicon](#favicon)
-  - [Features individual to each page](#existing-features-on-individual-pages)
+  - [Existing Features individual to each page](#existing-features-on-individual-pages)
     - [Home page](#home-page)
     - [Shamanic Healing page](#shamanic-healing-page)
     - [About page](#about-page)
@@ -377,7 +380,7 @@ The content will be arranged on the site using a standard **tree structure** goi
 
 ---
 
-### **Features tried and taken off-site because did not look good and/or work with the design concepts.**
+### **Features tried and taken off**
 
 **Dropdown Menus**
 
@@ -1019,23 +1022,23 @@ This is a warning and does not affect the functionality of the site.
 
 Lighthouse is an open-source, automated tool for improving the quality of web pages. I ran it against the pages of this site. I used it to audit for: performance, accessibility, best practices and SEO.
 
-| **Page**                        | **Performance** | **Accessibility** | **Best Practices** | **SEO** |
-| :-------------------------- | :---------- | :------------ | :------------- | :-- |
-| _**Home Page**_             |             |               |                |     |
-| Mobile                      | 87          | 100           | 92             | 100 |
-| Desktop                     | 99          | 98            | 100            | 100 |
-| _**Shamanic-Healing Page**_ |             |               |                |     |
-| Mobile                      | 75          | 100           | 92             | 100 |
-| Desktop                     | 92          | 98            | 100            | 100 |
-| _**About Page**_            |             |               |                |     |
-| Mobile                      | 84          | 100           | 92             | 100 |
-| Desktop                     | 99          | 98            | 100            | 100 |
-| _**Rates Page**_            |             |               |                |     |
-| Mobile                      | 84          | 100           | 92             | 100 |
-| Desktop                     | 99          | 98            | 100            | 100 |
-| _**Contact Page**_          |             |               |                |     |
-| Mobile                      | 93          | 100           | 92             | 100 |
-| Desktop                     | 100         | 98            | 100            | 100 |
+| **Page**                    | **Performance** | **Accessibility** | **Best Practices** | **SEO** |
+| :-------------------------- | :-------------- | :---------------- | :----------------- | :------ |
+| _**Home Page**_             |                 |                   |                    |         |
+| Mobile                      | 87              | 100               | 92                 | 100     |
+| Desktop                     | 99              | 98                | 100                | 100     |
+| _**Shamanic-Healing Page**_ |                 |                   |                    |         |
+| Mobile                      | 75              | 100               | 92                 | 100     |
+| Desktop                     | 92              | 98                | 100                | 100     |
+| _**About Page**_            |                 |                   |                    |         |
+| Mobile                      | 84              | 100               | 92                 | 100     |
+| Desktop                     | 99              | 98                | 100                | 100     |
+| _**Rates Page**_            |                 |                   |                    |         |
+| Mobile                      | 84              | 100               | 92                 | 100     |
+| Desktop                     | 99              | 98                | 100                | 100     |
+| _**Contact Page**_          |                 |                   |                    |         |
+| Mobile                      | 93              | 100               | 92                 | 100     |
+| Desktop                     | 100             | 98                | 100                | 100     |
 
 _**Issues from Lighthouse test**_
 
@@ -1155,7 +1158,7 @@ Click on the links for general help with [GitHub](https://help.github.com/en), o
 ### **Acknowledgements**
 
 - I received inspiration for this project from information in Code Institute notes, Slack, viewing fellow students' websites and searching through loads of articles and sites on the web.
-- I would give particular acknowledgement to Anna Greaves, who's talks, handouts and her 1st milestone project have been a huge help.
+- I would give particular acknowledgement to Anna Greaves, who's talks, handouts and her 1st milestone project - acting as an example, have been a huge help.
 - Thanks to anyone on Slack who responded to my questions relating to this site.
 - Thanks to Tutors and Mentors who have helped me.
 
