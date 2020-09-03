@@ -1078,8 +1078,8 @@ I am using Bootstraps navbar with its default colours and when tested with a con
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
 
 1. Log into GitHub.
-2. Open the project from the list of repositories https://github.com/HelenSayer?tab=repositories by clicking on **the-shamans-cat**
-3. Click on the **Settings** option in the menu, which is at the top of the page below the title.
+2. Open the project from the list of [repositories](https://github.com/HelenSayer?tab=repositories) and select **the-shamans-cat** by clicking on its name.
+3. Once the repository is open, click on the **Settings** option on the right-hand side of the menu.
 4. Scroll down the page and find the **GitHub Pages** section.
 5. In the **Source** section of **GitHub Pages**, click on the dropdown menu box currently set to **None** and select the **Master Branch** option.
 6. By selecting this, the website is deployed. A message **_GitHub Pages source saved_** appears in a banner at the top of the page in GitHub, confirming this.
