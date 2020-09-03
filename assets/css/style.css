@@ -1,6 +1,6 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 h1,
 h2,
@@ -8,20 +8,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 .videos-title {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 p,
 .benefits li,
 .card-lists li,
 .card-body p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 p,
@@ -29,249 +29,251 @@ p,
 .card-lists li,
 .form-group,
 .form-control {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .card-title i {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* colors */
 
 body {
-    background-color: #fefefa;
+  background-color: #fefefa;
 }
 
 .modal-content {
-    background-color: #fefefa;
+  background-color: #fefefa;
 }
 
 .footer-modals .modal-header {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 .copyright-text {
-    color: white;
+  color: white;
 }
 
 .blockquote-footer a {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 .blockquote-footer-color {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 .blockquote .fas {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 .card-body i {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 /* paddings/margins/borders */
 
-/*----Pushes 1st html element below navbar down, to avoid being covered by the fixed navbar----*/
+/* Pushes 1st html element below navbar down, 
+to avoid being covered by the fixed navbar */
 .fixed-top {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /* Navbar */
 
 main {
-    margin-top: 58px;
+  margin-top: 58px;
 }
 
 .logo img {
-    border: 1px solid white;
-    border-radius: 3px;
-    width: 147px;
-    height: 24px;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 147px;
+  height: 24px;
 }
 
 /* Containers */
 
-/* Containers' code is based on code from the Whiskey Drop lesson */
-
+/* code is based on code from the Whiskey Drop lesson.  
+Setting 'vh' to 75% allows next article title to show above the fold, 
+ to encourage users to scroll further down the page. */
 .callout-container {
-    height: 75vh;
-    /* allows next article title to show above the fold, to encourage users to scroll further down the page. */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    z-index: 98;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  z-index: 98;
 }
 
 /* Hero images */
 .callout-container-home {
-    background: url("../images/salkantay.jpg") no-repeat center top;
-    background-size: cover;
+  background: url("../images/salkantay.jpg") no-repeat center top;
+  background-size: cover;
 }
 
 .callout-container-sh {
-    background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center bottom;
-    background-size: cover;
+  background: url("../images/alex-grey-theologue-hd.jpg") no-repeat center
+    bottom;
+  background-size: cover;
 }
 
 .callout-container-about {
-    background: url("../images/agustin-family.jpg") no-repeat right 58% top;
-    background-size: cover;
+  background: url("../images/agustin-family.jpg") no-repeat right 58% top;
+  background-size: cover;
 }
 
 .callout-container-rates {
-    background: url("../images/4winds-ceremony-moray.jpg") no-repeat left 15% bottom;
-    background-size: cover;
+  background: url("../images/4winds-ceremony-moray.jpg") no-repeat left 15%
+    bottom;
+  background-size: cover;
 }
 
 .callout-container-contact {
-    background: url("../images/despacho.jpg") no-repeat left 80% top 80%;
-    background-size: cover;
+  background: url("../images/despacho.jpg") no-repeat left 80% top 80%;
+  background-size: cover;
 }
 
 .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
 }
 
 /* buttons */
 
 .btn-contact {
-    font-weight: bold;
-    width: 170px;
-    background-color: #8A2BE2;
-    border: none;
+  font-weight: bold;
+  width: 170px;
+  background-color: #8a2be2;
+  border: none;
 }
 
 .btn-contact:hover {
-    background-color:#4B0082;
-    border: none;
+  background-color: #4b0082;
+  border: none;
 }
 
 .btn-block-contact {
-    background-color: #8A2BE2;
-    border: none;
+  background-color: #8a2be2;
+  border: none;
 }
 
-
 .btn-block-contact:hover {
-    background-color:#4B0082;
-    border: none;
+  background-color: #4b0082;
+  border: none;
 }
 
 .btn-terms-conditions,
 .btn-privacy {
-    border: none;
-    color: white;
+  border: none;
+  color: white;
 }
 
 .btn-terms-conditions:focus,
 .btn-privacy:focus {
-    color: white;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  color: white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-read-more {
-    border: none;
+  border: none;
 }
 
 /* Jumbotron */
+
 .jumbotron {
-    margin-top: 40%;
-    background-color: transparent;
-    position: relative;
-    z-index: 100;
+  margin-top: 25%;
+  background-color: transparent;
+  position: relative;
+  z-index: 100;
 }
 
 .jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .jumbotron .lead {
-    margin: 5px 0 10px;
-    color: white;
-    font-weight: bold;
+  margin: 5px 0 10px;
+  color: white;
+  font-weight: bold;
 }
 
 .emphasize-jumbotron-text {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Mission Statement */
 
-    .mission {
-        display: block;
-        background-color:	#F8F8FF;
-   }
-
+.mission {
+  display: block;
+  background-color: #f8f8ff;
+}
 
 /* Video-container code from Slack by Simen Daehlin */
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* FAQs - Accordion styling */
 
 .card-header {
-    background-color: #d3d4d599;
+  background-color: #d3d4d599;
 }
 
 .btn-link {
-    color: #8A2BE2;
-    font-weight: 400;
-    text-decoration: none;
+  color: #8a2be2;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .btn-link:hover {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: none;
+  color: #8a2be2;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .btn-link:active {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: none;
+  color: #8a2be2;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .btn-link:focus {
-    color: #8A2BE2;
-    font-weight: 700;
-    text-decoration: underline;
+  color: #8a2be2;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 #faq-accordion .btn {
-    text-align: left;
+  text-align: left;
 }
 
 /* Footer */
@@ -279,216 +281,223 @@ main {
 /* Social links + hover*/
 
 .fab {
-    color: #263238;
-    transition: all 0.45s ease-in-out;
-    -moz-transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out;
-    -o-transition: all 0.45s ease-in-out;
+  color: #263238;
+  transition: all 0.45s ease-in-out;
+  -moz-transition: all 0.45s ease-in-out;
+  -webkit-transition: all 0.45s ease-in-out;
+  -o-transition: all 0.45s ease-in-out;
 }
 
-/* transforms to real colour of icon, colors from https://www.webnots.com/color-codes-for-social-networking-site-icons/ */
+/* transforms to real colour of icon, colors from
+ https://www.webnots.com/color-codes-for-social-networking-site-icons/ */
 
 .fa-linkedin:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .fa-facebook-square:hover {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .fa-skype:hover {
-    color: #00aff0;
+  color: #00aff0;
 }
 
 .fa-whatsapp-square:hover {
-    color: #25d366;
+  color: #25d366;
 }
 
 /* Back To Top  inspired by https://www.youtube.com/watch?v=NyAsjkg3388 */
 
 .back-to-top {
-    background: transparent;
-    width: 12%;
-    position: fixed;
-    right: 0px;
-    bottom: 50%;
-    text-decoration: none;
-    z-index: 95;
+  background: transparent;
+  width: 12%;
+  position: fixed;
+  right: 0px;
+  bottom: 50%;
+  text-decoration: none;
+  z-index: 95;
 }
 
 .back-to-top i,
 .back-to-top p {
-    color: #8A2BE2;
+  color: #8a2be2;
 }
 
 .back-to-top i:hover {
-    color: #570790;
+  color: #570790;
 }
 
 /* Media Queries */
 
-/* media query actions:- */
-/* 1: Changes size of navbar-brand (logo) so is in proportion and does not force wrap on toggler icon on small devices and menu items on larger devices */
-/* 2: Changes text size on breakpoints as typography is not responsive in Bootstrap - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4  */
-/* 3: Changes "back to top" anchor position above footer so gives better visibility for user. */
-/* 4: Videos on home page have long titles which wrap/unwrap, causing side by side videos to be out of alignment - reduces title size to prevent this */
-
+/* 1: Changes size of navbar-brand (logo) so is in proportion and does not force 
+wrap on toggler icon on small devices and menu items on larger devices.
+2: Changes text size on breakpoints as typography is not responsive in 
+Bootstrap - Code based on https://teamtreehouse.com/community/change-the-size-of-paragraph-text-at-different-breakpoints-in-bootstrap-4.
+3: Changes "back to top" anchor position above footer so gives better visibility
+ for user.
+4: Videos on home page have long titles which wrap/unwrap, causing side by side 
+videos to be out of alignment - reduces title size to prevent this.s */
 
 /* small devices - (phones with screens widths larger than 320px up) */
 @media screen and (min-width: 320px) and (max-width: 575.98px) {
-    .logo img {
-        width: 183px;
-        height: 30px;
-    }
-    .jumbotron {
-        margin-top: 20%;
-    }
-} 
+  .logo img {
+    width: 183px;
+    height: 30px;
+  }
+  .jumbotron {
+    margin-top: 20%;
+  }
+}
 
-/* Small devices (phones, with screens widths of 576px and up)  .fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, based on coding idea from https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
+/* Small devices (phones, with screens widths of 576px and up)
+.fa-smaller-icon is reducing size of fontawesome icons in css to avoid wrapping, 
+based on coding idea from 
+https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-how-do-you-do-it */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-    .logo img {
-        width: 183px;
-        height: 30px;
-    }
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.1rem;
-    }
-    .testimonials p {
-        font-size: 1.0rem;
-    }
-    .back-to-top {
-        width: 10%;
-        bottom: 51%;
-    }   
-    .fa-smaller-icon {
-        font-size: 2.5rem;
-    }   
+  .logo img {
+    width: 183px;
+    height: 30px;
+  }
+  p,
+  .benefits li,
+  .card-lists li,
+  .form-group,
+  .form-control {
+    font-size: 1.1rem;
+  }
+  .testimonials p {
+    font-size: 1rem;
+  }
+  .back-to-top {
+    width: 10%;
+    bottom: 51%;
+  }
+  .fa-smaller-icon {
+    font-size: 2.5rem;
+  }
 }
 
 /* Medium devices (tablets with screen widths of 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-    .logo img {
-        width: 256px;
-        height: 42px;
-    }
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.2rem;
-    }
-    .testimonials p {
-        font-size: 1.1rem;
-    }
-    .back-to-top {
-        width: 8%;
-        bottom: 30%;
-        }   
-    }    
+  .logo img {
+    width: 256px;
+    height: 42px;
+  }
+  p,
+  .benefits li,
+  .card-lists li,
+  .form-group,
+  .form-control {
+    font-size: 1.2rem;
+  }
+  .testimonials p {
+    font-size: 1.1rem;
+  }
+  .back-to-top {
+    width: 8%;
+    bottom: 30%;
+  }
+}
 
-/* Small devices (landscape phones, up to 823px wide x 450px high e.g. Pixel2 and Pixel2 XL in landscape mode.) */
-@media screen and (max-width : 823px) and (max-height : 450px) {
-    .jumbotron {
-        margin-top: 13%;
-    }
-    .jumbotron-header {
-        font-size: 1.75rem;
-    }
-    .lead {
-        font-size: 1rem;
-    }
-    .back-to-top {
-        width: 9%;
-        bottom: 55%;
-    }   
+/* Small devices (landscape phones, up to 823px wide x 450px high 
+e.g. Pixel2 and Pixel2 XL in landscape mode.) */
+@media screen and (max-width: 823px) and (max-height: 450px) {
+  .jumbotron {
+    margin-top: 13%;
+  }
+  .jumbotron-header {
+    font-size: 1.75rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .back-to-top {
+    width: 9%;
+    bottom: 55%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .logo img {
-        width: 269px;
-        height: 44px;
-    }
-    .navbar li {
-        font-size: 1.3rem;
-    }
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.3rem;
-    }
-    .testimonials p {
-        font-size: 1.2rem;
-    }
-    .videos-title {
-        font-size: 1.0rem;
-    }
-    .back-to-top {
-        width: 7%;
-        bottom: 25%;
-    }  
+  .logo img {
+    width: 269px;
+    height: 44px;
+  }
+  .navbar li {
+    font-size: 1.3rem;
+  }
+  p,
+  .benefits li,
+  .card-lists li,
+  .form-group,
+  .form-control {
+    font-size: 1.3rem;
+  }
+  .testimonials p {
+    font-size: 1.2rem;
+  }
+  .videos-title {
+    font-size: 1rem;
+  }
+  .back-to-top {
+    width: 7%;
+    bottom: 25%;
+  }
 }
 
 /* Extra Large devices (desktops, 1200px and up) */
-@media screen and (min-width: 1200px) and (max-width: 1439.98px)  {
-    .logo img {
-        width: 269px;
-        height: 44px;
-    }
-    .navbar li {
-        font-size: 1.5rem;
-    }
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.4rem;
-    }
-    .testimonials p {
-        font-size: 1.3rem;
-    }
-    .back-to-top {
-        width: 8%;
-        bottom: 20%;
-        }       
-    .videos-title {
-        font-size: 1.2rem;
-    }
+@media screen and (min-width: 1200px) and (max-width: 1439.98px) {
+  .logo img {
+    width: 269px;
+    height: 44px;
+  }
+  .navbar li {
+    font-size: 1.5rem;
+  }
+  p,
+  .benefits li,
+  .card-lists li,
+  .form-group,
+  .form-control {
+    font-size: 1.4rem;
+  }
+  .testimonials p {
+    font-size: 1.3rem;
+  }
+  .back-to-top {
+    width: 8%;
+    bottom: 20%;
+  }
+  .videos-title {
+    font-size: 1.2rem;
+  }
 }
 
 /* Extra Large devices (desktops, 1440px and up) */
-@media screen and (min-width: 1440px)  {
-    .logo img {
-        width: 269px;
-        height: 44px;
-    }
-    .navbar li {
-        font-size: 1.6rem;
-    }
-    p,
-    .benefits li,
-    .card-lists li,
-    .form-group,
-    .form-control {
-        font-size: 1.5rem;
-    }
-    .testimonials p {
-        font-size: 1.4rem;
-    }
-    .back-to-top {
-        width: 8%;
-        bottom: 20%;
-        }       
-    .videos-title {
-        font-size: 1.5rem;
-    }
+@media screen and (min-width: 1440px) {
+  .logo img {
+    width: 269px;
+    height: 44px;
+  }
+  .navbar li {
+    font-size: 1.6rem;
+  }
+  p,
+  .benefits li,
+  .card-lists li,
+  .form-group,
+  .form-control {
+    font-size: 1.5rem;
+  }
+  .testimonials p {
+    font-size: 1.4rem;
+  }
+  .back-to-top {
+    width: 8%;
+    bottom: 20%;
+  }
+  .videos-title {
+    font-size: 1.5rem;
+  }
 }
