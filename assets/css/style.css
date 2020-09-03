@@ -404,7 +404,7 @@ https://stackoverflow.com/questions/32426519/changing-font-awesome-size-in-css-h
 e.g. Pixel2 and Pixel2 XL in landscape mode.) */
 @media screen and (max-width: 823px) and (max-height: 450px) {
   .jumbotron {
-    margin-top: 13%;
+    margin-top: 18%;
   }
   .jumbotron-header {
     font-size: 1.75rem;
