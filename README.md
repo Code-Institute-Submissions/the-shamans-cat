@@ -8,8 +8,7 @@ The website has been designed to provide potential clients with a basic understa
 
 ### **Background to Project**
 
-This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/docs
-/code-institute-guidelines-ms1.pdf)
+This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/docs/code-institute-guidelines-ms1.pdf)
 This is my first milestone project to demonstrate the skills I have learned so far on the course.
 
 ### **Demo**
