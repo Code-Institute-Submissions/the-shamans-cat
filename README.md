@@ -8,7 +8,8 @@ The website has been designed to provide potential clients with a basic understa
 
 ### **Background to Project**
 
-This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/docs/code-institute-guidelines-ms1.pdf)
+This site has been developed as a static frontend site using HTML5, CSS3, and Bootstrap, following the [Code Institute Project Guidelines.](https://helensayer.github.io/the-shamans-cat/docs/code-institute-guidelines-ms1.pdf) _(To open in a new browser tab, right mouse click on the link and select **Open Link in a New Tab**)_
+
 This is my first milestone project to demonstrate the skills I have learned so far on the course.
 
 ### **Demo**
@@ -466,7 +467,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
 
 ![#f8f8ff](https://via.placeholder.com/50x50/f8f8ff2be2/333333?text=+) `#f8f8ff` - Used for background-color to the mission statement, to make it stand out from the normal text.
 
-![#8a2be2](https://via.placeholder.com/50x50/8a2be2/333333?text=+) `#8a2be2` BlueViolet - Used for contact buttons, a bright colour, to draw attention. It contrast well against the background.
+![#8a2be2](https://via.placeholder.com/50x50/8a2be2/333333?text=+) `#8a2be2` BlueViolet - Used for contact buttons, a bright colour, to draw attention. It contrasts well against the background.
 
 ![#570790](https://via.placeholder.com/50x50/570790/333333?text=+) `#570790` - a darker purple, used for contact buttons on hover.
 
@@ -558,7 +559,7 @@ Sans-serif is used as a backup font-family if Roboto or Raleway should fail to l
   - Centred on a full-width section of the page to draw attention to it.
   - Inspire potential clients.
 - Article - My Journey – how the practitioner became a shamanic energy healing practitioner. Background to capture interest and build credibility.
-- Article - My training – My formal training has been with The Four Winds Society https://thefourwinds.com/ - demonstrates the practitioner's credibility. Quote from a magazine to demonstrate the credibility of The Four Winds.
+- Article - My training – My formal training has been with [The Four Winds Society](https://thefourwinds.com) - demonstrates the practitioner's credibility. Quote from a magazine to demonstrate the credibility of The Four Winds.
 - Testimonials two items which change from a single column (mobile) to double-column on tablets and larger screen sizes. Demonstrates practitioner's credibility.
 
 #### Rates page
@@ -1077,7 +1078,7 @@ I am using Bootstraps navbar with its default colours and when tested with a con
 This project was developed using the IDE AWS Cloud9, and Gitpod. The versioning was controlled using git. The project was deployed from its master branch on GitHub using the following procedure:
 
 1. Log into GitHub.
-2. Open the project from the list of repositories by selecting [**the-shamans-cat**.](https://github.com/HelenSayer?tab=repositories)
+2. Open the project from the list of repositories https://github.com/HelenSayer?tab=repositories by clicking on **the-shamans-cat**
 3. Click on the **Settings** option in the menu, which is at the top of the page below the title.
 4. Scroll down the page and find the **GitHub Pages** section.
 5. In the **Source** section of **GitHub Pages**, click on the dropdown menu box currently set to **None** and select the **Master Branch** option.
